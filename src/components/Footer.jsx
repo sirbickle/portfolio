@@ -8,7 +8,7 @@ const Footer = () => {
   const [active, setActive] = useState("");
 
   return (
-    <div className="bg-black-200 sm:px-16 px-6 sm:py-12 py-10 min-h-[250px] mt-20">
+    <div className="bg-black-200 sm:px-16 px-6 sm:py-12 py-10 min-h-[250px] mt-0">
       <div className="flex justify-center items-center">
         <Link
           to="/"

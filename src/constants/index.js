@@ -7,6 +7,7 @@ import {
   esporte,
   idioma,
   web,
+  cosmo,
   
   //study
   feira,
@@ -80,8 +81,11 @@ const services = [
     icon: viagem,
   },
   {title: "Ciência",
-    icon: ciencia,},
-    
+    icon: ciencia,
+  },
+  {title: "Espaço Sideral",
+    icon: cosmo,
+  }, 
   {title: "Idioma",
     icon: idioma,},
 ];
@@ -177,7 +181,7 @@ const sporties = [
   {
     name: "Medalha dos Jogos Estudantis no Handebol.",
     description:
-      "Medalha de vice-campeão no JES",
+      "Medalha de vice-campeão no JES.",
     image: jes,
   },
   {
@@ -213,7 +217,7 @@ const sporties = [
   {
     name: "Vice-Campeão Estadual",
     description:
-      "Vice-campeão do Estadual em 1º de setembro de 2013",
+      "Vice-campeão do Estadual em 1º de setembro de 2013.",
     image: segundolugar,
   },
   {
@@ -250,7 +254,7 @@ const achievementsport = [
     iconBg: "#383E56",
     date: "2012",
     points: [
-      "Vice-Campeão no JES",
+      "Vice-Campeão no JES.",
     ],
   },
   

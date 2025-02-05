@@ -6,7 +6,8 @@ import idioma from "./idioma.png";
 import viagem from "./viagem.png";   
 import esporte from "./esporte.png"; 
 import web from "./web.png";
-import leo from "./leo.jpg"
+import cosmo from "./cosmo.png";
+import leo from "./leo.jpg";
 
 // fotos para o study
 import formatura from "./formatura.jpg";
@@ -57,6 +58,7 @@ export {
   web,
   feira,
   leo,
+  cosmo,
 
   //fotos para o "study"
   formatura,

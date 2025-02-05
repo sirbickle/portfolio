@@ -7,6 +7,7 @@ import Exp_Study from "./Exp_Study";
 import AchievementStudy from "./AchievementStudy";
 import Sports from "./Sports";
 import Exp_Sport from "./Exp_Sport";
+import AchievementSport from "./AchievementSport";
 import Reason from "./Reason";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
@@ -18,6 +19,7 @@ export {
   Study,
   Exp_Study,
   AchievementStudy,
+  AchievementSport,
   Sports,
   Exp_Sport,
   Reason,

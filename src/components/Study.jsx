@@ -54,7 +54,7 @@ const Study = () => {
           Apesar de não estar mais estudando essa língua, pois me interessei pelo russo, ainda tenho um grande carinho por ela, sinceramente, foi o que abriu as portas para conhecer novas culturas e aprender novos idiomas.
           Durante o curso, tive experiências incríveis, desde conhecer nativos e ter boas conversas, até ter a oportunidade de ir para o país pelo Goethe, infelizmente, não consegui, poís na época era por sorteio. <br />
           Após concluir meus estudos na ISABEL LOPES MONTEIRO, fui para o SENADOR LUIZ NOGUEIRA MARTINS, onde estudei de 2015 até 2017 e finalizei o Ensino Médio. <br />
-          Em 2022, entrei na Faculdade de Engenharia de Sorocaba como estudante de Tecnólogo em Análise e Desenvolvimento de Sistemas, formando-me em 2024. <br />
+          Em 2022, entrei na Faculdade de Engenharia de Sorocaba como estudante de Tecnólogo em Análise e Desenvolvimento de Sistemas e formei em 2024. <br />
         </p>
         <Tilt className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">
           <div

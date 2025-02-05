@@ -10,6 +10,7 @@ import {
   StarsCanvas,
   Footer,
   AchievementStudy,
+  AchievementSport,
   Sports,
   Exp_Sport,
 } from "./components";
@@ -47,10 +48,14 @@ const App = () => {
           <Exp_Sport />
           <StarsCanvas />
         </div> 
+        <div className="relative z-0">
+          <AchievementSport />
+          <StarsCanvas />
         </div>
         <div className="relative z-0">
           <Reason />
           <StarsCanvas />
+        </div>
         </div>
         <Footer />
     </BrowserRouter>

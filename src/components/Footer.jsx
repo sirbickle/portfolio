@@ -27,6 +27,8 @@ const Footer = () => {
         <Typewriter
           text={[
             "Obrigado Pela Atenção!",
+            "Thank you for your attention!",
+            "Спасибо за внимание!",
           ]}
           loop
           speed={80}

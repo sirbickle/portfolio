@@ -10,7 +10,6 @@ const Reason = () => {
   return (
     <>
       <div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introdução</p>
         <h2 className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}>
           Motivo pelo qual quero estudar na Rússia
         </h2>
@@ -20,7 +19,7 @@ const Reason = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="flex-[0.75] bg-tertiary p-8 rounded-2xl text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Gosto de aprender sobre ciência, como cosmologia, astronomia, física e temas relacionados. Também estou sempre buscando aprender novos idiomas para me conectar melhor com o mundo. <br />
+          escrever aqui depois <br />
         </motion.div>
         
         <motion.div

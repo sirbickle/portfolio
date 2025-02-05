@@ -18,6 +18,7 @@ import {
   diploma,
   medel,
   alemao,
+  code1,
 
   //sports
   judo,
@@ -32,6 +33,8 @@ import {
   farmaponte,
   jppereira,
   jes,
+  first,
+  second,
 
 
 
@@ -87,7 +90,7 @@ const achievementstudy = [
   {
     title: "16ª Maratona de Programação FACENS",
     company_name: "Faculdade de Engenharia de Sorocaba",
-    icon: medel,
+    icon: code1,
     iconBg: "#E6DEDD",
     date: "2022",
     points: [
@@ -97,7 +100,7 @@ const achievementstudy = [
   {
     title: "27ª Maratona de Programação Regional",
     company_name: "Sociedade Brasileira de Programação",
-    icon: medel,
+    icon: code1,
     iconBg: "#383E56",
     date: "2022",
     points: [
@@ -107,11 +110,11 @@ const achievementstudy = [
   {
     title: "17ª Maratona de Programação FACENS",
     company_name: "Faculdade de Engenharia de Sorocaba",
-    icon: medel,
+    icon: code1,
     iconBg: "#E6DEDD",
     date: "2023",
     points: [
-      "5ª posição de 15 times na 27ª Maratona de Programação Regional.",
+      "10ª posição de 32 times na 17ª Maratona de Programação FACENS",
     ],
   },
 ];
@@ -128,7 +131,7 @@ const studies = [
   {
     name: "Diploma do Curso de Alemão",
     description:
-      "Diploma de conclusão, o curso foi iniciado no primeiro semestre de 2013 e finalziado no segundo semestre de 2016.",
+      "Diploma de conclusão. O curso foi iniciado no primeiro semestre de 2013 e finalizado no segundo semestre de 2016",
     image: alemao,
   },
   {
@@ -172,15 +175,15 @@ const studies = [
 
 const sporties = [
   {
-    name: "Medalha do Jogos Escolares no Handebol",
+    name: "Medalha dos Jogos Estudantis no Handebol.",
     description:
-      "Medalha de vice lugar no Jes.",
+      "Medalha de vice-campeão no JES",
     image: jes,
   },
   {
     name: "Bandeirantes Sorocaba",
     description:
-      "Pegamos o primeiro lugar de mais medalhas conquistadas.",
+      "Conquistamos o primeiro lugar no número de medalhas.",
     image: bandeirantes,
   },
   {
@@ -192,25 +195,25 @@ const sporties = [
   {
     name: "Exame de Faixa",
     description:
-      "Exame para faixa verde.",
+      "Exame para a faixa verde.",
     image: faixa,
   },
   {
     name: "Medalhas",
     description:
-      "Todas as medalhas que conquistei.",
+      "Total de 28 medalhas ganhadas, entre elas ouro, prata e bronze.",
     image: medalha,
   },
   {
     name: "Campeão Regional.",
     description:
-      "Medalha e diploma do primeiro lugar no campeonato regional.",
+      "Campeão do Regional em 10 de agosto de 2013.",
     image: primeirolugarjudo,
   },
   {
-    name: "Vice Campeão Estadual",
+    name: "Vice-Campeão Estadual",
     description:
-      "Medalha e certificado do segundo lugar no campeoanto estadual.",
+      "Vice-campeão do Estadual em 1º de setembro de 2013",
     image: segundolugar,
   },
   {
@@ -222,7 +225,7 @@ const sporties = [
   {
     name: "8º MARATONA SOROCABA NOVEMBRO AZUL",
     description:
-      "Medalha de participação, fiz 5km em 55 min na minha primeira maratona.",
+      "Medalha de participação: completei 5 km em 55 minutos na minha primeira maratona.",
     image: primeiracorrida,
   },
   {
@@ -239,10 +242,47 @@ const sporties = [
   },
 ];
 
+const achievementsport = [
+  {
+    title: "Vice-Campeão no JES",
+    company_name: "Jogos Estudantis",
+    icon: second,
+    iconBg: "#383E56",
+    date: "2012",
+    points: [
+      "Vice-Campeão no JES",
+    ],
+  },
+  
+  {
+    title: "Campeão Regional",
+    company_name: "Federação Paulista de Judô",
+    icon: first,
+    iconBg: "#E6DEDD",
+    date: "2013",
+    points: [
+      "Campeão do Regional em 10 de agosto de 2013.",
+    ],
+  },
+
+  {
+    title: "Vice-Campeão Estadual",
+    company_name: "Federação Paulista de Judô",
+    icon: second,
+    iconBg: "#E6DEDD",
+    date: "2013",
+    points: [
+      "Vice-campeão do Estadual em 1º de setembro de 2013.",
+    ],
+  },
+];
+
+
+
 export {
   services,
   achievementstudy,
   studies,
   sporties,
-
+  achievementsport,
 };

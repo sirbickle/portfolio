@@ -19,6 +19,7 @@ import diploma from "./diploma.jpg";
 import feira from "./feira.jpg";
 import medel from "./medel.png";
 import alemao from "./alemao.png";
+import code1 from "./code1.png";
 
 //sports
 import judo from "./judo.jpg";
@@ -33,6 +34,8 @@ import primeiracorrida from "./primeiracorrida.jpg";
 import farmaponte from "./farmaponte.jpg";
 import jppereira from "./jppereira.jpg";
 import jes from "./jes.jpg";
+import first from "./first.png";
+import second from "./second.png";
 
 // não deleta, n sei porque, ou sei, por partes
 import logo from "./logo3.png";
@@ -65,6 +68,7 @@ export {
   diploma,  
   medel,
   alemao,
+  code1,
 
   // foto para o "sports"
   judo, 
@@ -79,6 +83,8 @@ export {
   farmaponte,
   jppereira,
   jes,
+  first,  
+  second,
   
 
   menu,

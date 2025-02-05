@@ -53,7 +53,7 @@ const About = () => {
           Além do trabalho, tenho muitos interesses que me ajudam a manter a mente ativa: <br />
           Sou fã de jogos, desde clássicos como Warcraft 3 e Starcraft até World of Warcraft e Counter-Strike 2. Também gosto de jogos de tabuleiro e cartas e, de vez em quando, disputo uma partida de xadrez. <br />
           Música é outra paixão: toco baixo e guitarra, o que me ajuda a me desconectar um pouco do mundo digital. <br />
-          Quando não estou envolvido em projetos de TI ou jogando, gosto de praticar esportes, especialmente correr e malhar. <br />
+          Quando não estou envolvido em projetos de TI, jogando ou programando, gosto de praticar esportes, especialmente correr e malhar. <br />
           Por fim, sou curioso e apaixonado por natureza, viagens, novas culturas e exploração. <br />
           Gosto de aprender sobre ciência, como cosmologia, astronomia, física e temas relacionados. Também estou sempre buscando aprender novos idiomas para me conectar melhor com o mundo. <br />
         </p>

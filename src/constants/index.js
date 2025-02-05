@@ -191,7 +191,7 @@ const sporties = [
     image: bandeirantes,
   },
   {
-    name: "Carterinha da Fereção",
+    name: "Carterinha da Federação",
     description:
       "As carterinhas da Federação Paulista de Judô.",
     image: carterinha,

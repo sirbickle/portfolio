@@ -1,16 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { TicofabCanvas } from "./canvas";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import translations from "../translate/translations"; // Importando traduções
 
+const Hero = ({ language }) => {
+  // Obtendo as traduções baseadas no idioma
+  const { hello, description_hero, name } = translations[language] || translations.en;
 
-const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
-      "E irei escrever para você..."
+      description_hero,  // Usando a descrição que foi passada pelas traduções
     ],
     loop: true,
     delaySpeed: 1000,
@@ -28,9 +29,9 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Olá, eu sou {" "}
+            {hello} {" "} 
             <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
-              Leonardo <span className="hidden sm:inline">Lima</span>
+              {name}
             </span>
           </h1>
 
@@ -41,7 +42,6 @@ const Hero = () => {
         </div>
       </div>
       <TicofabCanvas />
-
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
@@ -58,8 +58,6 @@ const Hero = () => {
           </div>
         </a>
       </div>
-
-      
     </section>
   );
 };

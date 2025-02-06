@@ -1,6 +1,5 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";

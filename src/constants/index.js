@@ -39,53 +39,64 @@ import {
   second,
 } from "../assets";
 
+const getTranslatedText = (language, key, defaultText = "") => {
+  return translations[language]?.[key] || defaultText;
+};
+let currentLanguage = 'ru'; // Exemplo: idioma selecionado como inglês
+
+
 export const navLinks = [
   {
     id: "about",
-    title: "Sobre",
+    title: getTranslatedText(currentLanguage, 'navlinks_about'),  // Traduzindo título
   },
   {
     id: "study",
-    title: "Estudo",
+    title: getTranslatedText(currentLanguage, 'navlinks_study'),  // Traduzindo título
+
   },
   {
     id: "esporte",
-    title: "Esporte",
+    title: getTranslatedText(currentLanguage, 'navlinks_sport'),  // Traduzindo título
+
   },
   {
     id: "reason",
-    title: "Motivo pelo qual quero estudar na Rússia",
+    title: getTranslatedText(currentLanguage, 'navlinks_reason'),  // Traduzindo título
   },
 ];
 
-const services = [
+const hobbies = [
   {
-    title: "Tecnologia da Informação",
+    title: getTranslatedText(currentLanguage, 'hobbies_tecnologia'),  // Traduzindo título
     icon: web,
   },
   {
-    title: "Jogos",
+    title: getTranslatedText(currentLanguage, 'hobbies_jogos'),  // Traduzindo título
     icon: jogos,
   },
   {
-    title: "Música",
+    title: getTranslatedText(currentLanguage, 'hobbies_musica'),  // Traduzindo título
     icon: musica,
   },
   {
-    title: "Esporte",
+    title: getTranslatedText(currentLanguage, 'hobbies_sport'),  // Traduzindo título
     icon: esporte,
   },
   {
-    title: "Viagem",
+    title: getTranslatedText(currentLanguage, 'hobbies_viagem'),  // Traduzindo título
     icon: viagem,
   },
-  {title: "Ciência",
+  {
+    title: getTranslatedText(currentLanguage, 'hobbies_ciencia'),  // Traduzindo título
     icon: ciencia,
   },
-  {title: "Espaço Sideral",
+  {
+    title: getTranslatedText(currentLanguage, 'hobbies_espaco'),  // Traduzindo título
     icon: cosmo,
   }, 
-  {title: "Idioma",
+  {
+    title: getTranslatedText(currentLanguage, 'hobbies_idioma'),  // Traduzindo título
     icon: idioma,},
 ];
 
@@ -283,7 +294,7 @@ const achievementsport = [
 
 
 export {
-  services,
+  hobbies,
   achievementstudy,
   studies,
   sporties,

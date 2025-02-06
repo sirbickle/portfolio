@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { LOGO2 } from "../assets";
 import Typewriter from "react-ts-typewriter";
 import { Link } from "react-router-dom";

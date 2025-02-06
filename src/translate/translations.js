@@ -4,7 +4,7 @@ const translations = {
     //about
     intro: "Introduction",
     overview: "Overview",
-    description: `Hi, I'm Leonardo, 25 years old, living in Sorocaba, and I work as an IT Project Manager. I have a degree in Systems Analysis and Development, and in my daily routine, I enjoy combining the technical and theoretical aspects with creativity, especially when managing projects.<br />
+    description: `Hi, I'm Leonardo Lima, 25 years old, living in Sorocaba, and I work as an IT Project Manager. I have a degree in Systems Analysis and Development, and in my daily routine, I enjoy combining the technical and theoretical aspects with creativity, especially when managing projects.<br />
     Besides work, I have many interests that help me keep my mind active:<br />
     I'm a fan of games, from classics like Warcraft 3 and Starcraft to World of Warcraft and Counter-Strike 2. I also enjoy board games and card games, and from time to time, I play a game of chess.<br />
     Music is another passion: I play bass and guitar, which helps me disconnect a bit from the digital world.<br />
@@ -44,12 +44,41 @@ const translations = {
     //exp_study
     experiences_title_study: "Experiences",  
     experiences_description_study: "Here are some activities and experiences I had during my academic journey in school and university.",
+
+    //reason
+    reason_title: "Reason Why I Want to Study in Russia",
+    reason_description: "Here you can write the reason why you want to study in Russia...",
+
+    //navlinks
+    navlinks_about: "About",
+    navlinks_study: "Study",
+    navlinks_sport: "Sport",
+    navlinks_reason: "Reason why I want to study in Russia",
+
+    //service
+    hobbies_tecnologia: "Information Technology",
+    hobbies_jogos: "Games",
+    hobbies_musica: "Music",
+    hobbies_sport: "Sports",
+    hobbies_viagem: "Travel",
+    hobbies_ciencia: "Science",
+    hobbies_espaco: "Outer Space",
+    hobbies_idioma: "Languages",
+    //navbar
+
+    //Hero
+    hello: "Hello, I'm",
+    description_hero: "And I will write for you...",
+    name: "Leonardo",
+    
+    
+
   },
   pt: {
     //about
     intro: "Introdução",
     overview: "Visão Geral",
-    description: `Oi, eu sou o Leonardo, tenho 25 anos, moro em Sorocaba e trabalho como Gerente de Projetos de TI. Sou formado em Análise e Desenvolvimento de Sistemas e, no meu dia a dia, gosto de combinar o lado técnico e teórico com a criatividade, especialmente ao gerenciar projetos.<br />
+    description: `Oi, eu sou o Leonardo Lima, tenho 25 anos, moro em Sorocaba e trabalho como Gerente de Projetos de TI. Sou formado em Análise e Desenvolvimento de Sistemas e, no meu dia a dia, gosto de combinar o lado técnico e teórico com a criatividade, especialmente ao gerenciar projetos.<br />
     Além do trabalho, tenho muitos interesses que me ajudam a manter a mente ativa:<br />
     Sou fã de jogos, desde clássicos como Warcraft 3 e Starcraft até World of Warcraft e Counter-Strike 2. Também gosto de jogos de tabuleiro e cartas e, de vez em quando, disputo uma partida de xadrez.<br />
     Música é outra paixão: toco baixo e guitarra, o que me ajuda a me desconectar um pouco do mundo digital.<br />
@@ -89,13 +118,40 @@ const translations = {
     //exp_study
     experiences_title_study: "Experiências", 
     experiences_description_study: "Aqui estão algumas atividades e experiências que tive durante minha trajetória acadêmica na escola e na faculdade.",
-  
+
+    //reason
+    reason_title: "Motivo Pelo Qual Quero Estudar Na Rússia",
+    reason_description: "Aqui Você Pode Escrever O Motivo Pelo Qual Quer Estudar Na Rússia...",
+
+    //hero
+    hello: "Olá, eu sou",
+    description_hero: "E irei escrever para você...",
+    name: "Leonardo",
+
+    //navlink
+    navlinks_about: "Sobre",
+    navlinks_study: "Estudo",
+    navlinks_sport: "Esporte",
+    navlinks_reason: "Motivo Pelo Qual Quero Estudar Na Rússia",
+
+    //hobbies
+    hobbies_tecnologia: "Tecnologia da Informação",
+    hobbies_jogos: "Jogos",
+    hobies_musica: "Musicas",
+    hobbies_sport: "Esportes",
+    hobbies_viagem: "Viagem",
+    hobbies_ciencia: "Ciência",
+    hobbies_espaco: "Espaço Sideral",
+    hobbies_idioma: "Idiomas", 
+
+
+
   },
   ru: {
     //about
     intro: "Введение",
     overview: "Обзор",
-    description: `Привет, я Леонардо, мне 25 лет, я живу в Сорокабе и работаю менеджером проектов в области информационных технологий. Я окончил курс по Анализу и Разработке Систем и в своей повседневной деятельности люблю сочетать техническую и теоретическую стороны с креативностью, особенно в управлении проектами.<br />
+    description: `Привет, я Леонардо Лима, мне 25 лет, я живу в Сорокабе и работаю менеджером проектов в области информационных технологий. Я окончил курс по Анализу и Разработке Систем и в своей повседневной деятельности люблю сочетать техническую и теоретическую стороны с креативностью, особенно в управлении проектами.<br />
     Помимо работы, у меня есть множество интересов, которые помогают мне поддерживать ум активным:<br />
     Я фанат игр, начиная с классики, такой как Warcraft 3 и Starcraft, до World of Warcraft и Counter-Strike 2. Также мне нравятся настольные игры и карточные игры, а время от времени я играю в шахматы.<br />
     Музыка — еще одна моя страсть: я играю на бас-гитаре и гитаре, что помогает мне немного отключиться от цифрового мира.<br />
@@ -135,6 +191,32 @@ const translations = {
     //exp_study
     experiences_title_study: "Опыт",  
     experiences_description_study: "Вот некоторые из мероприятий и опыта, который я получил в процессе обучения в школе и университете.",
+
+    //reason
+    reason_title: "Причина, Почему Я Хочу Учиться В России",
+    reason_description: "Здесь Вы Можете Написать Причину, Почему Вы Хочете Учиться В России...",
+
+    //hero
+    hello: "Привет, я",
+    description_hero: "И я буду писать для вас...",
+    name: "Леонардо",
+
+    //navlinks
+    navlinks_about: "О себе",
+    navlinks_study: "Учёба",
+    navlinks_sport: "Спорт",
+    navlinks_reason: "Причина, почему я хочу учиться в России",
+
+    //hobies
+    hobbies_tecnologia: "Информационные технологии",
+    hobbies_jogos: "Игры",
+    hobbies_musica: "Музыка",
+    hobbies_sport: "Спорты",
+    hobbies_viagem: "Путешествия",
+    hobbies_ciencia: "Наука",
+    hobbies_espaco: "Космос",
+    hobbies_idioma: "Языки",
+
 
   },
 };

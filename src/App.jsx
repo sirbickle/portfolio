@@ -2,9 +2,9 @@ import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 // Importando as imagens das bandeiras
-import brazilFlag from './assets/brazil.png';  // Substitua pelo caminho correto
-import usaFlag from './assets/usa.png';        // Substitua pelo caminho correto
-import russiaFlag from './assets/russia.png';  // Substitua pelo caminho correto
+import brazilFlag from './assets/brazil.png';
+import usaFlag from './assets/usa.png';
+import russiaFlag from './assets/russia.png';
 
 import {
   About,
@@ -32,7 +32,6 @@ const App = () => {
         style={{ backgroundImage: "url('/seu-plano-de-fundo.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}
       >
         <div className="text-center mb-6">
-          {/* Título com animação e gradiente */}
           <h2 className="text-3xl mb-4 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
             Selecione seu idioma
           </h2>
@@ -76,10 +75,12 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <div className="relative z-20 bg-no-repeat bg-center">
           <Navbar />
-          <Hero />
+          {/* Passando o idioma para o Hero */}
+          <Hero language={language} />
           <StarsCanvas />
         </div>
         <div className="relative z-0">
+          {/* Passando o idioma para os outros componentes */}
           <About language={language} />
           <StarsCanvas />
         </div>

@@ -2,8 +2,8 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { studies } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { getStudies } from "../constants";
+import { fadeIn  } from "../utils/motion";
 import translations from "../translate/translations"; // Importando o arquivo de traduções
 
 const StudyCard = ({
@@ -40,6 +40,7 @@ const StudyCard = ({
 
 const Exp_Study = ({ language }) => {
   const { experiences_title_study, experiences_description_study } = translations[language] || translations.en;
+  const studies = getStudies(language);
 
   return (
     <>

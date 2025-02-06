@@ -3,7 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement, } from "react-vertical-timel
 import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
-import { achievementstudy } from "../constants";
+import { getAchievementStudy } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import translations from "../translate/translations"; // Importando o arquivo de traduções
@@ -55,6 +55,7 @@ const AchievementStudyCard = ({ achievementstudy }) => {
 const AchievementStudy = ({ language }) => {
   // Obtendo as traduções para o título e descrição da seção
   const { achievements_study, journey_achievement_study } = translations[language] || translations.en;
+  const achievementstudy = getAchievementStudy(language);
 
   return (
     <>

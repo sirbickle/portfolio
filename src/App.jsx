@@ -74,7 +74,7 @@ const App = () => {
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
         <div className="relative z-20 bg-no-repeat bg-center">
-          <Navbar />
+          <Navbar language={language} />
           {/* Passando o idioma para o Hero */}
           <Hero language={language} />
           <StarsCanvas />

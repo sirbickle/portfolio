@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
-import { hobbies } from "../constants";
+import { getHobbies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { leo } from "../assets";
@@ -37,6 +37,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = ({ language }) => {
   // Obtendo as traduções baseadas no idioma
   const { intro, overview, description } = translations[language] || translations.en;
+  const hobbies = getHobbies(language);
 
   return (
     <>

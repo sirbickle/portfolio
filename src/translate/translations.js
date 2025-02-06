@@ -64,16 +64,87 @@ const translations = {
     hobbies_ciencia: "Science",
     hobbies_espaco: "Outer Space",
     hobbies_idioma: "Languages",
-    //navbar
 
     //Hero
     hello: "Hello, I'm",
     description_hero: "And I will write for you...",
     name: "Leonardo",
-    
-    
 
+    //studies
+    
+    studies_title_science: "Science Fair",
+    studies_description_science: "In the last year of elementary school, we had some extremely interesting projects, and the most memorable one was the Science Fair. My theme was about hospital waste disposal and sanitation. On the table, we could see the disposal box, saline solution, cotton, and some syringes. The group was composed of Leonardo, Pamela, Roger, Guilherme, and me.",
+      
+    studies_title_german: "German Course Diploma",
+    studies_description_german: "Completion diploma. The course started in the first semester of 2013 and ended in the second semester of 2016.",
+      
+    studies_title_project: "Project Factory",
+    studies_description_project: "Presentation of the final project of the first semester of Project Factory, where the challenge was to develop something for the microcomputer, and we created a game on it, the famous 'Pac-Man'. Based on the original game, the objective is to score 999 points by both avoiding ghosts and collecting fruits.",
+      
+    studies_title_maratona1: "16th FACENS Programming Marathon",
+    studies_description_maratona1: "16th FACENS Programming Marathon in 2022. The student teams spent several hours solving problems involving concepts of Computational Logic, Algorithms and Programming, Data Structures, among others. With great joy, the team I participated in, 'C Sustenido', achieved 7th place out of 32 teams, achieving this feat only in the second semester of the college.",
+      
+    studies_title_lgpt: "Presentation on 'Data Protection Law'",
+    studies_description_lgpt: "Final presentation on 'Data Protection Law' for the subject 'Computer Architecture'.",
+      
+    studies_title_maratona2: "27th Regional Programming Marathon",
+    studies_description_maratona2: "27th Regional Programming Marathon in 2022. With great joy, 'C Sustenido' achieved 5th place out of 15 teams, achieving this feat only in the second semester of college.",
+      
+    studies_title_maratona3: "17th FACENS Programming Marathon",
+    studies_description_maratona3: "10th place out of 32 teams in the 17th FACENS Programming Marathon in 2023.",
+      
+    studies_title_diploma: "Technologist Diploma in Systems Analysis and Development",
+    studies_description_diploma: "Diploma of completion of the Technologist course in Systems Analysis and Development.",
+
+      //achievements study
+    achievement_title_maratona1: "16th FACENS Programming Marathon",
+    achievement_company_maratona1: "Sorocaba Engineering College",
+    achievement_points_maratona1: "7th place out of 32 teams in the 16th FACENS Programming Marathon.",
+      
+    achievement_title_maratona2: "27th Regional Programming Marathon",
+    achievement_company_maratona2: "Brazilian Programming Society",
+    achievement_points_maratona2: "5th place out of 15 teams in the 27th Regional Programming Marathon.",
+      
+    achievement_title_maratona3: "17th FACENS Programming Marathon",
+    achievement_company_maratona3: "Sorocaba Engineering College",
+    achievement_points_maratona3: "10th place out of 32 teams in the 17th FACENS Programming Marathon.",
+      
+    //sporties
+    sporties_title_handebol: "Medal in the Student Games for Handball",
+    sporties_description_handebol: "Runner-up medal in the JES.",
+      
+    sporties_title_bandeirantes: "Bandeirantes Sorocaba",
+    sporties_description_bandeirantes: "We won first place in the number of medals.",
+      
+    sporties_title_carterinha: "Federation Card",
+    sporties_description_carterinha: "The Federation Paulista de Judô cards.",
+      
+    sporties_title_faixa: "Belt Exam",
+    sporties_description_faixa: "Belt exam for green belt.",
+      
+    sporties_title_medalha: "Medals",
+    sporties_description_medalha: "A total of 28 medals won, including gold, silver, and bronze.",
+      
+    sporties_title_campeao: "Regional Champion",
+    sporties_description_campeao: "Regional champion on August 10, 2013.",
+      
+    sporties_title_vice: "State Vice-Champion",
+    sporties_description_vice: "State vice-champion on September 1, 2013.",
+      
+    sporties_title_maratona1: "First Marathon",
+    sporties_description_maratona1: "First marathon.",
+      
+    sporties_title_maratona2: "8th MARATONA SOROCABA NOVEMBRO AZUL",
+    sporties_description_maratona2: "Participation medal: completed 5 km in 55 minutes in my first marathon.",
+      
+    sporties_title_maratona3: "Farma Ponte Marathon",
+    sporties_description_maratona3: "Participation medal in the Farma Ponte Marathon.",
+      
+    sporties_title_maratona4: "Duathlon J.P Pereira",
+    sporties_description_maratona4: "Participation medal in Duathlon J.P Pereira.",
+  
   },
+  
   pt: {
     //about
     intro: "Introdução",
@@ -137,16 +208,88 @@ const translations = {
     //hobbies
     hobbies_tecnologia: "Tecnologia da Informação",
     hobbies_jogos: "Jogos",
-    hobies_musica: "Musicas",
+    hobbies_musica: "Musicas",
     hobbies_sport: "Esportes",
     hobbies_viagem: "Viagem",
     hobbies_ciencia: "Ciência",
     hobbies_espaco: "Espaço Sideral",
     hobbies_idioma: "Idiomas", 
 
+    //studies
+    studies_title_science: "Feira de Ciências",
+    studies_description_science: "No último ano do ensino fundamental, tivemos alguns trabalhos extremamente interessantes, o que mais marcou foi a Feira de Ciências, meu tema foi sobre o descarte de lixo hospitalar e higienização. Na mesa, podiam-se ver a caixa de descarte, soro fisiológico, algodão e algumas seringas. O grupo era composto por Leonardo, Pamela, Roger, Guilherme e eu.",
+    
+    studies_title_german: "Diploma do Curso de Alemão",
+    studies_description_german: "Diploma de conclusão. O curso foi iniciado no primeiro semestre de 2013 e finalizado no segundo semestre de 2016.",
+    
+    studies_title_project: "Fábrica de Projetos",
+    studies_description_project: "Apresentação do projeto final do primeiro semestre da Fábrica de Projetos, cujo desafio era desenvolver algo para o microcomputador, e nós criamos um jogo nele, o famoso 'Pac-Man'. Baseado no jogo original, o objetivo é conseguir 999 pontos, tanto desviando dos fantasmas quanto pegando as frutas.",
+    
+    studies_title_maratona1: "16ª Maratona de Programação FACENS",
+    studies_description_maratona1: "16ª Maratona de Programação FACENS em 2022. As equipes de alunos passaram algumas horas se dedicando a resolver problemas que englobam conceitos de Lógica Computacional, Algoritmos e Programação, Estruturas de Dados, entre outros. Com muita alegria, a equipe em que participei, 'C Sustenido', conseguiu a 7ª posição de 32 times, alcançando esse feito apenas no segundo semestre da faculdade.",
+
+    studies_title_lgpt: "Apresentação sobre 'Lei de Proteção de Dados",
+    studies_description_lgpt: "Apresentação final sobre 'Lei de Proteção de Dados' para materia de 'Arquitetura de Computadores'.",
+
+    studies_title_maratona2: "27ª Maratona de Programação Regional",
+    studies_description_maratona2: "27ª Maratona de Programação Regional em 2022. E com muita alegria que o 'C sustenido' conseguiu a 5ª posição de 15 times, conseguindo esse feito apenas no segundo semestre de faculdade.",
+
+    studies_title_maratona3: "17ª Maratona de Programação Facens",
+    studies_description_maratona3: "10ª posição de 32 times na 17ª Maratona de Programação FACENS em 2023.",
+
+    studies_title_diploma: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas",
+    studies_description_diploma: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+
+    //achievements study
+    achievement_title_maratona1: "16ª Maratona de Programação FACENS",
+    achievement_company_maratona1: "Faculdade de Engenharia de Sorocaba",
+    achievement_points_maratona1: "7ª posição de 32 times na 16ª Maratona de Programação FACENS.",
+
+    achievement_title_maratona2: "27ª Maratona de Programação Regional",
+    achievement_company_maratona2: "Sociedade Brasileira de Programação",
+    achievement_points_maratona2: "5ª posição de 15 times na 27ª Maratona de Programação Regional.",
+
+    achievement_title_maratona3: "17ª Maratona de Programação FACENS",
+    achievement_company_maratona3: "Faculdade de Engenharia de Sorocaba",
+    achievement_points_maratona3: "10ª posição de 32 times na 17ª Maratona de Programação FACENS",
+
+    //sporties
+    sporties_title_handebol: "Medalha dos Jogos Estudantis no Handebol.",
+    sporties_description_handebol: "Medalha de vice-campeão no JES.",
+
+    sporties_title_bandeirantes: "Bandeirantes Sorocaba",
+    sporties_description_bandeirantes: "Conquistamos o primeiro lugar no número de medalhas.",
+   
+    sporties_title_carterinha: "Carterinha da Federação",
+    sporties_description_carterinha: "As carterinhas da Federação Paulista de Judô.",
+
+    sporties_title_faixa: "Exame de Faixa",
+    sporties_description_faixa: "Exame para a faixa verde.",
+
+    sporties_title_medalha: "Medalhas",
+    sporties_description_medalha: "Total de 28 medalhas ganhadas, entre elas ouro, prata e bronze.",
+
+    sporties_title_campeao: "Campeão Regional.",
+    sporties_description_campeao: "Campeão do Regional em 10 de agosto de 2013.",
+
+    sporties_title_vice: "Vice-Campeão Estadual",
+    sporties_description_vice: "Vice-campeão do Estadual em 1º de setembro de 2013.",
+
+    sporties_title_maratona1: "Primeira Maratona",
+    sporties_description_maratona1: "Primeira maratona.",
+
+    sporties_title_maratona2: "8º MARATONA SOROCABA NOVEMBRO AZUL",
+    sporties_description_maratona2: "Medalha de participação: completei 5 km em 55 minutos na minha primeira maratona.",
+
+    sporties_title_maratona3: "Maratona Farma Ponte",
+    sporties_description_maratona3: "Medalha de participação na Maratona Farma Ponte.",
+
+    sporties_title_maratona4: "Duathlon J.P Pereira",
+    sporties_description_maratona4: "Medalha de participação na Duathlon J.P Pereira.",
 
 
   },
+
   ru: {
     //about
     intro: "Введение",
@@ -217,7 +360,80 @@ const translations = {
     hobbies_espaco: "Космос",
     hobbies_idioma: "Языки",
 
+    //stidies
+    studies_title_science: "Научная ярмарка",
+    studies_description_science: "В последний год начальной школы мы занимались несколькими крайне интересными проектами, и самым запоминающимся был Научный ярмарок. Моя тема была посвящена утилизации медицинских отходов и санитарии. На столе можно было увидеть контейнер для утилизации, физиологический раствор, вату и несколько шприцев. В группу входили Леонардо, Памела, Роджер, Гильерме и я.",
+      
+    studies_title_german: "Диплом курса немецкого языка",
+    studies_description_german: "Диплом об окончании курса. Курс начался в первом семестре 2013 года и завершился во втором семестре 2016 года.",
+      
+    studies_title_project: "Фабрика проектов",
+    studies_description_project: "Презентация финального проекта первого семестра Фабрики проектов, где задачей было разработать что-то для микрокомпьютера, и мы создали на нем игру, знаменитую 'Pac-Man'. Исходя из оригинальной игры, цель заключается в том, чтобы набрать 999 очков, избегая привидений и собирая фрукты.",
+      
+    studies_title_maratona1: "16-й марафон программирования FACENS",
+    studies_description_maratona1: "16-й марафон программирования FACENS в 2022 году. Команды студентов потратили несколько часов на решение проблем, охватывающих концепции вычислительной логики, алгоритмов и программирования, структур данных и других областей. С большой радостью команда, в которой я участвовал, 'C Sustenido', заняла 7-е место из 32 команд, добившись этого результата только во втором семестре обучения.",
+      
+    studies_title_lgpt: "Презентация на тему 'Закон о защите данных'",
+    studies_description_lgpt: "Финальная презентация на тему 'Закон о защите данных' по дисциплине 'Архитектура компьютеров'.",
+      
+    studies_title_maratona2: "27-й региональный марафон программирования",
+    studies_description_maratona2: "27-й региональный марафон программирования в 2022 году. С большой радостью команда 'C Sustenido' заняла 5-е место из 15 команд, добившись этого результата только во втором семестре учебы.",
+      
+    studies_title_maratona3: "17-й марафон программирования FACENS",
+    studies_description_maratona3: "10-е место из 32 команд в 17-м марафоне программирования FACENS в 2023 году.",
+      
+    studies_title_diploma: "Диплом о завершении курса 'Техноло́г в области анализа и разработки систем'",
+    studies_description_diploma: "Диплом о завершении курса 'Техноло́г в области анализа и разработки систем'.",
 
+    //achievements study
+
+    achievement_title_maratona1: "16-й марафон программирования FACENS",
+    achievement_company_maratona1: "Факультет инженерии города Сорокаба",
+    achievement_points_maratona1: "7-е место из 32 команд в 16-м марафоне программирования FACENS.",
+      
+    achievement_title_maratona2: "27-й региональный марафон программирования",
+    achievement_company_maratona2: "Бразильское общество программирования",
+    achievement_points_maratona2: "5-е место из 15 команд в 27-м региональном марафоне программирования.",
+      
+    achievement_title_maratona3: "17-й марафон программирования FACENS",
+    achievement_company_maratona3: "Факультет инженерии города Сорокаба",
+    achievement_points_maratona3: "10-е место из 32 команд в 17-м марафоне программирования FACENS.",
+    
+    //sporties
+    sporties_title_handebol: "Медаль на студенческих играх по гандболу",
+    sporties_description_handebol: "Медаль вице-чемпиона на JES.",
+    
+    sporties_title_bandeirantes: "Бандеирантес Сорокаба",
+    sporties_description_bandeirantes: "Мы заняли первое место по количеству медалей.",
+    
+    sporties_title_carterinha: "Карта Федерации",
+    sporties_description_carterinha: "Карты Федерации Паулисты по дзюдо.",
+    
+    sporties_title_faixa: "Экзамен на пояс",
+    sporties_description_faixa: "Экзамен на зеленый пояс.",
+    
+    sporties_title_medalha: "Медали",
+    sporties_description_medalha: "Всего 28 медалей, включая золото, серебро и бронзу.",
+    
+    sporties_title_campeao: "Региональный чемпион",
+    sporties_description_campeao: "Региональный чемпион 10 августа 2013 года.",
+    
+    sporties_title_vice: "Вице-чемпион штата",
+    sporties_description_vice: "Вице-чемпион штата 1 сентября 2013 года.",
+    
+    sporties_title_maratona1: "Первая марафон",
+    sporties_description_maratona1: "Первая марафон.",
+    
+    sporties_title_maratona2: "8-й МАРАТОНА СОРОКАБА НОЕМБРУ АЗУЛ",
+    sporties_description_maratona2: "Медаль за участие: я прошел 5 км за 55 минут в своем первом марафоне.",
+    
+    sporties_title_maratona3: "Марафон Фарма Понте",
+    sporties_description_maratona3: "Медаль за участие в марафоне Фарма Понте.",
+    
+    sporties_title_maratona4: "Дуатлон J.P Pereira",
+    sporties_description_maratona4: "Медаль за участие в дуатлоне J.P Pereira."
+  
+  
   },
 };
       

@@ -2,7 +2,7 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { sporties } from "../constants";
+import { getSporties } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import translations from "../translate/translations"; // Importando o arquivo de traduções
 
@@ -41,6 +41,7 @@ const SportCard = ({
 
 const Exp_Sport = ({ language }) => {
   const { experiences_title, experiences_description } = translations[language] || translations.en;
+  const sporties = getSporties(language);
 
   return (
     <>

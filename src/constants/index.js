@@ -42,219 +42,202 @@ import {
 const getTranslatedText = (language, key, defaultText = "") => {
   return translations[language]?.[key] || defaultText;
 };
-let currentLanguage = 'ru'; // Exemplo: idioma selecionado como inglês
+let currentLanguage = 'ru'; // Exemplo: idioma selecionado como inglês"
 
 
-export const navLinks = [
+export const getNavlinks = (language) => {
+    return[
   {
     id: "about",
-    title: getTranslatedText(currentLanguage, 'navlinks_about'),  // Traduzindo título
+    title: getTranslatedText(language, 'navlinks_about'),  // Traduzindo título
   },
   {
     id: "study",
-    title: getTranslatedText(currentLanguage, 'navlinks_study'),  // Traduzindo título
+    title: getTranslatedText(language, 'navlinks_study'),  // Traduzindo título
 
   },
   {
     id: "esporte",
-    title: getTranslatedText(currentLanguage, 'navlinks_sport'),  // Traduzindo título
+    title: getTranslatedText(language, 'navlinks_sport'),  // Traduzindo título
 
   },
   {
     id: "reason",
-    title: getTranslatedText(currentLanguage, 'navlinks_reason'),  // Traduzindo título
+    title: getTranslatedText(language, 'navlinks_reason'),  // Traduzindo título
   },
 ];
+};
 
-const hobbies = [
+export const getHobbies = (language) => {
+  return [
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_tecnologia'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_tecnologia'),  // Traduzindo título
     icon: web,
   },
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_jogos'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_jogos'),  // Traduzindo título
     icon: jogos,
   },
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_musica'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_musica'),  // Traduzindo título
     icon: musica,
   },
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_sport'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_sport'),  // Traduzindo título
     icon: esporte,
   },
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_viagem'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_viagem'),  // Traduzindo título
     icon: viagem,
   },
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_ciencia'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_ciencia'),  // Traduzindo título
     icon: ciencia,
   },
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_espaco'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_espaco'),  // Traduzindo título
     icon: cosmo,
   }, 
   {
-    title: getTranslatedText(currentLanguage, 'hobbies_idioma'),  // Traduzindo título
+    title: getTranslatedText(language, 'hobbies_idioma'),  // Traduzindo título
     icon: idioma,},
 ];
+};
 
-const achievementstudy = [
+export const getAchievementStudy = (language) => { 
+  return [
   {
-    title: "16ª Maratona de Programação FACENS",
-    company_name: "Faculdade de Engenharia de Sorocaba",
+    title: getTranslatedText(language, 'achievement_title_maratona1'), 
+    company_name: getTranslatedText(language, 'achievement_company_maratona1'), 
     icon: code1,
     iconBg: "#E6DEDD",
     date: "2022",
-    points: [
-      "7ª posição de 32 times na 16ª Maratona de Programação FACENS.",
-    ],
+    points: [getTranslatedText(language, 'achievement_points_maratona1')], 
   },
   {
-    title: "27ª Maratona de Programação Regional",
-    company_name: "Sociedade Brasileira de Programação",
+    title: getTranslatedText(language, 'achievement_title_maratona2'),
+    company_name: getTranslatedText(language, 'achievement_company_maratona2'), 
     icon: code1,
     iconBg: "#383E56",
     date: "2022",
-    points: [
-      "5ª posição de 15 times na 27ª Maratona de Programação Regional.",
-    ],
+    points: [getTranslatedText(language, 'achievement_points_maratona2')], 
   },
   {
-    title: "17ª Maratona de Programação FACENS",
-    company_name: "Faculdade de Engenharia de Sorocaba",
+    title: getTranslatedText(language, 'achievement_title_maratona3'),
+    company_name: getTranslatedText(language, 'achievement_company_maratona3'),
     icon: code1,
     iconBg: "#E6DEDD",
     date: "2023",
-    points: [
-      "10ª posição de 32 times na 17ª Maratona de Programação FACENS",
-    ],
+    points: [getTranslatedText(language, 'achievement_points_maratona3')], 
   },
 ];
+};
 
-
-
-const studies = [
+export const getStudies = (language) => {
+  return [
   {
-    name: "Feira de Ciências",
-    description:
-      "No último ano do ensino fundamental, tivemos alguns trabalhos extremamente interessantes, o que mais marcou foi a Feira de Ciências, meu tema foi sobre o descarte de lixo hospitalar e higienização. Na mesa, podiam-se ver a caixa de descarte, soro fisiológico, algodão e algumas seringas. O grupo era composto por Leonardo, Pamela, Roger, Guilherme e eu.",
+    name: getTranslatedText(language, 'studies_title_science'),
+    description: getTranslatedText(language, 'studies_description_science'),
     image: feira,
   },
   {
-    name: "Diploma do Curso de Alemão",
-    description:
-      "Diploma de conclusão. O curso foi iniciado no primeiro semestre de 2013 e finalizado no segundo semestre de 2016",
+    name: getTranslatedText(language, 'studies_title_german'),
+    description: getTranslatedText(language, 'studies_description_german'),
     image: alemao,
   },
   {
-    name: "Fábrica de Projetos",
-    description:
-      "Apresentação do projeto final do primeiro semestre da Fábrica de Projetos, cujo desafio era desenvolver algo para o microcomputador, e nós criamos um jogo nele, o famoso 'Pac-Man'. Baseado no jogo original, o objetivo é conseguir 999 pontos, tanto desviando dos fantasmas quanto pegando as frutas.",
+    name: getTranslatedText(language, 'studies_title_project'),
+    description: getTranslatedText(language, 'studies_description_project'),
     image: fabrica,
   },
   {
-    name: "16ª Maratona de Programação FACENS",
-    description:
-      "16ª Maratona de Programação FACENS em 2022. As equipes de alunos passaram algumas horas se dedicando a resolver problemas que englobam conceitos de Lógica Computacional, Algoritmos e Programação, Estruturas de Dados, entre outros. Com muita alegria, a equipe em que participei, 'C Sustenido', conseguiu a 7ª posição de 32 times, alcançando esse feito apenas no segundo semestre da faculdade.",
+    name: getTranslatedText(language, 'studies_title_maratona1'),
+    description: getTranslatedText(language, 'studies_description_maratona1'),
     image: maratona,
   },
   {
-    name: "Apresentação sobre 'Lei de Proteção de Dados'.",
-    description:
-      "Apresentação final sobre 'Lei de Proteção de Dados' para materia de 'Arquitetura de Computadores'.",
+    name: getTranslatedText(language, 'studies_title_lgpt'),
+    description: getTranslatedText(language, 'studies_description_lgpt'),
     image: lgpt,
   },
   {
-    name: "27ª Maratona de Programação Regional",
-    description:
-      "27ª Maratona de Programação Regional em 2022. E com muita alegria que o 'C sustenido' conseguiu a 5ª posição de 15 times, conseguindo esse feito apenas no segundo semestre de faculdade.",
+    name: getTranslatedText(language, 'studies_title_maratona2'),
+    description: getTranslatedText(language, 'studies_description_maratona2'),
     image: maratonaregional,
   },
   {
-    name: "17ª Maratona de Programação Facens",
-    description:
-      "10ª posição de 32 times na 17ª Maratona de Programação FACENS em 2023.",
+    name: getTranslatedText(language, 'studies_title_maratona3'),
+    description: getTranslatedText(language, 'studies_description_maratona3'),
     image: maratonaultima,
   },
   {
-    name: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas",
-    description:
-      "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+    name: getTranslatedText(language, 'studies_title_diploma'),
+    description: getTranslatedText(language, 'studies_description_diploma'),
     image: diploma,
   },
   
 ];
+};
 
-const sporties = [
+export const getSporties = (language) => {
+  return [
   {
-    name: "Medalha dos Jogos Estudantis no Handebol.",
-    description:
-      "Medalha de vice-campeão no JES.",
+    name: getTranslatedText(language, 'sporties_title_handebol'),
+    description: getTranslatedText(language, 'sporties_description_handebol'),
     image: jes,
   },
   {
-    name: "Bandeirantes Sorocaba",
-    description:
-      "Conquistamos o primeiro lugar no número de medalhas.",
+    name: getTranslatedText(language, 'sporties_title_bandeirantes'),
+    description:getTranslatedText(language, 'sporties_description_bandeirantes'),
     image: bandeirantes,
   },
   {
-    name: "Carterinha da Federação",
-    description:
-      "As carterinhas da Federação Paulista de Judô.",
+    name: getTranslatedText(language, 'sporties_title_carterinha'),
+    description: getTranslatedText(language, 'sporties_description_carterinha'),
     image: carterinha,
   },
   {
-    name: "Exame de Faixa",
-    description:
-      "Exame para a faixa verde.",
+    name: getTranslatedText(language, 'sporties_title_faixa'),
+    description: getTranslatedText(language, 'sporties_description_faixa'),
     image: faixa,
   },
   {
-    name: "Medalhas",
-    description:
-      "Total de 28 medalhas ganhadas, entre elas ouro, prata e bronze.",
+    name: getTranslatedText(language, 'sporties_title_faixa'),
+    description: getTranslatedText(language, 'sporties_description_faixa'),
     image: medalha,
   },
   {
-    name: "Campeão Regional.",
-    description:
-      "Campeão do Regional em 10 de agosto de 2013.",
+    name: getTranslatedText(language, 'sporties_title_campeao'),
+    description: getTranslatedText(language, 'sporties_description_campeao'),
     image: primeirolugarjudo,
   },
   {
-    name: "Vice-Campeão Estadual",
-    description:
-      "Vice-campeão do Estadual em 1º de setembro de 2013.",
+    name: getTranslatedText(language, 'sporties_title_vice'),
+    description: getTranslatedText(language, 'sporties_description_vice'),
     image: segundolugar,
   },
   {
-    name: "Primeira Maratona",
-    description:
-      "Primeira maratona.",
+    name: getTranslatedText(language, 'sporties_title_maratona1'),
+    description: getTranslatedText(language, 'sporties_description_maratona1'),
     image: corridaprimeiro,
   },
   {
-    name: "8º MARATONA SOROCABA NOVEMBRO AZUL",
-    description:
-      "Medalha de participação: completei 5 km em 55 minutos na minha primeira maratona.",
+    name: getTranslatedText(language, 'sporties_title_maratona2'),
+    description: getTranslatedText(language, 'sporties_description_maratona2'),
     image: primeiracorrida,
   },
   {
-    name: "Maratona Farma Ponte",
-    description:
-      "Medalha de participação na Maratona Farma Ponte.",
+    name: getTranslatedText(language, 'sporties_title_maratona3'),
+    description: getTranslatedText(language, 'sporties_description_maratona3'),
     image: farmaponte,
   },
   {
-    name: "Duathlon J.P Pereira",
-    description:
-      "Medalha de participação na Duathlon J.P Pereira.",
+    name: getTranslatedText(language, 'sporties_title_maratona4'),
+    description: getTranslatedText(language, 'sporties_description_maratona4'),
     image: jppereira,
   },
 ];
+};
 
 const achievementsport = [
   {
@@ -294,9 +277,6 @@ const achievementsport = [
 
 
 export {
-  hobbies,
-  achievementstudy,
-  studies,
-  sporties,
+
   achievementsport,
 };

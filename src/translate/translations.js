@@ -29,8 +29,21 @@ const translations = {
     The main reason my mother put me in this sport was the fact that I was a bit impulsive and needed to expend energy on something. I had tried other sports like swimming and soccer, but the only one I really liked was Judo. Due to the timing of the German course, I had to give up Judo, and with that, I ended my activities at the green belt, just 3 belts away from reaching the black belt. <br />
     However, Judo is not the only sport I practiced, I was the runner-up in Handball in elementary school at the JES (Student Games) championship. Currently, I still practice sports like running, where I have already participated in 3 marathons, and I go to the gym.</p>`,
 
-    //index
+    //achievements sports
+    achievements_sport:"Achievements",
+    journey_achievement_sport:"The achievements I'm most proud of.",
 
+    //achievements study
+    achievements_study: "Achievements",
+    journey_achievement_study: "What I’ve achieved during this time.",
+
+    //exp_sport
+    experiences_title: "Experiences",
+    experiences_description: "Some moments I consider important in the sports I practice or have practiced.",
+    
+    //exp_study
+    experiences_title_study: "Experiences",  
+    experiences_description_study: "Here are some activities and experiences I had during my academic journey in school and university.",
   },
   pt: {
     //about
@@ -60,6 +73,23 @@ const translations = {
     Tenho um currículo considerável no Judô em questão de competições, tendo participado de eventos desde 2007 dentro de Sorocaba e até mesmo em outros municípios pela Federação Paulista de Judô, com um total de 28 campeonatos ganhos entre 2007 e 2013, porém os que mais me marcaram foram o Regional e o Estadual, sendo campeão no Regional e vice-campeão no Estadual.<br />
     O principal motivo de minha mãe me colocar nesse esporte foi o fato de eu ser um pouco impulsivo e precisar gastar energia com algo, tinha tentado outros esportes, como natação e futebol, porém o único que realmente gostei foi o Judô. Por conta do horário do curso de alemão, tive que abrir mão do Judô, e com isso, encerrei minhas atividades na faixa verde, faltando apenas 3 faixas para atingir a faixa preta. <br />
     Porém não é só judô que pratiquei, Fui vice-campeão de Handebol no ensino fundamental no campeonato JES (Jogos Estudantis). Atualmente, ainda pratico esportes, como corrida, onde já participei de 3 maratonas, e faço academia.</p>`,
+    
+    //achievements sport
+    achievements_sport:"Conquista",
+    journey_achievement_sport:"As conquistas que mais me orgulho.",
+
+    //achievements_study:
+    achievements_study: "Conquistas",
+    journey_achievement_study: "O que eu conquistei nesse tempo.",
+
+    //exp_sport
+    experiences_title: "Experiências",
+    experiences_description: "Alguns momentos que considero importantes nos esportes que pratico ou pratiquei.",
+
+    //exp_study
+    experiences_title_study: "Experiências", 
+    experiences_description_study: "Aqui estão algumas atividades e experiências que tive durante minha trajetória acadêmica na escola e na faculdade.",
+  
   },
   ru: {
     //about
@@ -89,6 +119,22 @@ const translations = {
          У меня есть довольно внушительное резюме в дзюдо, в плане участия в соревнованиях, начиная с 2007 года в Сорокабе и других городах штата, с общим количеством 28 выигранных чемпионатов с 2007 по 2013 год. Однако самые яркие воспоминания оставили чемпионат регионального уровня, где я стал чемпионом, и чемпионат штата, где я стал вице-чемпионом.<br />
          Основной причиной, по которой мама отдала меня в этот спорт, было то, что я был довольно импульсивным и мне нужно было найти способ потратить энергию. Я пробовал другие виды спорта, такие как плавание и футбол, но единственным, который мне по-настоящему понравился, было дзюдо. Из-за расписания курсов немецкого языка мне пришлось отказаться от дзюдо, и я завершил свою карьеру на зелёном поясе, не дойдя всего лишь до 3-х поясных ступеней для получения чёрного пояса.<br />
          Однако я занимался не только дзюдо, я также стал вице-чемпионом по гандболу на школьных играх JES (Игры Студентов). В настоящее время я продолжаю заниматься спортом, бегаю (уже участвовал в 3 марафонах) и посещаю тренажерный зал.<br />`,
+
+    //achievement sport
+    achievements_sport: "Достижения",
+    journey_achievement_sport: "Достижения, которыми я горжусь.",
+
+    //achiement study:
+    achievements_study: "Достижения",
+    journey_achievement_study: "Что я достиг за это время.",
+
+    //exp_sport
+    experiences_title: "Опыт",
+    experiences_description: "Некоторые моменты, которые я считаю важными в спортах, которые я практиковал или практикую.",
+
+    //exp_study
+    experiences_title_study: "Опыт",  
+    experiences_description_study: "Вот некоторые из мероприятий и опыта, который я получил в процессе обучения в школе и университете.",
 
   },
 };

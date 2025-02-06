@@ -11,6 +11,7 @@ import { styles } from "../styles";
 import { achievementstudy } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import translations from "../translate/translations"; // Importando o arquivo de traduções
 
 const AchievementStudyCard = ({ achievementstudy }) => {
   return (
@@ -56,17 +57,20 @@ const AchievementStudyCard = ({ achievementstudy }) => {
   );
 };
 
-const AchievementStudy = () => {
+const AchievementStudy = ({ language }) => {
+  // Obtendo as traduções para o título e descrição da seção
+  const { achievements_study, journey_achievement_study } = translations[language] || translations.en;
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          O que eu conquistei nesse tempo.
+          {journey_achievement_study} {/* Texto de introdução dinâmico */}
         </p>
         <h2
           className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black text-center`}
         >
-          Conquistas
+          {achievements_study} {/* Título dinâmico */}
         </h2>
       </motion.div>
 
@@ -75,7 +79,7 @@ const AchievementStudy = () => {
           {achievementstudy.map((achievementstudy, index) => (
             <AchievementStudyCard
               key={`achievementstudy-${index}`}
-              achievementstudy={achievementstudy}
+              achievementstudy={achievementstudy} // Passando o objeto da conquista
             />
           ))}
         </VerticalTimeline>

@@ -11,8 +11,9 @@ import { styles } from "../styles";
 import { achievementsport } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import translations from "../translate/translations"; // Importando o arquivo de traduções
 
-const AchievementSportCard = ({ achievementsport }) => { 
+const AchievementSportCard = ({ achievementsport }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -56,17 +57,20 @@ const AchievementSportCard = ({ achievementsport }) => {
   );
 };
 
-const AchievementSport = () => { 
+const AchievementSport = ({ language }) => {
+  // Obtendo as traduções para o título e descrição da seção
+  const { achievements_sport, journey_achievement_sport } = translations[language] || translations.en;
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          As conquistas que mais me orgulho.
+          {journey_achievement_sport} {/* Texto de introdução dinâmico */}
         </p>
         <h2
           className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black text-center`}
         >
-          Conquistas
+          {achievements_sport} {/* Título dinâmico */}
         </h2>
       </motion.div>
 

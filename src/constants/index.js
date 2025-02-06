@@ -1,3 +1,4 @@
+import translations from "../translate/translations"; 
 import {
   //coisas que eu gosto "about"
   jogos,
@@ -36,10 +37,8 @@ import {
   jes,
   first,
   second,
-
-
-
 } from "../assets";
+
 export const navLinks = [
   {
     id: "about",

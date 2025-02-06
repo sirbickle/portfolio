@@ -1,12 +1,12 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { leo } from "../assets";
+import translations from "../translate/translations"; // Caminho relativo
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -35,28 +35,30 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
-const About = () => {
+const About = ({ language }) => {
+  // Obtendo as traduções baseadas no idioma
+  const { intro, overview, description } = translations[language] || translations.en;
+
   return (
     <>
+      {/* Título e introdução alinhados à esquerda */}
       <div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introdução</p>
+        <p className={styles.sectionSubText}>{intro}</p>
         <h2 className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}>
-          Visão Geral
+          {overview}
         </h2>
       </div>
+      
+      {/* Alinhamento flex para texto e imagem */}
       <div className="flex items-center min-[1000px]:flex-row flex-col-reverse">
+        {/* Texto à esquerda */}
         <p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Oi, eu sou o Leonardo, tenho 25 anos, moro em Sorocaba e trabalho como Gerente de Projetos de TI. Sou formado em Análise e Desenvolvimento de Sistemas e, no meu dia a dia, gosto de combinar o lado técnico e teórico com a criatividade, especialmente ao gerenciar projetos. <br />
-          Além do trabalho, tenho muitos interesses que me ajudam a manter a mente ativa: <br />
-          Sou fã de jogos, desde clássicos como Warcraft 3 e Starcraft até World of Warcraft e Counter-Strike 2. Também gosto de jogos de tabuleiro e cartas e, de vez em quando, disputo uma partida de xadrez. <br />
-          Música é outra paixão: toco baixo e guitarra, o que me ajuda a me desconectar um pouco do mundo digital. <br />
-          Quando não estou envolvido em projetos de TI, jogando ou programando, gosto de praticar esportes, especialmente correr e malhar. <br />
-          Por fim, sou curioso e apaixonado por natureza, viagens, novas culturas e exploração. <br />
-          Gosto de aprender sobre ciência, como cosmologia, astronomia, física e temas relacionados. Também estou sempre buscando aprender novos idiomas para me conectar melhor com o mundo. <br />
-        </p>
+          dangerouslySetInnerHTML={{ __html: description }} // Renderizando HTML
+        />
+
+        {/* Imagem ao lado do texto */}
         <Tilt className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">
           <div
             variants={fadeIn("", "", 0.5, 1)}
@@ -75,6 +77,8 @@ const About = () => {
           </div>
         </Tilt>
       </div>
+
+      {/* Cards de serviços alinhados */}
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

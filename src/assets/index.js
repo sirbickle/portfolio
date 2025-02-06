@@ -44,7 +44,11 @@ import LOGO2 from "./LOGO2.webp";
 import close from "./close.svg";
 import menu from "./menu.svg";
 
+//tradução
 
+import brazil from "./brazil.png";
+import usa from "./usa.png";
+import russia from "./russia.png";
 
 
 export {
@@ -94,6 +98,9 @@ export {
   logo,
   LOGO2,
 
-  
+//tradução
+brazil,
+usa,
+russia
 
 };

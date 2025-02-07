@@ -30,13 +30,13 @@ const App = () => {
       <div className="relative z-0 bg-primary flex flex-col items-center justify-center h-screen text-white">
         <div className="text-center mb-6">
           <h2 className="text-3xl mb-4 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
-            Selecione seu idioma
+            Selecione seu idioma.
           </h2>
           <p className="text-3xl mb-4 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
-            Select your language
+            Select your language.
           </p>
           <p className="text-3xl mb-4 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
-            Выберите язык
+            Выберите язык.
           </p>
         </div>
         <div className="flex flex-col gap-4">

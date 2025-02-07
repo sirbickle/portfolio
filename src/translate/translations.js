@@ -270,7 +270,7 @@ const translations = {
     achievement_points_maratona3: "10ª posição de 32 times na 17ª Maratona de Programação FACENS",
 
     //sporties
-    sporties_title_handebol: "Medalha dos Jogos Estudantis no Handebol.",
+    sporties_title_handebol: "Medalha dos Jogos Estudantis no Handebol",
     sporties_description_handebol: "Medalha de vice-campeão no JES.",
 
     sporties_title_bandeirantes: "Bandeirantes Sorocaba",

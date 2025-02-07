@@ -54,11 +54,12 @@ const translations = {
     navlinks_study: "Study",
     navlinks_sport: "Sport",
     navlinks_reason: "Reason why I want to study in Russia",
+    navlinks_home: "Home",
 
     //service
     hobbies_tecnologia: "Information Technology",
     hobbies_jogos: "Games",
-    hobbies_musica: "Music",
+    hobbies_musica: "Musics",
     hobbies_sport: "Sports",
     hobbies_viagem: "Travel",
     hobbies_ciencia: "Science",
@@ -142,7 +143,21 @@ const translations = {
       
     sporties_title_maratona4: "Duathlon J.P Pereira",
     sporties_description_maratona4: "Participation medal in Duathlon J.P Pereira.",
-  
+    
+    //achievement sport
+    achievement_title_jes: "JES Runner-Up",
+    achievement_company_jes: "Student Games",
+    achievement_points_jes: "Runner-up in JES.",
+
+    achievement_title_campeao: "Regional Champion",
+    achievement_company_campeao: "Paulista Judo Federation",
+    achievement_points_campeao: "Regional champion on August 10, 2013.",
+
+    achievement_title_vice: "State Runner-Up",
+    achievement_company_vice: "Paulista Judo Federation",
+    achievement_points_vice: "State runner-up on September 1, 2013."
+
+
   },
   
   pt: {
@@ -204,6 +219,7 @@ const translations = {
     navlinks_study: "Estudo",
     navlinks_sport: "Esporte",
     navlinks_reason: "Motivo Pelo Qual Quero Estudar Na Rússia",
+    navlinks_home: "Inicio",
 
     //hobbies
     hobbies_tecnologia: "Tecnologia da Informação",
@@ -287,6 +303,18 @@ const translations = {
     sporties_title_maratona4: "Duathlon J.P Pereira",
     sporties_description_maratona4: "Medalha de participação na Duathlon J.P Pereira.",
 
+    //achievement sport
+    achievement_title_jes: "Vice-Campeão no JES",
+    achievement_company_jes: "Jogos Estudantis",
+    achievement_points_jes: "Vice-Campeão no JES.",
+
+    achievement_title_campeao: "Campeão Regional",
+    achievement_company_campeao: "Federação Paulista de Judô",
+    achievement_points_campeao: "Campeão do Regional em 10 de agosto de 2013.",
+
+    achievement_title_vice: "Vice-Campeão Estadual",
+    achievement_company_vice: "Federação Paulista de Judô",
+    achievement_points_vice: "Vice-campeão do Estadual em 1º de setembro de 2013.",
 
   },
 
@@ -349,6 +377,7 @@ const translations = {
     navlinks_study: "Учёба",
     navlinks_sport: "Спорт",
     navlinks_reason: "Причина, почему я хочу учиться в России",
+    navlinks_home: "Главная",
 
     //hobies
     hobbies_tecnologia: "Информационные технологии",
@@ -431,8 +460,21 @@ const translations = {
     sporties_description_maratona3: "Медаль за участие в марафоне Фарма Понте.",
     
     sporties_title_maratona4: "Дуатлон J.P Pereira",
-    sporties_description_maratona4: "Медаль за участие в дуатлоне J.P Pereira."
+    sporties_description_maratona4: "Медаль за участие в дуатлоне J.P Pereira.",
   
+    //achievement sport
+
+    achievement_title_jes: "Вице-чемпион JES",
+    achievement_company_jes: "Студенческие игры",
+    achievement_points_jes: "Вице-чемпион JES.",
+
+    achievement_title_campeao: "Региональный чемпион",
+    achievement_company_campeao: "Федерация дзюдо Паулисты",
+    achievement_points_campeao: "Региональный чемпион 10 августа 2013 года.",
+
+    achievement_title_vice: "Вице-чемпион штата",
+    achievement_company_vice: "Федерация дзюдо Паулисты",
+    achievement_points_vice: "Вице-чемпион штата 1 сентября 2013 года."
   
   },
 };

@@ -202,8 +202,8 @@ export const getSporties = (language) => {
     image: faixa,
   },
   {
-    name: getTranslatedText(language, 'sporties_title_faixa'),
-    description: getTranslatedText(language, 'sporties_description_faixa'),
+    name: getTranslatedText(language, 'sporties_title_medalha'),
+    description: getTranslatedText(language, 'sporties_description_medalha'),
     image: medalha,
   },
   {
@@ -239,44 +239,33 @@ export const getSporties = (language) => {
 ];
 };
 
-const achievementsport = [
+export const getAchiementSport = (language) =>{
+  return [
   {
-    title: "Vice-Campeão no JES",
-    company_name: "Jogos Estudantis",
+    title: getTranslatedText(language, 'achievement_title_jes'),
+    company_name: getTranslatedText(language, 'achievement_company_jes'),
     icon: second,
     iconBg: "#383E56",
     date: "2012",
-    points: [
-      "Vice-Campeão no JES.",
-    ],
+    points: [getTranslatedText(language, 'achievement_points_jes'),],
   },
   
   {
-    title: "Campeão Regional",
-    company_name: "Federação Paulista de Judô",
+    title: getTranslatedText(language, 'achievement_title_campeao'),
+    company_name: getTranslatedText(language, 'achievement_company_campeao'),
     icon: first,
     iconBg: "#E6DEDD",
     date: "2013",
-    points: [
-      "Campeão do Regional em 10 de agosto de 2013.",
-    ],
+    points: [getTranslatedText(language, 'achievement_points_campeao'),],
   },
 
   {
-    title: "Vice-Campeão Estadual",
-    company_name: "Federação Paulista de Judô",
+    title: getTranslatedText(language, 'achievement_title_vice'),
+    company_name: getTranslatedText(language, 'achievement_company_vice'),
     icon: second,
     iconBg: "#E6DEDD",
     date: "2013",
-    points: [
-      "Vice-campeão do Estadual em 1º de setembro de 2013.",
-    ],
+    points: [getTranslatedText(language, 'achievement_points_vice'),],
   },
 ];
-
-
-
-export {
-
-  achievementsport,
 };

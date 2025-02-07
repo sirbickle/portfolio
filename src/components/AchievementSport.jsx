@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { achievementsport } from "../constants";
+import { getAchiementSport } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 import translations from "../translate/translations"; // Importando o arquivo de traduções
@@ -57,6 +57,7 @@ const AchievementSportCard = ({ achievementsport }) => {
 const AchievementSport = ({ language }) => {
   // Obtendo as traduções para o título e descrição da seção
   const { achievements_sport, journey_achievement_sport } = translations[language] || translations.en;
+  const achievementsport = getAchiementSport (language); 
 
   return (
     <>

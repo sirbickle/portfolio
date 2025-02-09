@@ -5,8 +5,7 @@ const translations = {
     intro: "Introduction",
     overview: "Overview",
     description: `Hi, I’m Leonardo Lima, I’m 25 years old, I live in Sorocaba, and I have experience as an IT Project Manager, where I have implemented SAP systems in companies such as Braskem, Claro, and Suzano. I was also an IT Support at Atacadão and I have a degree in Technology in Analysis and Systems Development.<br />
-    Besides work, I have many interests that help me keep my mind active:<br />
-   I am a fan of games, from classics like Warcraft 3 and Starcraft to World of Warcraft and Counter-Strike 2, I also enjoy board and card games, and from time to time, I play a game of chess.<br />
+    Besides work, I have many interests that help keep my mind active: I am a fan of games, from classics like Warcraft 3 and Starcraft to World of Warcraft and Counter-Strike 2, and, also, I enjoy board and card games and, from time to time, I play a game of chess.<br />
     Music is another passion: I play bass and guitar, which helps me disconnect a bit from the digital world. For 3 years (2020-2023), I played in a band called Atrois, where we did a few shows and recorded and released, in 2022, our first EP titled Na Mão do Palhaço (In the Clown's Hands), which is available on digital platforms..<br />
     When I'm not involved in IT projects, playing, or programming, I like to practice sports, especially running and working out.<br />
     Finally, I'm curious and passionate about nature, travel, new cultures, and exploration.<br />
@@ -165,8 +164,7 @@ const translations = {
     intro: "Introdução",
     overview: "Visão Geral",
     description: `Oi, eu sou o Leonardo Lima, tenho 25 anos, moro em Sorocaba e tenho experiência como Gerente de Projetos de TI, onde já fiz implementação de sistema SAP em empresas como Braskem, Claro e Suzano, fui Suporte de TI no mercado Atacadão e sou formado em Tecnólogo em Análise e Desenvolvimento de Sistemas.<br />
-    Além do trabalho, tenho muitos interesses que me ajudam a manter a mente ativa:<br />
-    Sou fã de jogos, desde clássicos como Warcraft 3 e Starcraft até World of Warcraft e Counter-Strike 2, também gosto de jogos de tabuleiro e cartas e, de vez em quando, disputo uma partida de xadrez.<br />
+    Além do trabalho, tenho muitos interesses que me ajudam a manter a mente ativa: sou fã de jogos, desde clássicos como Warcraft 3 e Starcraft até World of Warcraft e Counter-Strike 2, e, também, gosto de jogos de tabuleiro e cartas e, de vez em quando, disputo uma partida de xadrez.<br />
     A música é outra paixão: toco baixo e guitarra, o que me ajuda a me desconectar um pouco do mundo digital. Durante 3 anos (2020-2023), toquei em uma banda chamada Atrois, na qual fizemos alguns shows e gravamos e lançamos, em 2022, nosso primeiro EP, intitulado Na Mão do Palhaço, que está disponível nas plataformas digitais.<br />
     Quando não estou envolvido em projetos de TI, jogando ou programando, gosto de praticar esportes, especialmente correr e malhar.<br />
     Por fim, sou curioso e apaixonado por natureza, viagens, novas culturas e exploração.<br />
@@ -323,8 +321,7 @@ const translations = {
     intro: "Введение",
     overview: "Обзор",
     description: `Привет, я Леонардо Лима, мне 25 лет, я живу в Сорокабе, и у меня есть опыт работы в качестве менеджера проектов в области ИТ, где я внедрял системы SAP в таких компаниях, как Braskem, Claro и Suzano, я также работал в поддержке ИТ в компании Atacadão, и имею высшее техническое образование в области анализа и разработки систем.<br />
-    Помимо работы, у меня есть множество интересов, которые помогают мне поддерживать ум активным:<br />
-    Я поклонник игр, от классики, такой как Warcraft 3 и Starcraft, до World of Warcraft и Counter-Strike 2, мне также нравятся настольные и карточные игры, а время от времени, я играю в шахматы.<br />
+    Помимо работы, у меня много интересов, которые помогают держать мой разум в тонусе: я поклонник игр, от классики, такой как Warcraft 3 и Starcraft, до World of Warcraft и Counter-Strike 2, и, также, мне нравятся настольные и карточные игры и, время от времени, я играю в шахматы.<br />
     Музыка — это другая страсть: я играю на бас-гитаре и гитаре, что помогает мне немного отключиться от цифрового мира. В течение 3 лет (2020-2023) я играл в группе под названием Atrois, с которой мы дали несколько концертов, записали и выпустили в 2022 году наш первый EP, названный На Руке У Клоуна (Na Mão do Palhaço), который доступен на цифровых платформах.<br />
     Когда я не занят проектами в области информационных технологий, играми или программированием, я люблю заниматься спортом, особенно бегать и тренироваться в тренажерном зале.<br />
     В конце концов, я любознателен и увлечен природой, путешествиями, новыми культурами и исследованиями.<br />

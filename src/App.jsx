@@ -81,35 +81,35 @@ const App = () => {
     </div>
     <div className="relative z-0">
       <About language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <Study language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <Exp_Study language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <AchievementStudy language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <Sports language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <Exp_Sport language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <AchievementSport language={language} />
-      <StarsCanvas />
+      
     </div>
     <div className="relative z-0">
       <Reason language={language} />
-      <StarsCanvas />
+      
     </div>
     <Footer />
   </div>

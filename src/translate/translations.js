@@ -265,7 +265,7 @@ const translations = {
 
     achievement_title_maratona3: "17ª Maratona de Programação FACENS",
     achievement_company_maratona3: "Faculdade de Engenharia de Sorocaba",
-    achievement_points_maratona3: "10ª posição de 32 times na 17ª Maratona de Programação FACENS",
+    achievement_points_maratona3: "10ª posição de 32 times na 17ª Maratona de Programação FACENS.",
 
     //sporties
     sporties_title_handebol: "Medalha dos Jogos Estudantis no Handebol",

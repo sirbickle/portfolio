@@ -65,7 +65,6 @@ const App = () => {
             </button>
           </div>
         </div>
-        <StarsCanvas />
       </div>
     );
   }

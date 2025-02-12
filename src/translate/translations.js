@@ -242,7 +242,7 @@ const translations = {
     studies_title_maratona1: "16ª Maratona de Programação FACENS",
     studies_description_maratona1: "16ª Maratona de Programação FACENS em 2022. As equipes de alunos passaram algumas horas se dedicando a resolver problemas que englobam conceitos de Lógica Computacional, Algoritmos e Programação, Estruturas de Dados, entre outros. Com muita alegria, a equipe em que participei, 'C Sustenido', conseguiu a 7ª posição de 32 times, alcançando esse feito apenas no segundo semestre da faculdade.",
 
-    studies_title_lgpt: "Apresentação sobre 'Lei de Proteção de Dados",
+    studies_title_lgpt: "Apresentação sobre 'Lei de Proteção de Dados'",
     studies_description_lgpt: "Apresentação final sobre 'Lei de Proteção de Dados' para materia de 'Arquitetura de Computadores'.",
 
     studies_title_maratona2: "27ª Maratona de Programação Regional",
@@ -293,7 +293,7 @@ const translations = {
     sporties_description_maratona1: "Primeira maratona.",
 
     sporties_title_maratona2: "8º Maratona Sorocaba Novembro Azul",
-    sporties_description_maratona2: "Medalha de participação: completei 5 km em 55 minutos na minha primeira maratona.",
+    sporties_description_maratona2: "Medalha de participação na 8ª Maratona de Sorocaba Novembro Azul.",
 
     sporties_title_maratona3: "Maratona Farma Ponte",
     sporties_description_maratona3: "Medalha de participação na Maratona Farma Ponte.",

@@ -6,9 +6,9 @@ import { LOGO2 } from "../assets";
 import { getNavlinks } from "../constants";
 
 // Importando as bandeiras
-import brazilFlag from "../assets/brazil.png";
-import usaFlag from "../assets/usa.png";
-import russiaFlag from "../assets/russia.png";
+import brazilFlag from "../assets/brazil1.png";
+import usaFlag from "../assets/usa1.png";
+import russiaFlag from "../assets/russia1.png";
 
 const Navbar = ({ language, setLanguage }) => {
   const [active, setActive] = useState("");

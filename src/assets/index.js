@@ -49,6 +49,9 @@ import menu from "./menu.svg";
 import brazil from "./brazil.png";
 import usa from "./usa.png";
 import russia from "./russia.png";
+import brazil1 from "./brazil1.png";
+import russia1 from "./russia1.png";
+import usa1 from "./usa1.png";
 
 
 export {
@@ -101,6 +104,9 @@ export {
 //tradução
 brazil,
 usa,
-russia
+russia,
+brazil1,
+usa1,
+russia1,
 
 };

@@ -81,7 +81,7 @@ const App = () => {
     </div>
     <div className="relative z-0">
       <About language={language} />
-   
+      <StarsCanvas />
     </div>
     <div className="relative z-0">
       <Study language={language} />

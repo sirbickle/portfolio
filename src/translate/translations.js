@@ -380,7 +380,7 @@ const translations = {
     hobbies_tecnologia: "Информационные технологии",
     hobbies_jogos: "Игры",
     hobbies_musica: "Музыка",
-    hobbies_sport: "Спорты",
+    hobbies_sport: "Спорт",
     hobbies_viagem: "Путешествия",
     hobbies_ciencia: "Наука",
     hobbies_espaco: "Космос",

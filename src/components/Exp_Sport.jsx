@@ -3,11 +3,10 @@ import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { getSporties } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
-import translations from "../translate/translations"; // Importando o arquivo de traduções
+import { fadeIn } from "../utils/motion";
+import translations from "../translate/translations"; 
 
 const SportCard = ({
-  index,
   name,
   description,
   image,

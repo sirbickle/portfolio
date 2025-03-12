@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { TicofabCanvas } from "./canvas";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import translations from "../translate/translations"; // Importando traduções
+import translations from "../translate/translations";
 
 const Hero = ({ language }) => {
   // Obtendo as traduções baseadas no idioma

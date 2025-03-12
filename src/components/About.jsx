@@ -5,7 +5,7 @@ import { getHobbies } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { leo } from "../assets";
-import translations from "../translate/translations"; // Caminho relativo
+import translations from "../translate/translations";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -55,7 +55,7 @@ const About = ({ language }) => {
         <p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-          dangerouslySetInnerHTML={{ __html: description }} // Renderizando HTML
+          dangerouslySetInnerHTML={{ __html: description }} 
         />
 
         {/* Imagem ao lado do texto */}

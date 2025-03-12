@@ -18,12 +18,10 @@ import {
   maratonaregional,
   maratonaultima,
   diploma,
-  medel,
   alemao,
   code1,
 
   //sports
-  judo,
   bandeirantes,
   carterinha,
   faixa,
@@ -37,6 +35,12 @@ import {
   jes,
   first,
   second,
+
+  //reason
+  aero1,
+  aero2,
+  aero3,
+
 } from "../assets";
 
 const getTranslatedText = (language, key, defaultText = "") => {
@@ -139,6 +143,8 @@ export const getStudies = (language) => {
     name: getTranslatedText(language, 'studies_title_science'),
     description: getTranslatedText(language, 'studies_description_science'),
     image: feira,
+    source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
+    liveUrl: " https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
   },
   {
     name: getTranslatedText(language, 'studies_title_german'),
@@ -267,5 +273,32 @@ export const getAchiementSport = (language) =>{
     date: "2013",
     points: [getTranslatedText(language, 'achievement_points_vice'),],
   },
+];
+};
+
+export const getAerospace = (language) =>{
+  return [
+  {
+    name: getTranslatedText(language, 'aerospace_title_fisica1'),
+    description: getTranslatedText(language, 'aerospace_description_fisica1'),
+    image: aero1,
+    source_code_link: "https://drive.google.com/file/d/1lqLKkYGCFOskHPzkwzFLLXCBYpX0VlS5/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ng4IY2G2Bi&qrcode=1", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_fisica2'),
+    description: getTranslatedText(language, 'aerospace_description_fisica2'),
+    image: aero2,
+    source_code_link: "https://drive.google.com/file/d/1MEP9qC9HFFNdpWCpS5NvkjMmqKuZLrEc/view?usp=sharing", // Link para o código
+    liveUrl: "https://drive.google.com/file/d/1EJiHMsXZtipleRbW8QkIXJpBaRRYBQdR/view?usp=sharing", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_fisica3'),
+    description: getTranslatedText(language, 'aerospace_description_fisica3'),
+    image: aero3,
+    source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
+    liveUrl: " https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
+  },
+
 ];
 };

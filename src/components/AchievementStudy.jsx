@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { getAchievementStudy } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import translations from "../translate/translations"; // Importando o arquivo de traduções
+import translations from "../translate/translations";
 
 const AchievementStudyCard = ({ achievementstudy }) => {
   return (

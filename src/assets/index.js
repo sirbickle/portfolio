@@ -38,10 +38,17 @@ import jes from "./jes.jpg";
 import first from "./first.png";
 import second from "./second.png";
 
+//reason
+import aero1 from "./aero1.jpg";
+import aero2 from "./aero2.jpg";
+import aero3 from "./aero3.jpg";
+
 // não deleta, n sei porque, ou sei, por partes
 import logo from "./logo3.png";
 import LOGO2 from "./LOGO2.webp";
 import close from "./close.svg";
+import drive from "./drive.png";
+import aeb from "./aeb.png"
 import menu from "./menu.svg";
 
 //tradução
@@ -94,12 +101,20 @@ export {
   jes,
   first,  
   second,
-  
 
-  menu,
+  //reason
+  aero1,
+  aero2,
+  aero3,
+  
+  //não sei para que serve, mas não delete
+  
   close,
   logo,
   LOGO2,
+  drive,
+  aeb,
+  menu,
 
 //tradução
 brazil,
@@ -108,5 +123,4 @@ russia,
 brazil1,
 usa1,
 russia1,
-
 };

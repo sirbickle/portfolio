@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { formatura } from "../assets";
-import translations from "../translate/translations"; // Caminho para o arquivo de traduções
+import translations from "../translate/translations";
 
 const Study = ({ language }) => {
   // Obtendo as traduções com base no idioma selecionado

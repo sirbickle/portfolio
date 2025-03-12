@@ -4,10 +4,9 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { getStudies } from "../constants";
 import { fadeIn  } from "../utils/motion";
-import translations from "../translate/translations"; // Importando o arquivo de traduções
+import translations from "../translate/translations"; 
 
 const StudyCard = ({
-  index,
   name,
   description,
   image,

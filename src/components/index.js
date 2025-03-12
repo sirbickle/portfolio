@@ -1,4 +1,4 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, TicofabCanvas } from './canvas';
+import { EarthCanvas, MoonCanvas, StarsCanvas, TicofabCanvas } from './canvas';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -9,6 +9,8 @@ import Sports from "./Sports";
 import Exp_Sport from "./Exp_Sport";
 import AchievementSport from "./AchievementSport";
 import Reason from "./Reason";
+import Exp_Aerospace from "./Exp_Aerospace";
+import Reason_final from "./Reason_final";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
 
@@ -23,11 +25,12 @@ export {
   Sports,
   Exp_Sport,
   Reason,
+  Exp_Aerospace,
+  Reason_final,
   CanvasLoader,
   EarthCanvas,
-  BallCanvas,
-  ComputersCanvas,
   StarsCanvas,
   Footer,
+  MoonCanvas,
   TicofabCanvas,
 };

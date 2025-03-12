@@ -19,6 +19,9 @@ import {
   AchievementSport,
   Sports,
   Exp_Sport,
+  Exp_Aerospace,
+  Reason_final,
+  
 } from "./components";
 
 const App = () => {
@@ -68,40 +71,48 @@ const App = () => {
       </div>
     );
   }
-  
+
 
   // Se o idioma já foi selecionado, exibe o site normalmente
   return (
     <BrowserRouter>
-  <div className="relative z-0 bg-primary">
-    <div className="relative z-20 bg-no-repeat bg-center">
-      <Navbar language={language} setLanguage={setLanguage} />
-      <Hero language={language} />
-      <StarsCanvas />
-    </div>
-    <div className="relative z-0">
-      <About language={language} />
-      <StarsCanvas />
-    </div>
-    <div className="relative z-0">
-      <Study language={language} />
-      <Exp_Study language={language} />
-      <AchievementStudy language={language} />
-      <StarsCanvas />
-    </div>
-    <div className="relative z-0">
-      <Sports language={language} />
-      <Exp_Sport language={language} />
-      <AchievementSport language={language} />
-      
-    </div>
-    <div className="relative z-0">
-      <Reason language={language} />
-      <StarsCanvas />
-    </div>
-    <Footer />
-  </div>
-</BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="relative z-20 bg-no-repeat bg-center">
+          <Navbar language={language} setLanguage={setLanguage} />
+          <Hero language={language} />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <About language={language} />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <Study language={language} />
+          <Exp_Study language={language} />
+          <AchievementStudy language={language} />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <Sports language={language} />
+          <Exp_Sport language={language} />
+          <AchievementSport language={language} />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <Reason language={language} />
+          <StarsCanvas />
+        </div>
+        <div className="relative z-0">
+          <Exp_Aerospace language={language} />
+          <StarsCanvas />
+          <div className="relative z-0">
+            <Reason_final language={language} />
+            <StarsCanvas />
+          </div>
+        </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 };
 

@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { judo } from "../assets";
-import translations from "../translate/translations"; // Caminho para o arquivo de traduções
+import translations from "../translate/translations";
 
 const Sport = ({ language }) => {
   // Obtendo as traduções com base no idioma selecionado

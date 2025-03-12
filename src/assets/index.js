@@ -37,6 +37,7 @@ import jppereira from "./jppereira.jpg";
 import jes from "./jes.jpg";
 import first from "./first.png";
 import second from "./second.png";
+import krun from "./krun.jpg";
 
 //reason
 import aero1 from "./aero1.jpg";
@@ -101,6 +102,7 @@ export {
   jes,
   first,  
   second,
+  krun,
 
   //reason
   aero1,

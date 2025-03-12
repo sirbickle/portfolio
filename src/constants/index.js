@@ -35,6 +35,7 @@ import {
   jes,
   first,
   second,
+  krun,
 
   //reason
   aero1,
@@ -242,6 +243,12 @@ export const getSporties = (language) => {
     description: getTranslatedText(language, 'sporties_description_maratona4'),
     image: jppereira,
   },
+  {
+    name: getTranslatedText(language, 'sporties_title_maratona5'),
+    description: getTranslatedText(language, 'sporties_description_maratona5'),
+    image: krun,
+  },
+
 ];
 };
 

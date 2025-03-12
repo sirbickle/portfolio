@@ -221,7 +221,7 @@ const translations = {
     //hobbies
     hobbies_tecnologia: "Tecnologia da Informação",
     hobbies_jogos: "Jogos",
-    hobbies_musica: "Musicas",
+    hobbies_musica: "Músicas",
     hobbies_sport: "Esportes",
     hobbies_viagem: "Viagem",
     hobbies_ciencia: "Ciência",

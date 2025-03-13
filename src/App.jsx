@@ -96,18 +96,18 @@ const App = () => {
           <Sports language={language} />
           <Exp_Sport language={language} />
           <AchievementSport language={language} />
-       
+          <StarsCanvas />
         </div>
         <div className="relative z-0">
           <Reason language={language} />
-      
+          <StarsCanvas />
         </div>
         <div className="relative z-0">
           <Exp_Aerospace language={language} />
-          
+          <StarsCanvas />
           <div className="relative z-0">
             <Reason_final language={language} />
-       
+            <StarsCanvas />
           </div>
         </div>
         <Footer />

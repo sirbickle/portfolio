@@ -293,7 +293,7 @@ const translations = {
     <p>Sem dúvida, o Judô tem uma grande importância na minha vida. Comecei a praticar aos 7 ou 8 anos e parei por volta dos 14 ou 15. Durante minha trajetória, tive a honra de participar da Federação Paulista de Judô, viajar para vários municípios do estado de São Paulo em competições, treinar na Academia Bandeirantes Sorocaba e ser aluno do Sensei Antonio Rizzardo.</p>
     <p>Tenho um currículo considerável no Judô, com participações em competições desde 2007, tanto em Sorocaba quanto em outras cidades pela Federação Paulista de Judô. Ao todo, conquistei 28 campeonatos entre 2007 e 2013. Os mais marcantes foram o Regional, onde fui campeão, e o Estadual, onde conquistei o título de vice-campeão.</p>
     <p>O principal motivo de minha mãe me inscrever no Judô foi o fato de eu ser muito impulsivo e precisar canalizar minha energia de forma construtiva. Tentei outros esportes, como natação e futebol, mas o único que realmente me cativou foi o Judô. Porém, devido ao horário do meu curso de alemão, precisei interromper o Judô e encerrei minhas atividades na faixa verde, com apenas 3 faixas restantes para alcançar a faixa preta.</p>
-    <p>No entanto, o Judô não foi o único esporte que pratiquei. Fui vice-campeão de Handebol no Ensino Fundamental, no campeonato JES (Jogos Estudantis). Atualmente, continuo praticando esportes como corrida, já tendo participado de 3 maratonas, além de frequentar a academia.</p>
+    <p>No entanto, o Judô não foi o único esporte que pratiquei. Fui vice-campeão de Handebol no Ensino Fundamental, no campeonato JES (Jogos Estudantis). Atualmente, continuo praticando esportes como corrida, já tendo participado de algumas maratonas, além de frequentar a academia.</p>
   `,
 
     //exp_sport

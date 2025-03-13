@@ -172,15 +172,16 @@ const translations = {
 
     //aerospace
     aerospace_title_fisica1: "Introduction to Rocket Physics - Fundamental Concepts",
-    aerospace_description_fisica1: "In this module of the course, I learned about: the importance of measurement, vector quantities, historical introduction, the Brazilian space programme and Science and Technology (S&T) in space.",
-
-
+    aerospace_description_fisica1: "In this module of the course, I learned about: The Importance of measurement; Vector quantities; Historical introduction; The Brazilian space programme and Science and Technology (S&T) in space.",
+    
     aerospace_title_fisica2: "Introduction to Rocket Physics - Space, motion, gravity, and weight",
-    aerospace_description_fisica2: "In this course module, I learned about: how to reach space, the study of rocket movements, the relationship between gravity and weight, the differences between entry and exit, as well as the issues of ascending and descending, and the concept of ascending without descending.",
-
+    aerospace_description_fisica2: "In this course module, I learned about: How to reach space; The study of rocket movements; The relationship between gravity and weight; The differences between entry and exit; As well as the issues of Ascending and descending; And the concept of Ascending without descending.",
+    
     aerospace_title_fisica3: "Introduction to Space Propulsion I",
-    aerospace_description_fisica3: "In this course module, I learned about: fundamental concepts, conservation of momentum and Tsiolkovsky's Equation, principles of propulsion, chemical propulsion systems.",
-
+    aerospace_description_fisica3: "In this course module, I learned about: Fundamental concepts; Conservation of momentum and Tsiolkovsky's Equation; Principles of propulsion; Chemical propulsion systems.",
+    
+    aerospace_title_fisica4: "Introduction to Analog Astronautics",
+    aerospace_description_fisica4: "In this module of the course, I learned about: Aerospace history; New Space; Missions to the Moon and Mars; The Aerospace system and the role of astronauts; Aerospace careers and research; Space sustainability; Aerospace health and agriculture; Aerospace education and innovation; Analogue space stations; And the Habitat Marte space station.",    
     // reason 2
     reason_final_description: `
     <p>Russia has always attracted me due to its strong history in space exploration. The country was a pioneer with historic milestones such as the launch of the first satellite, Sputnik, and sending the first human into space, Yuri Gagarin. Its contributions continue with innovations in the development of rockets like the Soyuz, which are still used in space missions. Russia is a global leader in the development of aerospace technologies, with cutting-edge research infrastructure and advanced space programmes, such as the lunar exploration programme.</p>
@@ -367,14 +368,17 @@ const translations = {
     experiences_title_aerospace: "Certificados sobre Ciência Aeroespacial",
     experiences_description_aerospace: "Os certificados que adquiri ao estudar sobre o tema. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado ou no ícone da 'AEB' para acessar o conteúdo do QR Code do certificado.",
 
-    aerospace_title_fisica1: "Introdução à Física de Foguetes - Conceitos iniciais",
-    aerospace_description_fisica1: "Neste módulo do curso, aprendi sobre: importância de medir, grandezas vetoriais, introdução histórica, o programa espacial brasileiro e Ciência e Tecnologia (C&T) espacial.",
+    aerospace_title_fisica1: "Introdução à Física de Foguetes - Conceitos iniciais",  
+    aerospace_description_fisica1: "Neste módulo do curso, aprendi sobre: Importância de medir; Grandezas vetoriais; Introdução histórica; O programa espacial brasileiro; e Ciência e Tecnologia (C&T) espacial.", 
 
     aerospace_title_fisica2: "Introdução à Física de Foguetes - Espaço, movimentos, gravidade e peso",
-    aerospace_description_fisica2: "Neste módulo do curso, aprendi sobre: como alcançar o espaço, o estudo dos movimentos dos foguetes, a relação entre gravidade e peso, as diferenças entre entrada e saída, além das questões de subir e descer, e o conceito de subir sem descer.",
+    aerospace_description_fisica2: "Neste módulo do curso, aprendi sobre: Como alcançar o espaço; O estudo dos movimentos dos foguetes; A relação entre gravidade e peso; As diferenças entre entrada e saída; além das questões de subir e descer; e O conceito de subir sem descer.",
 
     aerospace_title_fisica3: "Introdução à Propulsão Espacial I",
-    aerospace_description_fisica3: "Neste módulo do curso, aprendi sobre: conceitos fundamentais, conservação do momento e Equação de Tsiolkovsky, princípios de propulsão, sistemas de propulsão química.",
+    aerospace_description_fisica3: "Neste módulo do curso, aprendi sobre: Conceitos fundamentais; Conservação do momento e Equação de Tsiolkovsky; Princípios de propulsão; e Sistemas de propulsão química.",
+
+    aerospace_title_fisica4: "Introdução à Astronáutica Análoga",
+    aerospace_description_fisica4: "Neste módulo do curso, aprendi sobre: História aeroespacial; New Space; Missões à Lua e a Marte; O sistema aeroespacial e o papel dos astronautas; Carreira e pesquisa aeroespacial; Sustentabilidade espacial; Saúde e agricultura aeroespacial; Educação e inovação aeroespacial; Estações espaciais análogas; e A estação espacial Habitat Marte.",
 
     // reason 2
     reason_final_description: `
@@ -560,14 +564,16 @@ const translations = {
 
     //aerospace
     aerospace_title_fisica1: "Введение в физику ракет - Основные концепции",
-    aerospace_description_fisica1: "В этом модуле курса я изучил: важность измерений, векторные величины, историческое введение, бразильскую космическую программу и Науку и Технологии (НТ) в космосе.",
-
+    aerospace_description_fisica1: "В этом модуле курса я изучил: Важность измерений; Векторные величины; Историческое введение; Бразильскую космическую программу и Науку и Технологии (НТ) в космосе.",
 
     aerospace_title_fisica2: "Введение в физику ракет – Космос, движения, гравитация и вес",
-    aerospace_description_fisica2: "В этом модуле курса я изучил: как достичь космоса, исследование движений ракет, связь между гравитацией и весом, различия между входом и выходом, а также вопросы подъема и спуска, а также концепцию подъема без спуска.",
+    aerospace_description_fisica2: "В этом модуле курса я изучил: Как достичь космоса; Исследование движений ракет; Связь между гравитацией и весом; Различия между входом и выходом; А также вопросы подъема и спуска; А также концепцию подъема без спуска.",
 
     aerospace_title_fisica3: "Введение в космическую тягу I",
-    aerospace_description_fisica3: "В этом модуле курса я изучил: фундаментальные концепции, сохранение импульса и Уравнение Циолковского, принципы тяги, системы химической тяги",
+    aerospace_description_fisica3: "В этом модуле курса я изучил: Фундаментальные концепции; Сохранение импульса и Уравнение Циолковского; Принципы тяги; Системы химической тяги.",
+
+    aerospace_title_fisica4: "Введение в аналоговую астронавтику",
+    aerospace_description_fisica4: "В этом модуле курса я изучил: Историю аэрокосмонавтики; New Space; Миссии на Луну и Марс; Аэрокосмическую систему и роль астронавтов; Карьеру и исследования в аэрокосмической сфере; Устойчивость космической среды; Здоровье и сельское хозяйство в аэрокосмосе; Образование и инновации в аэрокосмической отрасли; Аналоговые космические станции; И космическую станцию Habitat Marte.",
 
     // reason 2
     reason_final_description: `

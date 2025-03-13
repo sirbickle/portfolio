@@ -41,6 +41,7 @@ import {
   aero1,
   aero2,
   aero3,
+  aero4,
 
 } from "../assets";
 
@@ -304,7 +305,14 @@ export const getAerospace = (language) =>{
     description: getTranslatedText(language, 'aerospace_description_fisica3'),
     image: aero3,
     source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
-    liveUrl: " https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_fisica4'),
+    description: getTranslatedText(language, 'aerospace_description_fisica4'),
+    image: aero4,
+    source_code_link: "https://drive.google.com/file/d/18YbL6lOWIEcKg4CYRZfK2irP5QLbCU6i/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=sL9PPM462s&qrcode=1", // Link para a versão ao vivo
   },
 
 ];

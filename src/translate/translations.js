@@ -186,6 +186,8 @@ const translations = {
     aerospace_title_fisica5: "A Journey Through the Universe of Rockets: Theory and Practice",
     aerospace_description_fisica5: "In this module of the course, I learned about: Introduction to Rockets; History of Rockets; Space Race; How Rockets Work; Launch Centres and Brazilian Rockets; Building Your Own Rocket.",    
     
+    aerospace_title_fisica6: "Introduction to Nanosatellites",
+    aerospace_description_fisica6: "In this module of the course, I also learned about: Requirements and mission definition; Structural design; Thermal design; Launch; Communications; Data management and operation.",
 
     // reason 2
     reason_final_description: `
@@ -388,6 +390,8 @@ const translations = {
     aerospace_title_fisica5: "Um voo pelo universo dos foguetes: Teoria e Prática",
     aerospace_description_fisica5: "Neste módulo do curso, aprendi sobre: Introdução aos Foguetes; Histórico dos Foguetes; Corrida Espacial; Funcionamento dos Foguetes; Centros de Lançamento e Foguetes Brasileiros; Criando seu próprio foguete.",
 
+    aerospace_title_fisica6: "Introdução aos Nanossatélites",
+    aerospace_description_fisica6: "Neste módulo do curso, aprendi sobre: Definição de requisitos e da missão; Projeto estrutural; Projeto térmico; Lançamento; Comunicações; Gestão de dados e operação.",
 
     // reason 2
     reason_final_description: `
@@ -586,6 +590,9 @@ const translations = {
 
     aerospace_title_fisica5: "Путешествие по вселенной ракет: Теория и практика",
     aerospace_description_fisica5: "В этом модуле курса я изучил: Введение в ракеты; Историю ракет; Космическую гонку; Принцип работы ракет; Центры запуска и бразильские ракеты; Создание собственной ракеты.",
+
+    aerospace_title_fisica6: "Введение в наноспутники",
+    aerospace_description_fisica6: "В этом модуле курса я изучил: определение требований и миссии; проектирование конструкции; тепловое проектирование; запуск; коммуникации; управление данными и эксплуатация.",
 
     // reason 2
     reason_final_description: `

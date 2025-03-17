@@ -43,6 +43,7 @@ import {
   aero3,
   aero4,
   aero5,
+  aero6,
 
 } from "../assets";
 
@@ -322,6 +323,12 @@ export const getAerospace = (language) =>{
     source_code_link: "https://drive.google.com/file/d/1V28P_ErEywL2n5IXdLguS9vqtVoiDtzc/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=d9qgTuQsRI&qrcode=1", // Link para a versão ao vivo
   },
-
+  {
+    name: getTranslatedText(language, 'aerospace_title_fisica6'),
+    description: getTranslatedText(language, 'aerospace_description_fisica6'),
+    image: aero6,
+    source_code_link: "https://drive.google.com/file/d/1uUYckbfvQAG6idyJsaYYNsaHRa_JJXnT/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ob4xb3x0T4&qrcode=1", // Link para a versão ao vivo
+  },
 ];
 };

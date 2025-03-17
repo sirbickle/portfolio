@@ -182,6 +182,11 @@ const translations = {
     
     aerospace_title_fisica4: "Introduction to Analog Astronautics",
     aerospace_description_fisica4: "In this module of the course, I learned about: Aerospace history; New Space; Missions to the Moon and Mars; The Aerospace system and the role of astronauts; Aerospace careers and research; Space sustainability; Aerospace health and agriculture; Aerospace education and innovation; Analogue space stations; And the Habitat Marte space station.",    
+    
+    aerospace_title_fisica5: "A Journey Through the Universe of Rockets: Theory and Practice",
+    aerospace_description_fisica5: "In this module of the course, I learned about: Introduction to Rockets; History of Rockets; Space Race; How Rockets Work; Launch Centres and Brazilian Rockets; Building Your Own Rocket.",    
+    
+
     // reason 2
     reason_final_description: `
     <p>Russia has always attracted me due to its strong history in space exploration. The country was a pioneer with historic milestones such as the launch of the first satellite, Sputnik, and sending the first human into space, Yuri Gagarin. Its contributions continue with innovations in the development of rockets like the Soyuz, which are still used in space missions. Russia is a global leader in the development of aerospace technologies, with cutting-edge research infrastructure and advanced space programmes, such as the lunar exploration programme.</p>
@@ -380,6 +385,10 @@ const translations = {
     aerospace_title_fisica4: "Introdução à Astronáutica Análoga",
     aerospace_description_fisica4: "Neste módulo do curso, aprendi sobre: História aeroespacial; New Space; Missões à Lua e a Marte; O sistema aeroespacial e o papel dos astronautas; Carreira e pesquisa aeroespacial; Sustentabilidade espacial; Saúde e agricultura aeroespacial; Educação e inovação aeroespacial; Estações espaciais análogas; e A estação espacial Habitat Marte.",
 
+    aerospace_title_fisica5: "Um voo pelo universo dos foguetes: Teoria e Prática",
+    aerospace_description_fisica5: "Neste módulo do curso, aprendi sobre: Introdução aos Foguetes; Histórico dos Foguetes; Corrida Espacial; Funcionamento dos Foguetes; Centros de Lançamento e Foguetes Brasileiros; Criando seu próprio foguete.",
+
+
     // reason 2
     reason_final_description: `
     <p>A Rússia sempre me atraiu pela sua forte história na exploração espacial. O país foi pioneiro com marcos históricos como o lançamento do primeiro satélite, o Sputnik, e o envio do primeiro ser humano ao espaço, Yuri Gagarin. Sua contribuição continua com inovações no desenvolvimento de foguetes como o Soyuz, ainda utilizados em missões espaciais. A Rússia é um líder global no desenvolvimento de tecnologias aeroespaciais, com infraestrutura de pesquisa de ponta e programas espaciais avançados, como o programa de exploração da Lua.</p>
@@ -574,6 +583,9 @@ const translations = {
 
     aerospace_title_fisica4: "Введение в аналоговую астронавтику",
     aerospace_description_fisica4: "В этом модуле курса я изучил: Историю аэрокосмонавтики; New Space; Миссии на Луну и Марс; Аэрокосмическую систему и роль астронавтов; Карьеру и исследования в аэрокосмической сфере; Устойчивость космической среды; Здоровье и сельское хозяйство в аэрокосмосе; Образование и инновации в аэрокосмической отрасли; Аналоговые космические станции; И космическую станцию Habitat Marte.",
+
+    aerospace_title_fisica5: "Путешествие по вселенной ракет: Теория и практика",
+    aerospace_description_fisica5: "В этом модуле курса я изучил: Введение в ракеты; Историю ракет; Космическую гонку; Принцип работы ракет; Центры запуска и бразильские ракеты; Создание собственной ракеты.",
 
     // reason 2
     reason_final_description: `

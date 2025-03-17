@@ -44,6 +44,7 @@ import aero1 from "./aero1.jpg";
 import aero2 from "./aero2.jpg";
 import aero3 from "./aero3.jpg";
 import aero4 from "./aero4.jpg";
+import aero5 from "./aero5.jpg";
 
 // não deleta, n sei porque, ou sei, por partes
 import logo from "./logo3.png";
@@ -110,6 +111,7 @@ export {
   aero2,
   aero3,
   aero4,
+  aero5,
   
   //não sei para que serve, mas não delete
   

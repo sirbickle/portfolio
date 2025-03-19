@@ -10,6 +10,7 @@ import { drive, aeb } from "../assets";
 const AerospaceCard = ({
   name,
   description,
+  customDescription, // Nova propriedade para descrição personalizada
   image,
   source_code_link, // Link para o Google Drive
   liveUrl, // Link para AEB
@@ -63,9 +64,13 @@ const AerospaceCard = ({
 
       <div className="mt-5">
         <h3 className="text-white font-bold text-[24px]">{name}</h3>
-        <p className="mt-2 text-secondary text-[14px] h-[8rem] overflow-y-scroll">
-          {description}
-        </p>
+        {/* Verifique se customDescription foi fornecido, caso contrário, use description */}
+        <p
+          className="mt-2 text-secondary text-[14px] h-[8rem] overflow-y-scroll"
+          dangerouslySetInnerHTML={{
+            __html: customDescription || description, // Renderiza como HTML
+          }}
+        />
       </div>
     </Tilt>
   );
@@ -98,6 +103,7 @@ const Exp_Aerospace = ({ language }) => {
             key={`aerospace-${index}`}
             index={index}
             {...aerospace}
+            customDescription={aerospace.customDescription} // Passa customDescription se houver
           />
         ))}
       </div>

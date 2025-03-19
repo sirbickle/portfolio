@@ -45,6 +45,9 @@ import {
   aero5,
   aero6,
   aero7,
+  aero8,
+  aero9,
+  aero10,
 
 } from "../assets";
 
@@ -291,6 +294,27 @@ export const getAchiementSport = (language) =>{
 
 export const getAerospace = (language) =>{
   return [
+ /*{
+    name: getTranslatedText(language, 'aerospace_title_9'),
+    description: getTranslatedText(language, 'aerospace_description_9'),
+    image: aero9,      
+    source_code_link: "", // Link para o código
+    liveUrl: "", // Link para a versão ao vivo
+  },*/
+  {
+    name: getTranslatedText(language, 'aerospace_title_4'),
+    description: getTranslatedText(language, 'aerospace_description_4'),
+    image: aero4,      
+    source_code_link: "https://drive.google.com/file/d/18YbL6lOWIEcKg4CYRZfK2irP5QLbCU6i/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=sL9PPM462s&qrcode=1", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_8'),
+    description: getTranslatedText(language, 'aerospace_description_8'),
+    image: aero8,      
+    source_code_link: "https://drive.google.com/file/d/1mQ7LTOhzzMqCzVNTgH7bdXVUZhX3VlIr/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=DGstkJXMiC&qrcode=1", // Link para a versão ao vivo
+  },
   {
     name: getTranslatedText(language, 'aerospace_title_1'),
     description: getTranslatedText(language, 'aerospace_description_1'),
@@ -306,25 +330,18 @@ export const getAerospace = (language) =>{
     liveUrl: "https://drive.google.com/file/d/1EJiHMsXZtipleRbW8QkIXJpBaRRYBQdR/view?usp=sharing", // Link para a versão ao vivo
   },
   {
-    name: getTranslatedText(language, 'aerospace_title_3'),
-    description: getTranslatedText(language, 'aerospace_description_3'),
-    image: aero3,
-    source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
-    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
-  },
-  {
-    name: getTranslatedText(language, 'aerospace_title_4'),
-    description: getTranslatedText(language, 'aerospace_description_4'),
-    image: aero4,
-    source_code_link: "https://drive.google.com/file/d/18YbL6lOWIEcKg4CYRZfK2irP5QLbCU6i/view?usp=sharing", // Link para o código
-    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=sL9PPM462s&qrcode=1", // Link para a versão ao vivo
-  },
-  {
     name: getTranslatedText(language, 'aerospace_title_5'),
     description: getTranslatedText(language, 'aerospace_description_5'),
     image: aero5,
     source_code_link: "https://drive.google.com/file/d/1V28P_ErEywL2n5IXdLguS9vqtVoiDtzc/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=d9qgTuQsRI&qrcode=1", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_3'),
+    description: getTranslatedText(language, 'aerospace_description_3'),
+    image: aero3,
+    source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
   },
   {
     name: getTranslatedText(language, 'aerospace_title_6'),
@@ -333,6 +350,13 @@ export const getAerospace = (language) =>{
     source_code_link: "https://drive.google.com/file/d/1uUYckbfvQAG6idyJsaYYNsaHRa_JJXnT/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ob4xb3x0T4&qrcode=1", // Link para a versão ao vivo
   },
+/*  {
+    name: getTranslatedText(language, 'aerospace_title_10'),
+    description: getTranslatedText(language, 'aerospace_description_10'),
+    image: aero10,
+    source_code_link: "", // Link para o código
+    liveUrl: "", // Link para a versão ao vivo
+  },*/
   {
     name: getTranslatedText(language, 'aerospace_title_7'),
     description: getTranslatedText(language, 'aerospace_description_7'),

@@ -23,8 +23,7 @@ const translations = {
     <p>Music is another passion: I play bass and guitar, which helps me disconnect a bit from the digital world. For 3 years (2020-2023), I played in a band called Atrois, where we did a few shows and recorded and released, in 2022, our first EP titled Na Mão do Palhaço (In the Clown's Hands), which is available on digital platforms.</p>
     <p>When I'm not involved in IT projects, playing, or programming, I like to practise sports, especially running and working out.</p>
     <p>Finally, I'm curious and passionate about nature, travel, new cultures, and exploration.</p>
-    <p>I enjoy learning about science, such as cosmology, astronomy, physics, and related topics. I'm also always looking to learn new languages to connect better with the world.</p>
-    `,
+    <p>I enjoy learning about science, such as cosmology, astronomy, physics, and related topics. I'm also always looking to learn new languages to connect better with the world.</p>`,
 
     //service
     "hobbies_tecnologia": "Information Technology",
@@ -45,8 +44,8 @@ const translations = {
     <p>Although I am currently focused on studying Russian, I still hold a great fondness for German. It was this experience that opened the doors to my interest in new cultures and languages.</p>
     <p>Throughout the course, I had incredible moments, such as conversing with native speakers and even applying for the chance to travel to Germany through the Goethe-Institut. Unfortunately, the selection was done by lottery, and I wasn’t chosen.</p>
     <p>After finishing my studies at Isabel Lopes Monteiro, I went on to study at Senador Luiz Nogueira Martins from 2015 to 2017, where I completed my secondary education.</p>
-    <p>In 2022, I enrolled at Sorocaba Engineering College (FACENS) to pursue a Higher National Diploma in Systems Analysis and Development, graduating in 2024.</p>
-`,
+    <p>In 2022, I enrolled at Sorocaba Engineering College (FACENS) to pursue a Higher National Diploma in Systems Analysis and Development, graduating in 2024.</p>`,
+
     //exp_study
     "experiences_title_study": "Experiences",
     "experiences_description_study": "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
@@ -99,8 +98,7 @@ const translations = {
     <p>Without a doubt, Judo holds great significance in my life. I began practising at the age of 7 or 8 and stopped when I was around 14 or 15. Throughout my journey, I had the honour of participating in the Paulista Judo Federation, travelling to various towns and cities cross the state of São Paulo for competitions. I trained at the Bandeirantes Sorocaba gym and was a student of Sensei Antonio Rizzardo.</p>
     <p>I have a considerable background in Judo, having participated in competitions since 2007, both in Sorocaba and in other cities through the Paulista Judo Federation. In total, I won 28 championships between 2007 and 2013. The most memorable were the Regional, where I became the champion, and the State, where I was the runner-up.</p>
     <p>The main reason my mother enrolled me in Judo was because I was quite impulsive and needed to channel my energy in a constructive way. I tried other sports, such as swimming and football, but the only one that truly captivated me was Judo. However, due to the timing of my German course, I had to stop practising Judo and ended my activities at green belt, with just three belts remaining to achieve black belt.</p>
-    <p>Nevertheless, Judo was not the only sport I practised. I was the runner-up in Handball during primary school at the JES (Student Games) competition. At present, I still practise sports such as running, having participated in several marathons, in addition to going to the gym.</p>
-    `,
+    <p>Nevertheless, Judo was not the only sport I practised. I was the runner-up in Handball during primary school at the JES (Student Games) competition. At present, I still practise sports such as running, having participated in several marathons, in addition to going to the gym.</p>`,
 
     //exp_sport
     "experiences_title": "Experiences",
@@ -167,34 +165,88 @@ const translations = {
     <p>Like every child, I too dreamt of becoming an astronaut, fuelled by films, cartoons, and video games. However, just like many others, I eventually set that dream aside to pursue a different path, graduating in the field of IT. I worked as a support technician and project manager, and during this time, I realised the impact my work had on the lives of others. Yet, I understood that I wanted to direct my contributions to something that had always fascinated me: space.</p>
     <p>The current moment in space exploration has rekindled my curiosity. The advancements in manned missions, the growing presence of private companies, and the increasing investment by countries in the sector, coupled with the real possibility of a new space age, made me realise that I wanted to be part of this. That is why I decided to transition to Aerospace Engineering.</p>
     <p>My goals are clear: I want to become an aerospace engineer and continue my studies, with a master's degree, postgraduate studies, and a PhD. I wish to work for a space agency and, at the end of my career, become a university professor to share the knowledge I have gained throughout my journey.</p>
-    <p>To start understanding how this area of engineering works, I began studying independently. The AEB (Brazilian Space Agency) has made some courses available in the field of Aerospace Sciences, which I am using to learn about basic concepts, space, motion, gravity and weight, propulsion, and nanosatellites. I also participated in the IASC (International Astronomical Search Collaboration) programme, a global project that involves students and enthusiasts in the search for asteroids and other space objects using telescope images. This work contributes to scientific research and monitoring of risks to Earth.</p>
-  `,
+    <p>To start understanding how this area of engineering works, I began studying independently. The AEB (Brazilian Space Agency) has made some courses available in the field of Aerospace Sciences, which I am using to learn about basic concepts, space, motion, gravity and weight, propulsion, and nanosatellites. I also participated in the IASC (International Astronomical Search Collaboration) programme, a global project that involves students and enthusiasts in the search for asteroids and other space objects using telescope images. This work contributes to scientific research and monitoring of risks to Earth.</p>`,
 
     //aerospace
-
     experiences_title_aerospace: "Certificates in Aerospace Science",
     experiences_description_aerospace: "The certificates I obtained while studying the subject. To view them in detail, click on the 'Drive' icon to access the certificate or on the 'AEB' icon to access the QR Code content of the certificate.",
 
-    aerospace_title_1: "Introduction to Rocket Physics - Fundamental Concepts",
-    aerospace_description_1: "In this module of the course, I learned about: The Importance of measurement; Vector quantities; Historical introduction; The Brazilian space programme and Science and Technology (S&T) in space.",
-    
-    aerospace_title_2: "Introduction to Rocket Physics - Space, motion, gravity, and weight",
-    aerospace_description_2: "In this course module, I learned about: How to reach space; The study of rocket movements; The relationship between gravity and weight; The differences between entry and exit; As well as the issues of Ascending and descending; And the concept of Ascending without descending.",
-    
+    aerospace_title_1: "Introduction to Rocket Physics - Initial Concepts",  
+    aerospace_description_1: `In this course module, I learned about: 
+    <li>The importance of measurement;</li>
+    <li>Vector quantities;</li>
+    <li>Historical introduction;</li>
+    <li>The Brazilian space programme;</li>
+    <li>Space Science and Technology (S&T).</li>`, 
+
+    aerospace_title_2: "Introduction to Rocket Physics - Space, Movements, Gravity, and Weight",
+    aerospace_description_2: `In this course module, I learned about: 
+    <li>How to reach space;</li>
+    <li>The study of rocket movements;</li>
+    <li>The relationship between gravity and weight;</li> 
+    <li>The differences between entry and exit;</li>
+    <li>Climbing and descending / climbing and not descending.</li>`, 
+
     aerospace_title_3: "Introduction to Space Propulsion I",
-    aerospace_description_3: "In this course module, I learned about: Fundamental concepts; Conservation of momentum and Tsiolkovsky's Equation; Principles of propulsion; Chemical propulsion systems.",
-    
-    aerospace_title_4: "Introduction to Analog Astronautics",
-    aerospace_description_4: "In this module of the course, I learned about: Aerospace history; New Space; Missions to the Moon and Mars; The Aerospace system and the role of astronauts; Aerospace careers and research; Space sustainability; Aerospace health and agriculture; Aerospace education and innovation; Analogue space stations; And the Habitat Marte space station.",    
-    
-    aerospace_title_5: "A Journey Through the Universe of Rockets: Theory and Practice",
-    aerospace_description_5: "In this module of the course, I learned about: Introduction to Rockets; History of Rockets; Space Race; How Rockets Work; Launch Centres and Brazilian Rockets; Building Your Own Rocket.",    
-    
+    aerospace_description_3: `In this course module, I learned about: 
+    <li>Fundamental concepts;</li>
+    <li>Conservation of momentum and Tsiolkovsky's equation;</li>
+    <li>Principles of propulsion;</li>
+    <li>Chemical propulsion systems.</li>`, 
+
+    aerospace_title_4: "Introduction to Analogue Astronautics",
+    aerospace_description_4: `In this course module, I learned about: 
+    <li>Aerospace history;</li>
+    <li>New Space; Moon and Mars missions;</li>
+    <li>The aerospace system and the role of astronauts;</li>
+    <li>Aerospace careers and research;</li>
+    <li>Space sustainability;</li>
+    <li>Aerospace health and agriculture;</li>
+    <li>Aerospace education and innovation;</li>
+    <li>Analogue space stations;</li>
+    <li>The Habitat Mars space station.</li>`, 
+
+    aerospace_title_5: "A Journey through the Universe of Rockets: Theory and Practice",
+    aerospace_description_5: `In this course module, I learned about: 
+    <li>Introduction to Rockets;</li>
+    <li>History of Rockets;</li>
+    <li>The Space Race;</li>
+    <li>How Rockets work;</li>
+    <li>Launch Centres and Brazilian Rockets;</li>
+    <li>Building your own rocket.</li>`, 
+
     aerospace_title_6: "Introduction to Nanosatellites",
-    aerospace_description_6: "In this module of the course, I also learned about: Requirements and mission definition; Structural design; Thermal design; Launch; Communications; Data management and operation.",
+    aerospace_description_6: `In this course module, I learned about: 
+    <li>Defining mission requirements;</li>
+    <li>Structural design;</li>
+    <li>Thermal design;</li> 
+    <li>Launch;</li>
+    <li>Communications;</li>
+    <li>Data management and operation.</li>`, 
 
     aerospace_title_7: "Space Law",
-    aerospace_description_7: "In this module of the course, I learned about: the introduction to space law, space treaties, the definition and delimitation of outer space, the history, functioning, and Brazil’s participation in COPUOS, the concept of NewSpace as a congested, contested, and competitive environment, space debris, space resources, and the national regulations of AEB and PNAE.",
+    aerospace_description_7: `In this course module, I learned about: 
+    <li>Introduction to space law;</li> 
+    <li>Space treaties;</li> 
+    <li>Defining and delimiting outer space;</li> 
+    <li>COPUOS: history, functioning, and Brazil's participation;</li> 
+    <li>NewSpace: Congested, contested, and competitive;</li> 
+    <li>Space debris;</li>
+    <li>Space resources;</li>
+    <li>National regulations of AEB and PNAE.</li>`,
+
+    aerospace_title_8: "Introduction to Technology Readiness and its Metrics",
+    aerospace_description_8: `In this course module, I learned about:
+    <li>Introduction to technology and its associated concepts: technological and scientific research, engineering, technological risk, and technological requirements.</li>
+    <li>Evolution, description, and technological maturity. What characterises technological development, technological classifications. Technological maturity.</li>
+    <li>Analytical decomposition of technological products (DAP) and its maturity measure. DAP and IMATEC. Differences between integration and technological development projects.</li>
+    <li>How to use the IMATEC software. Creation, characterisation, description, and analysis of a DAP using the IMATEC software. Analysis of the final maturity report.</li>`, 
+
+    aerospace_title_9: "Introduction to Aerospace Geopolitics",
+    aerospace_description_9: `In this course module, I learned about:`, 
+
+    aerospace_title_10: "Project Management in the Aerospace Sector",
+    aerospace_description_10: `In this course module, I learned about:`, 
 
     // reason 2
     reason_final_description: `
@@ -202,9 +254,7 @@ const translations = {
     <p>Moreover, the country has a long tradition of academic excellence, with renowned universities that stand out in fields like engineering and natural sciences. Collaboration with international students is a historical characteristic, and this, combined with the strong rankings of Russian universities in international rankings, makes the country an ideal place for my professional development.</p>
     <p>The geographical and cultural diversity of Russia is also a major attraction. With stunning landscapes, such as the marble quarries of Karelia, the crystal-clear waters of Lake Baikal, and the volcanoes of Kamchatka, the country offers a rich natural experience. Its culture, with great literary classics by names like Pushkin, Tolstoy, and Dostoevsky, and classical music by Tchaikovsky and Rachmaninoff, complement the experience, making Russia a unique place to study and live.</p>
     <p>I am aware that the transition to Aerospace Engineering will be challenging, but I am determined to dedicate all my effort to achieving this goal. I have full confidence that, with the knowledge I will acquire, I will be able to contribute significantly to the advancement of technology and science in the aerospace field, as well as share my learning with future generations.</p>
-    <p><strong>"Brazil is not far from Russia for a man with purpose."</strong></p>
-  `,
-
+    <p><strong>"Brazil is not far from Russia for a man with purpose."</strong></p>`,
   },
 
   pt: {
@@ -230,8 +280,7 @@ const translations = {
     <p>A música é outra paixão: toco baixo e guitarra, o que me ajuda a me desconectar um pouco do mundo digital. Durante 3 anos (2020-2023), toquei em uma banda chamada Atrois, na qual fizemos alguns shows e gravamos e lançamos, em 2022, nosso primeiro EP, intitulado Na Mão do Palhaço, que está disponível nas plataformas digitais.</p>
     <p> Quando não estou envolvido em projetos de TI, jogando ou programando, gosto de praticar esportes, especialmente correr e malhar.</p>
     <p> Por fim, sou curioso e apaixonado por natureza, viagens, novas culturas e exploração.</p>
-    <p> Gosto de aprender sobre ciência, como cosmologia, astronomia, física e temas relacionados. Também estou sempre buscando aprender novos idiomas para me conectar melhor com o mundo.</p>
-    `,
+    <p> Gosto de aprender sobre ciência, como cosmologia, astronomia, física e temas relacionados. Também estou sempre buscando aprender novos idiomas para me conectar melhor com o mundo.</p>`,
 
     //hobbies
     hobbies_tecnologia: "Tecnologia da Informação",
@@ -252,8 +301,7 @@ const translations = {
     <p> Apesar de atualmente estar focado no estudo do russo, ainda tenho um grande carinho pelo alemão. Foi essa experiência que abriu as portas para meu interesse por novas culturas e idiomas.</p> 
     <p> Durante o curso, tive momentos incríveis, como conversar com falantes nativos e até concorrer a uma oportunidade de viajar para a Alemanha pelo Goethe-Institut. Infelizmente, a seleção era feita por sorteio, e não consegui a vaga.</p>  
     <p> Após concluir meus estudos na Isabel Lopes Monteiro, cursei o Ensino Médio na escola Senador Luiz Nogueira Martins, de 2015 a 2017.</p>  
-    <p> Em 2022, entrei na Faculdade de Engenharia de Sorocaba (FACENS) para cursar Tecnólogo em Análise e Desenvolvimento de Sistemas, formando-me em 2024.</p>  
-    `,
+    <p> Em 2022, entrei na Faculdade de Engenharia de Sorocaba (FACENS) para cursar Tecnólogo em Análise e Desenvolvimento de Sistemas, formando-me em 2024.</p>`,
 
     //exp_study
     experiences_title_study: "Experiências",
@@ -307,8 +355,7 @@ const translations = {
     <p>Sem dúvida, o Judô tem uma grande importância na minha vida. Comecei a praticar aos 7 ou 8 anos e parei por volta dos 14 ou 15. Durante minha trajetória, tive a honra de participar da Federação Paulista de Judô, viajar para vários municípios do estado de São Paulo em competições, treinar na Academia Bandeirantes Sorocaba e ser aluno do Sensei Antonio Rizzardo.</p>
     <p>Tenho um currículo considerável no Judô, com participações em competições desde 2007, tanto em Sorocaba quanto em outras cidades pela Federação Paulista de Judô. Ao todo, conquistei 28 campeonatos entre 2007 e 2013. Os mais marcantes foram o Regional, onde fui campeão, e o Estadual, onde conquistei o título de vice-campeão.</p>
     <p>O principal motivo de minha mãe me inscrever no Judô foi o fato de eu ser muito impulsivo e precisar canalizar minha energia de forma construtiva. Tentei outros esportes, como natação e futebol, mas o único que realmente me cativou foi o Judô. Porém, devido ao horário do meu curso de alemão, precisei interromper o Judô e encerrei minhas atividades na faixa verde, com apenas 3 faixas restantes para alcançar a faixa preta.</p>
-    <p>No entanto, o Judô não foi o único esporte que pratiquei. Fui vice-campeão de Handebol no Ensino Fundamental, no campeonato JES (Jogos Estudantis). Atualmente, continuo praticando esportes como corrida, já tendo participado de algumas maratonas, além de frequentar a academia.</p>
-  `,
+    <p>No entanto, o Judô não foi o único esporte que pratiquei. Fui vice-campeão de Handebol no Ensino Fundamental, no campeonato JES (Jogos Estudantis). Atualmente, continuo praticando esportes como corrida, já tendo participado de algumas maratonas, além de frequentar a academia.</p>`,
 
     //exp_sport
     experiences_title: "Experiências",
@@ -375,33 +422,88 @@ const translations = {
     <p>Como toda criança, eu também sonhei em ser astronauta, alimentado por filmes, desenhos e jogos de videogame. No entanto, assim como muitos, acabei deixando esse sonho de lado para seguir outro caminho, me formando na área de T.I. Trabalhei como suporte e gerente de projetos, e durante esse período, percebi o impacto que meu trabalho tinha na vida de outras pessoas. Porém, entendi que queria direcionar minhas contribuições para algo que sempre me fascinou: o espaço.</p>
     <p>O momento atual da exploração espacial reacendeu minha curiosidade. Os avanços em missões tripuladas, a crescente presença de empresas privadas e o aumento do investimento de países no setor, junto à possibilidade real de uma nova era espacial, me fizeram perceber que queria fazer parte disso. Por isso, decidi fazer a transição para a Engenharia Aeroespacial.</p>
     <p>Meus objetivos são bem claros: quero me tornar engenheiro aeroespacial e continuar meus estudos, com mestrado, pós-graduação e doutorado. Desejo trabalhar em uma agência espacial e, ao final da minha carreira, me tornar professor universitário, para compartilhar o conhecimento adquirido ao longo da minha trajetória.</p>
-    <p>Para começar a entender como funciona esse lado da engenharia, comecei a estudar por conta própria. A AEB (Agência Espacial Brasileira) disponibilizou alguns cursos na área de Ciências Aeroespaciais, que estou utilizando para aprender sobre conceitos iniciais, espaço, movimento, gravidade e peso, propulsão e nanosatélites. Também participei do programa IASC (International Astronomical Search Collaboration), um projeto global que envolve estudantes e entusiastas na busca de asteroides e outros objetos espaciais, utilizando imagens de telescópios. Esse trabalho contribui para a pesquisa científica e o monitoramento de riscos à Terra.</p>
-  `,
+    <p>Para começar a entender como funciona esse lado da engenharia, comecei a estudar por conta própria. A AEB (Agência Espacial Brasileira) disponibilizou alguns cursos na área de Ciências Aeroespaciais, que estou utilizando para aprender sobre conceitos iniciais, espaço, movimento, gravidade e peso, propulsão e nanosatélites. Também participei do programa IASC (International Astronomical Search Collaboration), um projeto global que envolve estudantes e entusiastas na busca de asteroides e outros objetos espaciais, utilizando imagens de telescópios. Esse trabalho contribui para a pesquisa científica e o monitoramento de riscos à Terra.</p>`,
 
     //aerospace
     experiences_title_aerospace: "Certificados sobre Ciência Aeroespacial",
     experiences_description_aerospace: "Os certificados que adquiri ao estudar sobre o tema. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado ou no ícone da 'AEB' para acessar o conteúdo do QR Code do certificado.",
 
     aerospace_title_1: "Introdução à Física de Foguetes - Conceitos iniciais",  
-    aerospace_description_1: "Neste módulo do curso, aprendi sobre: Importância de medir; Grandezas vetoriais; Introdução histórica; O programa espacial brasileiro; e Ciência e Tecnologia (C&T) espacial.", 
+    aerospace_description_1: `Neste módulo do curso, aprendi sobre: 
+    <li>Importância de medir;</li>
+    <li>Grandezas vetoriais;</li>
+    <li>Introdução histórica;</li>
+    <li>O programa espacial brasileiro;</li>
+    <li>Ciência e Tecnologia (C&T) espacial.</li>`, 
 
     aerospace_title_2: "Introdução à Física de Foguetes - Espaço, movimentos, gravidade e peso",
-    aerospace_description_2: "Neste módulo do curso, aprendi sobre: Como alcançar o espaço; O estudo dos movimentos dos foguetes; A relação entre gravidade e peso; As diferenças entre entrada e saída; além das questões de subir e descer; e O conceito de subir sem descer.",
+    aerospace_description_2: `Neste módulo do curso, aprendi sobre: 
+    <li>Como alcançar o espaço;</li>
+    <li>O estudo dos movimentos dos foguetes;</li>
+    <li>A relação entre gravidade e peso;</li> 
+    <li>As diferenças entre entrada e saída;</li>
+    <li>Subir e descer / subir e não descer.</li>`,
 
     aerospace_title_3: "Introdução à Propulsão Espacial I",
-    aerospace_description_3: "Neste módulo do curso, aprendi sobre: Conceitos fundamentais; Conservação do momento e Equação de Tsiolkovsky; Princípios de propulsão; e Sistemas de propulsão química.",
+    aerospace_description_3: `Neste módulo do curso, aprendi sobre: 
+    <li>Conceitos fundamentais;</li>
+    <li>Conservação do momento e Equação de Tsiolkovsky;</li>
+    <li>Princípios de propulsão;</li>
+    <li>Sistemas de propulsão química.</li>`,
 
     aerospace_title_4: "Introdução à Astronáutica Análoga",
-    aerospace_description_4: "Neste módulo do curso, aprendi sobre: História aeroespacial; New Space; Missões à Lua e a Marte; O sistema aeroespacial e o papel dos astronautas; Carreira e pesquisa aeroespacial; Sustentabilidade espacial; Saúde e agricultura aeroespacial; Educação e inovação aeroespacial; Estações espaciais análogas; e A estação espacial Habitat Marte.",
+    aerospace_description_4: `Neste módulo do curso, aprendi sobre: 
+    <li>História aeroespacial;</li>
+    <li>New Space; Missões à Lua e a Marte;</li>
+    <li>O sistema aeroespacial e o papel dos astronautas;</li>
+    <li>Carreira e pesquisa aeroespacial;</li>
+    <li>Sustentabilidade espacial;</li>
+    <li>Saúde e agricultura aeroespacial;</li>
+    <li>Educação e inovação aeroespacial;</li>
+    <li>Estações espaciais análogas;</li>
+    <li>A estação espacial Habitat Marte.</li>`,
 
     aerospace_title_5: "Um voo pelo universo dos foguetes: Teoria e Prática",
-    aerospace_description_5: "Neste módulo do curso, aprendi sobre: Introdução aos Foguetes; Histórico dos Foguetes; Corrida Espacial; Funcionamento dos Foguetes; Centros de Lançamento e Foguetes Brasileiros; Criando seu próprio foguete.",
+    aerospace_description_5: `Neste módulo do curso, aprendi sobre: 
+    <li>Introdução aos Foguetes;</li>
+    <li>Histórico dos Foguetes;</li>
+    <li>Corrida Espacial;</li>
+    <li>Funcionamento dos Foguetes;</li>
+    <li>Centros de Lançamento e Foguetes Brasileiros;</li>
+    <li>Criando seu próprio foguete.</li>`,
 
     aerospace_title_6: "Introdução aos Nanossatélites",
-    aerospace_description_6: "Neste módulo do curso, aprendi sobre: Definição de requisitos e da missão; Projeto estrutural; Projeto térmico; Lançamento; Comunicações; Gestão de dados e operação.",
+    aerospace_description_6: `Neste módulo do curso, aprendi sobre: 
+    <li>Definição de requisitos e da missão;</li>
+    <li>Projeto estrutural;</li>
+    <li>Projeto térmico;</li> 
+    <li>Lançamento;</li>
+    <li>Comunicações;</li>
+    <li>Gestão de dados e operação.</li>`,
 
     aerospace_title_7: "Direito Espacial",
-    aerospace_description_7: "Neste módulo do curso, aprendi sobre: Introdução ao direito espacial; Tratados Espaciais; Definição e delimitação do espaço exterior; COPUOS: história, funcionamento e participação do Brasil; NewSpace: Congestionado, contestado e competitivo; Detritos espaciais; Recursos Espaciais; Regulamentos nacionais da AEB e PNAE.",
+    aerospace_description_7: `Neste módulo do curso, aprendi sobre: 
+    <li>Introdução ao direito espacial;</li> 
+    <li>Tratados Espaciais;</li> 
+    <li>Definição e delimitação do espaço exterior;</li> 
+    <li>COPUOS: história, funcionamento e participação do Brasil;</li> 
+    <li>NewSpace: Congestionado, contestado e competitivo;</li> 
+    <li>Detritos espaciais;</li>
+    <li>Recursos Espaciais;</li>
+    <li>Regulamentos nacionais da AEB e PNAE.</li>`,
+
+    aerospace_title_8: "Introdução à Maturidade Tecnológica e suas métricas",
+    aerospace_description_8: `Neste módulo do curso, aprendi sobre:
+    <li>Introdução a tecnologia e seus conceitos associados: pesquisa tecnológica e científica, engenharia, risco tecnológico, requisitos tecnológicos.</li>
+    <li>Evolução, descrição e Maturidade tecnológica. O que caracteriza desenvolvimento tecnológico, classificações tecnológicas. Maturidade tecnológica.</li>
+    <li>Decomposição analítica de produtos tecnológicos (DAP) e sua medida de maturidade. DAP e IMATEC. Diferenças entre projetos de integração versus de desenvolvimento tecnológico.</li>
+    <li>Como usar o Software IMATEC. Criação, caracterização, descrição e análise de uma DAP via software IMATEC. Análise do relatório final de maturidade.</li>`,
+
+    aerospace_title_9: "Introdução à Geopolítica Aeroespacial",
+    aerospace_description_9: `Neste módulo do curso, aprendi sobre:`,
+
+    aerospace_title_10: "Gestão de Projetos no Setor Aeroespacial",
+    aerospace_description_10: ".",
 
     // reason 2
     reason_final_description: `
@@ -409,8 +511,7 @@ const translations = {
     <p>Além disso, o país tem uma longa tradição de excelência acadêmica, com universidades renomadas que se destacam em áreas como engenharia e ciências naturais. A colaboração com estudantes internacionais é uma característica histórica, e isso, somado às boas colocações das universidades russas em rankings internacionais, torna o país um lugar ideal para o meu desenvolvimento profissional.</p>
     <p>A diversidade geográfica e cultural da Rússia também é uma grande atração. Com paisagens incríveis, como as pedreiras de mármore da Carélia, as águas cristalinas do Lago Baikal e os vulcões de Kamchatka, o país oferece uma rica experiência natural. Sua cultura, com grandes clássicos literários de nomes como Pushkin, Tolstoi e Dostoiévski, e a música clássica de Tchaikovsky e Rachmaninov, complementam a experiência, tornando a Rússia um local único para estudar e viver.</p>
     <p>Estou ciente de que a transição para a Engenharia Aeroespacial será desafiadora, mas estou determinado a dedicar todo o meu esforço para alcançar esse objetivo. Tenho plena confiança de que, com o conhecimento que adquirirei, poderei contribuir de maneira significativa para o avanço da tecnologia e da ciência no campo aeroespacial, além de compartilhar meu aprendizado com futuras gerações.</p>
-    <p><strong>"O Brasil não está longe da Rússia para um homem com propósito."</strong></p>
-   `,
+    <p><strong>"O Brasil não está longe da Rússia para um homem com propósito."</strong></p>`,
   },
 
   ru: {
@@ -436,8 +537,7 @@ const translations = {
     <p>Музыка — еще одна моя страсть: я играю на бас-гитаре и гитаре, что помогает мне немного отключиться от цифрового мира. В течение 3 лет (с 2020 по 2023 год) я играл в группе под названием Atrois, с которой мы давали несколько концертов, записали и выпустили в 2022 году наш первый EP, под названием *На Руке У Клоуна* (Na Mão do Palhaço), который доступен на цифровых платформах.</p>
     <p>Когда я не занят проектами в ИТ, играми или программированием, я люблю заниматься спортом, особенно бегом и тренировками в спортзале.</p>
     <p>В конце концов, я любознателен и увлечен природой, путешествиями, новыми культурами и исследованиями.</p>
-    <p>Мне нравится изучать такие науки, как космология, астрономия, физика и другие связанные с ними темы. Я также всегда стремлюсь учить новые языки, чтобы лучше понять мир.</p>
-    `,
+    <p>Мне нравится изучать такие науки, как космология, астрономия, физика и другие связанные с ними темы. Я также всегда стремлюсь учить новые языки, чтобы лучше понять мир.</p>`,
 
     //hobies
     hobbies_tecnologia: "Информационные технологии",
@@ -458,8 +558,7 @@ const translations = {
     <p>Хотя я больше не изучаю немецкий (поскольку заинтересовался русским), у меня всё ещё остаются тёплые воспоминания об этом языке. Он открыл для меня новые культуры и возможность изучать новые языки.</p>
     <p>В ходе обучения я получил потрясающий опыт, общаясь с носителями языка, а также была возможность посетить страну через программу Гёте, хотя я не смог поехать, так как это было основано на лотерее.</p>
     <p>После окончания учёбы в Isabel Lopes Monteiro я продолжил обучение в Senador Luiz Nogueira Martins с 2015 по 2017 год и закончил среднюю школу.</p>
-    <p>В 2022 году я поступил в факультет инженерии города Сорокаба на программу Технолог по анализу и разработке систем и окончил обучение в 2024 году.</p>
-  `,
+    <p>В 2022 году я поступил в факультет инженерии города Сорокаба на программу Технолог по анализу и разработке систем и окончил обучение в 2024 году.</p>`,
 
     //exp_study
     experiences_title_study: "Опыт",
@@ -513,8 +612,7 @@ const translations = {
     <p>Без сомнений, дзюдо занимает важное место в моей жизни. Я начал заниматься этим спортом в возрасте 7 или 8 лет и прекратил в возрасте 14 или 15 лет. В этом спорте мне посчастливилось участвовать в Федерации дзюдо штата Сан-Паулу, путешествовать по различным городам штата Сан-Паулу для участия в соревнованиях, тренироваться в академии Bandeirantes в Сорокабе и быть учеником сенсея Антонио Ризардо.</p>
     <p>У меня есть довольно внушительное резюме в дзюдо, в плане участия в соревнованиях, начиная с 2007 года в Сорокабе и других городах штата, с общим количеством 28 выигранных чемпионатов с 2007 по 2013 год. Однако самые яркие воспоминания оставили чемпионат регионального уровня, где я стал чемпионом, и чемпионат штата, где я стал вице-чемпионом.</p>
     <p>Основной причиной, по которой мама отдала меня в этот спорт, было то, что я был довольно импульсивным и мне нужно было найти способ потратить энергию. Я пробовал другие виды спорта, такие как плавание и футбол, но единственным, который мне по-настоящему понравился, было дзюдо. Из-за расписания курсов немецкого языка мне пришлось отказаться от дзюдо, и я завершил свою карьеру на зелёном поясе, не дойдя всего лишь до 3-х поясных ступеней для получения чёрного пояса.</p>
-    <p>Однако я занимался не только дзюдо, я также стал вице-чемпионом по гандболу на школьных играх JES (Игры Студентов). В настоящее время я продолжаю заниматься спортом, бегал в нескольких марафонах и посещаю тренажерный зал.</p>
-  `,
+    <p>Однако я занимался не только дзюдо, я также стал вице-чемпионом по гандболу на школьных играх JES (Игры Студентов). В настоящее время я продолжаю заниматься спортом, бегал в нескольких марафонах и посещаю тренажерный зал.</p>`,
 
     //exp_sport
     experiences_title: "Опыт",
@@ -582,34 +680,89 @@ const translations = {
     <p>Как и все дети, я тоже мечтал стать астронавтом, вдохновлённый фильмами, мультсериалами и видеоиграми. Однако, как и многие другие, я в конечном итоге оставил эту мечту и пошёл по другому пути, получив образование в области информационных технологий. Я работал в качестве специалиста по поддержке и менеджера проектов, и в процессе работы понял, какое влияние моя деятельность оказывает на жизни других людей. Тем не менее, я осознал, что хочу направить свои усилия на то, что всегда меня увлекало: космос.</p>
     <p>Текущий момент в области космических исследований пробудил моё любопытство. Прогресс в пилотируемых миссиях, растущее присутствие частных компаний и увеличение инвестиций стран в эту отрасль, а также реальная возможность новой космической эры, заставили меня осознать, что я хочу быть частью этого процесса. Поэтому я решил перейти в область аэрокосмической инженерии.</p>
     <p>Мои цели вполне ясны: я хочу стать инженером-аэрокосмистом и продолжить обучение, получив степень магистра, аспиранта и доктора наук. Я хочу работать в космическом агентстве и, в конце своей карьеры, стать университетским преподавателем, чтобы передавать знания, полученные на протяжении всей моей карьеры.</p>
-    <p>Чтобы начать понимать, как работает эта сторона инженерии, я начал учиться самостоятельно. AEB (Бразильское космическое агентство) предложило несколько курсов в области аэрокосмических наук, которые я использую для изучения начальных понятий, пространства, движения, гравитации и веса, пропульсии и наносатэллитов. Я также участвовал в программе IASC (Международное астрономическое поисковое сотрудничество), мировом проекте, который включает студентов и энтузиастов в поисках астероидов и других космических объектов с использованием изображений телескопов. Эта работа вносит вклад в научные исследования и мониторинг рисков для Земли.</p>
-  `,
+    <p>Чтобы начать понимать, как работает эта сторона инженерии, я начал учиться самостоятельно. AEB (Бразильское космическое агентство) предложило несколько курсов в области аэрокосмических наук, которые я использую для изучения начальных понятий, пространства, движения, гравитации и веса, пропульсии и наносатэллитов. Я также участвовал в программе IASC (Международное астрономическое поисковое сотрудничество), мировом проекте, который включает студентов и энтузиастов в поисках астероидов и других космических объектов с использованием изображений телескопов. Эта работа вносит вклад в научные исследования и мониторинг рисков для Земли.</p>`,
 
     //aerospace
 
     experiences_title_aerospace: "Сертификаты по аэрокосмической науке",
     experiences_description_aerospace: "Сертификаты, которые я получил, изучая эту тему. Чтобы просмотреть их подробно, нажмите на значок «Drive», чтобы получить доступ к сертификату, или на значок «AEB», чтобы открыть содержимое QR-кода сертификата.",
 
-    aerospace_title_1: "Введение в физику ракет - Основные концепции",
-    aerospace_description_1: "В этом модуле курса я изучил: Важность измерений; Векторные величины; Историческое введение; Бразильскую космическую программу и Науку и Технологии (НТ) в космосе.",
+    aerospace_title_1: "Введение в физику ракет – Начальные концепции",  
+    aerospace_description_1: `В этом модуле курса я узнал о: 
+    <li>Значении измерений;</li>
+    <li>Векторных величинах;</li>
+    <li>Историческом введении;</li>
+    <li>Бразильской космической программе;</li>
+    <li>Космических науках и технологиях (КНТ).</li>`, 
 
     aerospace_title_2: "Введение в физику ракет – Космос, движения, гравитация и вес",
-    aerospace_description_2: "В этом модуле курса я изучил: Как достичь космоса; Исследование движений ракет; Связь между гравитацией и весом; Различия между входом и выходом; А также вопросы подъема и спуска; А также концепцию подъема без спуска.",
+    aerospace_description_2: `В этом модуле курса я узнал о: 
+    <li>Как достичь космоса;</li>
+    <li>Изучении движения ракет;</li>
+    <li>Связи между гравитацией и весом;</li> 
+    <li>Различиях между входом и выходом;</li>
+    <li>Подъем и спуск / подъем и не спускаться.</li>`, 
 
-    aerospace_title_3: "Введение в космическую тягу I",
-    aerospace_description_3: "В этом модуле курса я изучил: Фундаментальные концепции; Сохранение импульса и Уравнение Циолковского; Принципы тяги; Системы химической тяги.",
+    aerospace_title_3: "Введение в космическую пропульсию I",
+    aerospace_description_3: `В этом модуле курса я узнал о: 
+    <li>Основных концепциях;</li>
+    <li>Сохранении импульса и уравнении Циолковского;</li>
+    <li>Принципах пропульсии;</li>
+    <li>Химических системах пропульсии.</li>`, 
 
-    aerospace_title_4: "Введение в аналоговую астронавтику",
-    aerospace_description_4: "В этом модуле курса я изучил: Историю аэрокосмонавтики; New Space; Миссии на Луну и Марс; Аэрокосмическую систему и роль астронавтов; Карьеру и исследования в аэрокосмической сфере; Устойчивость космической среды; Здоровье и сельское хозяйство в аэрокосмосе; Образование и инновации в аэрокосмической отрасли; Аналоговые космические станции; И космическую станцию Habitat Marte.",
+    aerospace_title_4: "Введение в аналогичную астронавтику",
+    aerospace_description_4: `В этом модуле курса я узнал о: 
+    <li>Истории аэрокосмической отрасли;</li>
+    <li>New Space; Миссии на Луну и Марс;</li>
+    <li>Космической системе и роли астронавтов;</li>
+    <li>Карьере и исследованиях в аэрокосмической области;</li>
+    <li>Космической устойчивости;</li>
+    <li>Космическом здоровье и сельском хозяйстве;</li>
+    <li>Образовании и инновациях в аэрокосмической отрасли;</li>
+    <li>Аналоговых космических станциях;</li>
+    <li>Космической станции Habitat Mars.</li>`, 
 
     aerospace_title_5: "Путешествие по вселенной ракет: Теория и практика",
-    aerospace_description_5: "В этом модуле курса я изучил: Введение в ракеты; Историю ракет; Космическую гонку; Принцип работы ракет; Центры запуска и бразильские ракеты; Создание собственной ракеты.",
+    aerospace_description_5: `В этом модуле курса я узнал о: 
+    <li>Введении в ракеты;</li>
+    <li>Истории ракет;</li>
+    <li>Космической гонке;</li>
+    <li>Принципах работы ракет;</li>
+    <li>Запускных центрах и бразильских ракетах;</li>
+    <li>Создании своей собственной ракеты.</li>`, 
 
-    aerospace_title_6: "Введение в наноспутники",
-    aerospace_description_6: "В этом модуле курса я изучил: определение требований и миссии; проектирование конструкции; тепловое проектирование; запуск; коммуникации; управление данными и эксплуатация.",
+    aerospace_title_6: "Введение в нано-спутники",
+    aerospace_description_6: `В этом модуле курса я узнал о: 
+    <li>Определении требований и миссии;</li>
+    <li>Структурном проектировании;</li>
+    <li>Термическом проектировании;</li> 
+    <li>Запуске;</li>
+    <li>Связи;</li>
+    <li>Управлении данными и операциях.</li>`, 
 
     aerospace_title_7: "Космическое право",
-    aerospace_description_7: "В этом модуле курса я изучил: введение в космическое право, космические договоры, определение и разграничение космического пространства, историю, функционирование и участие Бразилии в КОПУОС, концепцию NewSpace как перегруженной, оспариваемой и конкурентной среды, космический мусор, космические ресурсы и национальные нормативные акты AEB и PNAE.",
+    aerospace_description_7: `В этом модуле курса я узнал о: 
+    <li>Введении в космическое право;</li> 
+    <li>Космических договорах;</li> 
+    <li>Определении и разграничении внешнего космоса;</li> 
+    <li>COPUOS: история, работа и участие Бразилии;</li> 
+    <li>NewSpace: Перегруженный, оспариваемый и конкурентный;</li> 
+    <li>Космическом мусоре;</li>
+    <li>Космических ресурсах;</li>
+    <li>Национальных правилах AEB и PNAE.</li>`,
+
+    aerospace_title_8: "Введение в технологическую зрелость и её метрики",
+    aerospace_description_8: `В этом модуле курса я узнал о:
+    <li>Введение в технологии и связанные с ними концепции: технологические и научные исследования, инженерия, технологический риск и технологические требования.</li>
+    <li>Эволюция, описание и технологическая зрелость. Что характеризует технологическое развитие, технологические классификации. Технологическая зрелость.</li>
+    <li>Аналитическая декомпозиция технологических продуктов (DAP) и её мера зрелости. DAP и IMATEC. Различия между проектами интеграции и технологического развития.</li>
+    <li>Как использовать программное обеспечение IMATEC. Создание, характеристика, описание и анализ DAP с помощью программного обеспечения IMATEC. Анализ итогового отчёта по зрелости.</li>`, 
+
+    aerospace_title_9: "Введение в аэрокосмическую геополитику",
+    aerospace_description_9: `В этом модуле курса я узнал о:`, 
+
+    aerospace_title_10: "Управление проектами в аэрокосмическом секторе",
+    aerospace_description_10: `В этом модуле курса я узнал о:`,
 
     // reason 2
     reason_final_description: `
@@ -617,8 +770,7 @@ const translations = {
     <p>Кроме того, страна имеет долгую традицию академического превосходства, с известными университетами, которые выделяются в таких областях, как инженерия и естественные науки. Сотрудничество с международными студентами является исторической особенностью, и это, в сочетании с высокими позициями российских университетов в международных рейтингах, делает страну идеальным местом для моего профессионального развития.</p>
     <p>Географическое и культурное разнообразие России также является важным фактором. С потрясающими пейзажами, такими как мраморные карьеры Карелии, кристально чистые воды озера Байкал и вулканы Камчатки, страна предлагает богатый природный опыт. Её культура, с великими литературными классиками, такими как Пушкин, Толстой и Достоевский, а также классической музыкой Чайковского и Рахманинова, дополняет этот опыт, превращая Россию в уникальное место для учебы и жизни.</p>
     <p>Я осознаю, что переход в аэрокосмическую инженерию будет непростым, но я решительно настроен приложить все усилия для достижения этой цели. Я полностью уверен, что, благодаря знаниям, которые я получу, смогу внести значительный вклад в развитие технологий и науки в области аэрокосмической отрасли и поделиться своим опытом с будущими поколениями.</p>
-    <p><strong>«Бразилия не так далеко от России для человека с целью.»</strong></p>
-  `,
+    <p><strong>«Бразилия не так далеко от России для человека с целью.»</strong></p>`,
   },
 };
 

@@ -44,6 +44,7 @@ import {
   aero4,
   aero5,
   aero6,
+  aero7,
 
 } from "../assets";
 
@@ -147,13 +148,12 @@ export const getStudies = (language) => {
     name: getTranslatedText(language, 'studies_title_science'),
     description: getTranslatedText(language, 'studies_description_science'),
     image: feira,
-    source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
-    liveUrl: " https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
   },
   {
     name: getTranslatedText(language, 'studies_title_german'),
     description: getTranslatedText(language, 'studies_description_german'),
     image: alemao,
+    source_code_link: "https://drive.google.com/file/d/1Z_yZXWZqqvqs3Sb6uA7Iu84T21tcSyiv/view?usp=sharing", // Link para o código
   },
   {
     name: getTranslatedText(language, 'studies_title_project'),
@@ -184,6 +184,7 @@ export const getStudies = (language) => {
     name: getTranslatedText(language, 'studies_title_diploma'),
     description: getTranslatedText(language, 'studies_description_diploma'),
     image: diploma,
+    source_code_link: "https://drive.google.com/file/d/1V828ueblaQr7EXUAcgBeL5xBE8HKVUJR/view?usp=sharing",
   },
   
 ];
@@ -220,11 +221,13 @@ export const getSporties = (language) => {
     name: getTranslatedText(language, 'sporties_title_campeao'),
     description: getTranslatedText(language, 'sporties_description_campeao'),
     image: primeirolugarjudo,
+    source_code_link: "https://drive.google.com/file/d/1utO0IFEfUHc6dwI_-hcxpO5BJGK-rKvI/view?usp=sharing",
   },
   {
     name: getTranslatedText(language, 'sporties_title_vice'),
     description: getTranslatedText(language, 'sporties_description_vice'),
     image: segundolugar,
+    source_code_link: "https://drive.google.com/file/d/1psDH3Ppoby-565W-QHHyR3wwbhuaXfV7/view?usp=sharing",
   },
   {
     name: getTranslatedText(language, 'sporties_title_maratona1'),
@@ -289,46 +292,53 @@ export const getAchiementSport = (language) =>{
 export const getAerospace = (language) =>{
   return [
   {
-    name: getTranslatedText(language, 'aerospace_title_fisica1'),
-    description: getTranslatedText(language, 'aerospace_description_fisica1'),
+    name: getTranslatedText(language, 'aerospace_title_1'),
+    description: getTranslatedText(language, 'aerospace_description_1'),
     image: aero1,
     source_code_link: "https://drive.google.com/file/d/1lqLKkYGCFOskHPzkwzFLLXCBYpX0VlS5/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ng4IY2G2Bi&qrcode=1", // Link para a versão ao vivo
   },
   {
-    name: getTranslatedText(language, 'aerospace_title_fisica2'),
-    description: getTranslatedText(language, 'aerospace_description_fisica2'),
+    name: getTranslatedText(language, 'aerospace_title_2'),
+    description: getTranslatedText(language, 'aerospace_description_2'),
     image: aero2,
     source_code_link: "https://drive.google.com/file/d/1MEP9qC9HFFNdpWCpS5NvkjMmqKuZLrEc/view?usp=sharing", // Link para o código
     liveUrl: "https://drive.google.com/file/d/1EJiHMsXZtipleRbW8QkIXJpBaRRYBQdR/view?usp=sharing", // Link para a versão ao vivo
   },
   {
-    name: getTranslatedText(language, 'aerospace_title_fisica3'),
-    description: getTranslatedText(language, 'aerospace_description_fisica3'),
+    name: getTranslatedText(language, 'aerospace_title_3'),
+    description: getTranslatedText(language, 'aerospace_description_3'),
     image: aero3,
     source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
   },
   {
-    name: getTranslatedText(language, 'aerospace_title_fisica4'),
-    description: getTranslatedText(language, 'aerospace_description_fisica4'),
+    name: getTranslatedText(language, 'aerospace_title_4'),
+    description: getTranslatedText(language, 'aerospace_description_4'),
     image: aero4,
     source_code_link: "https://drive.google.com/file/d/18YbL6lOWIEcKg4CYRZfK2irP5QLbCU6i/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=sL9PPM462s&qrcode=1", // Link para a versão ao vivo
   },
   {
-    name: getTranslatedText(language, 'aerospace_title_fisica5'),
-    description: getTranslatedText(language, 'aerospace_description_fisica5'),
+    name: getTranslatedText(language, 'aerospace_title_5'),
+    description: getTranslatedText(language, 'aerospace_description_5'),
     image: aero5,
     source_code_link: "https://drive.google.com/file/d/1V28P_ErEywL2n5IXdLguS9vqtVoiDtzc/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=d9qgTuQsRI&qrcode=1", // Link para a versão ao vivo
   },
   {
-    name: getTranslatedText(language, 'aerospace_title_fisica6'),
-    description: getTranslatedText(language, 'aerospace_description_fisica6'),
+    name: getTranslatedText(language, 'aerospace_title_6'),
+    description: getTranslatedText(language, 'aerospace_description_6'),
     image: aero6,
     source_code_link: "https://drive.google.com/file/d/1uUYckbfvQAG6idyJsaYYNsaHRa_JJXnT/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ob4xb3x0T4&qrcode=1", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_7'),
+    description: getTranslatedText(language, 'aerospace_description_7'),
+    image: aero7,
+    source_code_link: "https://drive.google.com/file/d/18izocyCg-fFqPG-8bqlzR9yGq5cAc74j/view?usp=sharing", // Link para o código
+    liveUrl: " https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=eirlH1rLBH&qrcode=1", // Link para a versão ao vivo
   },
 ];
 };

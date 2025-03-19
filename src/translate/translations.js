@@ -49,7 +49,7 @@ const translations = {
 `,
     //exp_study
     "experiences_title_study": "Experiences",
-    "experiences_description_study": "Here are some activities and experiences I had during my academic journey in school and university.",
+    "experiences_description_study": "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
 
     //studies
     "studies_title_science": "Science Fair",
@@ -104,7 +104,7 @@ const translations = {
 
     //exp_sport
     "experiences_title": "Experiences",
-    "experiences_description": "Some moments I consider important in the sports I practice or have practiced.",
+    "experiences_description": "Some moments I consider important in the sports I practice or have practiced. To view them in detail, click on the 'Drive' icon to access the certificate.",
 
     //sporties
     "sporties_title_handebol": "Medal in the Student Games for Handball",
@@ -171,23 +171,30 @@ const translations = {
   `,
 
     //aerospace
-    aerospace_title_fisica1: "Introduction to Rocket Physics - Fundamental Concepts",
-    aerospace_description_fisica1: "In this module of the course, I learned about: The Importance of measurement; Vector quantities; Historical introduction; The Brazilian space programme and Science and Technology (S&T) in space.",
+
+    experiences_title_aerospace: "Certificates in Aerospace Science",
+    experiences_description_aerospace: "The certificates I obtained while studying the subject. To view them in detail, click on the 'Drive' icon to access the certificate or on the 'AEB' icon to access the QR Code content of the certificate.",
+
+    aerospace_title_1: "Introduction to Rocket Physics - Fundamental Concepts",
+    aerospace_description_1: "In this module of the course, I learned about: The Importance of measurement; Vector quantities; Historical introduction; The Brazilian space programme and Science and Technology (S&T) in space.",
     
-    aerospace_title_fisica2: "Introduction to Rocket Physics - Space, motion, gravity, and weight",
-    aerospace_description_fisica2: "In this course module, I learned about: How to reach space; The study of rocket movements; The relationship between gravity and weight; The differences between entry and exit; As well as the issues of Ascending and descending; And the concept of Ascending without descending.",
+    aerospace_title_2: "Introduction to Rocket Physics - Space, motion, gravity, and weight",
+    aerospace_description_2: "In this course module, I learned about: How to reach space; The study of rocket movements; The relationship between gravity and weight; The differences between entry and exit; As well as the issues of Ascending and descending; And the concept of Ascending without descending.",
     
-    aerospace_title_fisica3: "Introduction to Space Propulsion I",
-    aerospace_description_fisica3: "In this course module, I learned about: Fundamental concepts; Conservation of momentum and Tsiolkovsky's Equation; Principles of propulsion; Chemical propulsion systems.",
+    aerospace_title_3: "Introduction to Space Propulsion I",
+    aerospace_description_3: "In this course module, I learned about: Fundamental concepts; Conservation of momentum and Tsiolkovsky's Equation; Principles of propulsion; Chemical propulsion systems.",
     
-    aerospace_title_fisica4: "Introduction to Analog Astronautics",
-    aerospace_description_fisica4: "In this module of the course, I learned about: Aerospace history; New Space; Missions to the Moon and Mars; The Aerospace system and the role of astronauts; Aerospace careers and research; Space sustainability; Aerospace health and agriculture; Aerospace education and innovation; Analogue space stations; And the Habitat Marte space station.",    
+    aerospace_title_4: "Introduction to Analog Astronautics",
+    aerospace_description_4: "In this module of the course, I learned about: Aerospace history; New Space; Missions to the Moon and Mars; The Aerospace system and the role of astronauts; Aerospace careers and research; Space sustainability; Aerospace health and agriculture; Aerospace education and innovation; Analogue space stations; And the Habitat Marte space station.",    
     
-    aerospace_title_fisica5: "A Journey Through the Universe of Rockets: Theory and Practice",
-    aerospace_description_fisica5: "In this module of the course, I learned about: Introduction to Rockets; History of Rockets; Space Race; How Rockets Work; Launch Centres and Brazilian Rockets; Building Your Own Rocket.",    
+    aerospace_title_5: "A Journey Through the Universe of Rockets: Theory and Practice",
+    aerospace_description_5: "In this module of the course, I learned about: Introduction to Rockets; History of Rockets; Space Race; How Rockets Work; Launch Centres and Brazilian Rockets; Building Your Own Rocket.",    
     
-    aerospace_title_fisica6: "Introduction to Nanosatellites",
-    aerospace_description_fisica6: "In this module of the course, I also learned about: Requirements and mission definition; Structural design; Thermal design; Launch; Communications; Data management and operation.",
+    aerospace_title_6: "Introduction to Nanosatellites",
+    aerospace_description_6: "In this module of the course, I also learned about: Requirements and mission definition; Structural design; Thermal design; Launch; Communications; Data management and operation.",
+
+    aerospace_title_7: "Space Law",
+    aerospace_description_7: "In this module of the course, I learned about: the introduction to space law, space treaties, the definition and delimitation of outer space, the history, functioning, and Brazil’s participation in COPUOS, the concept of NewSpace as a congested, contested, and competitive environment, space debris, space resources, and the national regulations of AEB and PNAE.",
 
     // reason 2
     reason_final_description: `
@@ -250,7 +257,7 @@ const translations = {
 
     //exp_study
     experiences_title_study: "Experiências",
-    experiences_description_study: "Aqui estão algumas atividades e experiências que tive durante minha trajetória acadêmica na escola e na faculdade.",
+    experiences_description_study: "Aqui estão algumas atividades e experiências que tive durante minha trajetória acadêmica na escola e na faculdade. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado.",
 
     //studies
     studies_title_science: "Feira de Ciências",
@@ -305,7 +312,7 @@ const translations = {
 
     //exp_sport
     experiences_title: "Experiências",
-    experiences_description: "Alguns momentos que considero importantes nos esportes que pratico ou pratiquei.",
+    experiences_description: "Alguns momentos que considero importantes nos esportes que pratico ou pratiquei. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado.",
 
     //sporties
     sporties_title_handebol: "Medalha dos Jogos Estudantis no Handebol",
@@ -375,23 +382,26 @@ const translations = {
     experiences_title_aerospace: "Certificados sobre Ciência Aeroespacial",
     experiences_description_aerospace: "Os certificados que adquiri ao estudar sobre o tema. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado ou no ícone da 'AEB' para acessar o conteúdo do QR Code do certificado.",
 
-    aerospace_title_fisica1: "Introdução à Física de Foguetes - Conceitos iniciais",  
-    aerospace_description_fisica1: "Neste módulo do curso, aprendi sobre: Importância de medir; Grandezas vetoriais; Introdução histórica; O programa espacial brasileiro; e Ciência e Tecnologia (C&T) espacial.", 
+    aerospace_title_1: "Introdução à Física de Foguetes - Conceitos iniciais",  
+    aerospace_description_1: "Neste módulo do curso, aprendi sobre: Importância de medir; Grandezas vetoriais; Introdução histórica; O programa espacial brasileiro; e Ciência e Tecnologia (C&T) espacial.", 
 
-    aerospace_title_fisica2: "Introdução à Física de Foguetes - Espaço, movimentos, gravidade e peso",
-    aerospace_description_fisica2: "Neste módulo do curso, aprendi sobre: Como alcançar o espaço; O estudo dos movimentos dos foguetes; A relação entre gravidade e peso; As diferenças entre entrada e saída; além das questões de subir e descer; e O conceito de subir sem descer.",
+    aerospace_title_2: "Introdução à Física de Foguetes - Espaço, movimentos, gravidade e peso",
+    aerospace_description_2: "Neste módulo do curso, aprendi sobre: Como alcançar o espaço; O estudo dos movimentos dos foguetes; A relação entre gravidade e peso; As diferenças entre entrada e saída; além das questões de subir e descer; e O conceito de subir sem descer.",
 
-    aerospace_title_fisica3: "Introdução à Propulsão Espacial I",
-    aerospace_description_fisica3: "Neste módulo do curso, aprendi sobre: Conceitos fundamentais; Conservação do momento e Equação de Tsiolkovsky; Princípios de propulsão; e Sistemas de propulsão química.",
+    aerospace_title_3: "Introdução à Propulsão Espacial I",
+    aerospace_description_3: "Neste módulo do curso, aprendi sobre: Conceitos fundamentais; Conservação do momento e Equação de Tsiolkovsky; Princípios de propulsão; e Sistemas de propulsão química.",
 
-    aerospace_title_fisica4: "Introdução à Astronáutica Análoga",
-    aerospace_description_fisica4: "Neste módulo do curso, aprendi sobre: História aeroespacial; New Space; Missões à Lua e a Marte; O sistema aeroespacial e o papel dos astronautas; Carreira e pesquisa aeroespacial; Sustentabilidade espacial; Saúde e agricultura aeroespacial; Educação e inovação aeroespacial; Estações espaciais análogas; e A estação espacial Habitat Marte.",
+    aerospace_title_4: "Introdução à Astronáutica Análoga",
+    aerospace_description_4: "Neste módulo do curso, aprendi sobre: História aeroespacial; New Space; Missões à Lua e a Marte; O sistema aeroespacial e o papel dos astronautas; Carreira e pesquisa aeroespacial; Sustentabilidade espacial; Saúde e agricultura aeroespacial; Educação e inovação aeroespacial; Estações espaciais análogas; e A estação espacial Habitat Marte.",
 
-    aerospace_title_fisica5: "Um voo pelo universo dos foguetes: Teoria e Prática",
-    aerospace_description_fisica5: "Neste módulo do curso, aprendi sobre: Introdução aos Foguetes; Histórico dos Foguetes; Corrida Espacial; Funcionamento dos Foguetes; Centros de Lançamento e Foguetes Brasileiros; Criando seu próprio foguete.",
+    aerospace_title_5: "Um voo pelo universo dos foguetes: Teoria e Prática",
+    aerospace_description_5: "Neste módulo do curso, aprendi sobre: Introdução aos Foguetes; Histórico dos Foguetes; Corrida Espacial; Funcionamento dos Foguetes; Centros de Lançamento e Foguetes Brasileiros; Criando seu próprio foguete.",
 
-    aerospace_title_fisica6: "Introdução aos Nanossatélites",
-    aerospace_description_fisica6: "Neste módulo do curso, aprendi sobre: Definição de requisitos e da missão; Projeto estrutural; Projeto térmico; Lançamento; Comunicações; Gestão de dados e operação.",
+    aerospace_title_6: "Introdução aos Nanossatélites",
+    aerospace_description_6: "Neste módulo do curso, aprendi sobre: Definição de requisitos e da missão; Projeto estrutural; Projeto térmico; Lançamento; Comunicações; Gestão de dados e operação.",
+
+    aerospace_title_7: "Direito Espacial",
+    aerospace_description_7: "Neste módulo do curso, aprendi sobre: Introdução ao direito espacial; Tratados Espaciais; Definição e delimitação do espaço exterior; COPUOS: história, funcionamento e participação do Brasil; NewSpace: Congestionado, contestado e competitivo; Detritos espaciais; Recursos Espaciais; Regulamentos nacionais da AEB e PNAE.",
 
     // reason 2
     reason_final_description: `
@@ -453,7 +463,7 @@ const translations = {
 
     //exp_study
     experiences_title_study: "Опыт",
-    experiences_description_study: "Вот некоторые из мероприятий и опыта, который я получил в процессе обучения в школе и университете.",
+    experiences_description_study: "Вот некоторые из мероприятий и опыта, который я получил в процессе обучения в школе и университете. тобы просмотреть их подробно, нажмите на значок «Drive».",
 
     //stidies
     studies_title_science: "Научная Ярмарка",
@@ -508,7 +518,7 @@ const translations = {
 
     //exp_sport
     experiences_title: "Опыт",
-    experiences_description: "Некоторые моменты, которые я считаю важными в видах спорта, которые я практиковал и практикую.",
+    experiences_description: "Некоторые моменты, которые я считаю важными в видах спорта, которые я практиковал и практикую. тобы просмотреть их подробно, нажмите на значок «Drive».",
 
     //sporties
     sporties_title_handebol: "Медаль на Студенческих Играх по Гандболу",
@@ -576,23 +586,30 @@ const translations = {
   `,
 
     //aerospace
-    aerospace_title_fisica1: "Введение в физику ракет - Основные концепции",
-    aerospace_description_fisica1: "В этом модуле курса я изучил: Важность измерений; Векторные величины; Историческое введение; Бразильскую космическую программу и Науку и Технологии (НТ) в космосе.",
 
-    aerospace_title_fisica2: "Введение в физику ракет – Космос, движения, гравитация и вес",
-    aerospace_description_fisica2: "В этом модуле курса я изучил: Как достичь космоса; Исследование движений ракет; Связь между гравитацией и весом; Различия между входом и выходом; А также вопросы подъема и спуска; А также концепцию подъема без спуска.",
+    experiences_title_aerospace: "Сертификаты по аэрокосмической науке",
+    experiences_description_aerospace: "Сертификаты, которые я получил, изучая эту тему. Чтобы просмотреть их подробно, нажмите на значок «Drive», чтобы получить доступ к сертификату, или на значок «AEB», чтобы открыть содержимое QR-кода сертификата.",
 
-    aerospace_title_fisica3: "Введение в космическую тягу I",
-    aerospace_description_fisica3: "В этом модуле курса я изучил: Фундаментальные концепции; Сохранение импульса и Уравнение Циолковского; Принципы тяги; Системы химической тяги.",
+    aerospace_title_1: "Введение в физику ракет - Основные концепции",
+    aerospace_description_1: "В этом модуле курса я изучил: Важность измерений; Векторные величины; Историческое введение; Бразильскую космическую программу и Науку и Технологии (НТ) в космосе.",
 
-    aerospace_title_fisica4: "Введение в аналоговую астронавтику",
-    aerospace_description_fisica4: "В этом модуле курса я изучил: Историю аэрокосмонавтики; New Space; Миссии на Луну и Марс; Аэрокосмическую систему и роль астронавтов; Карьеру и исследования в аэрокосмической сфере; Устойчивость космической среды; Здоровье и сельское хозяйство в аэрокосмосе; Образование и инновации в аэрокосмической отрасли; Аналоговые космические станции; И космическую станцию Habitat Marte.",
+    aerospace_title_2: "Введение в физику ракет – Космос, движения, гравитация и вес",
+    aerospace_description_2: "В этом модуле курса я изучил: Как достичь космоса; Исследование движений ракет; Связь между гравитацией и весом; Различия между входом и выходом; А также вопросы подъема и спуска; А также концепцию подъема без спуска.",
 
-    aerospace_title_fisica5: "Путешествие по вселенной ракет: Теория и практика",
-    aerospace_description_fisica5: "В этом модуле курса я изучил: Введение в ракеты; Историю ракет; Космическую гонку; Принцип работы ракет; Центры запуска и бразильские ракеты; Создание собственной ракеты.",
+    aerospace_title_3: "Введение в космическую тягу I",
+    aerospace_description_3: "В этом модуле курса я изучил: Фундаментальные концепции; Сохранение импульса и Уравнение Циолковского; Принципы тяги; Системы химической тяги.",
 
-    aerospace_title_fisica6: "Введение в наноспутники",
-    aerospace_description_fisica6: "В этом модуле курса я изучил: определение требований и миссии; проектирование конструкции; тепловое проектирование; запуск; коммуникации; управление данными и эксплуатация.",
+    aerospace_title_4: "Введение в аналоговую астронавтику",
+    aerospace_description_4: "В этом модуле курса я изучил: Историю аэрокосмонавтики; New Space; Миссии на Луну и Марс; Аэрокосмическую систему и роль астронавтов; Карьеру и исследования в аэрокосмической сфере; Устойчивость космической среды; Здоровье и сельское хозяйство в аэрокосмосе; Образование и инновации в аэрокосмической отрасли; Аналоговые космические станции; И космическую станцию Habitat Marte.",
+
+    aerospace_title_5: "Путешествие по вселенной ракет: Теория и практика",
+    aerospace_description_5: "В этом модуле курса я изучил: Введение в ракеты; Историю ракет; Космическую гонку; Принцип работы ракет; Центры запуска и бразильские ракеты; Создание собственной ракеты.",
+
+    aerospace_title_6: "Введение в наноспутники",
+    aerospace_description_6: "В этом модуле курса я изучил: определение требований и миссии; проектирование конструкции; тепловое проектирование; запуск; коммуникации; управление данными и эксплуатация.",
+
+    aerospace_title_7: "Космическое право",
+    aerospace_description_7: "В этом модуле курса я изучил: введение в космическое право, космические договоры, определение и разграничение космического пространства, историю, функционирование и участие Бразилии в КОПУОС, концепцию NewSpace как перегруженной, оспариваемой и конкурентной среды, космический мусор, космические ресурсы и национальные нормативные акты AEB и PNAE.",
 
     // reason 2
     reason_final_description: `

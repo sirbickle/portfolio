@@ -4,13 +4,10 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { getSporties } from "../constants";
 import { fadeIn } from "../utils/motion";
-import translations from "../translate/translations"; 
+import translations from "../translate/translations";
+import { drive, aeb } from "../assets";
 
-const SportCard = ({
-  name,
-  description,
-  image,
-}) => {
+const SportCard = ({ name, description, image, source_code_link, liveUrl }) => {
   return (
     <Tilt
       options={{
@@ -26,6 +23,36 @@ const SportCard = ({
           alt="sport_image"
           className="w-full h-full object-cover rounded-2xl"
         />
+
+        {/* Círculos de links */}
+        <div className="absolute inset-0 flex gap-2 justify-end m-3 card-img_hover">
+          {/* Link para o Google Drive */}
+          {source_code_link && (
+            <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={drive} // ícone do Google Drive
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+          )}
+          {/* Link para AEB */}
+          {liveUrl && (
+            <div
+              onClick={() => window.open(liveUrl, "_blank")}
+              className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={aeb} // ícone do AEB
+                alt="live url"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+          )}
+        </div>
       </div>
 
       <div className="mt-5">

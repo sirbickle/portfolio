@@ -54,6 +54,7 @@ import aero10 from "./aero10.jpg";
 // não deleta, n sei porque, ou sei, por partes
 import logo from "./logo3.png";
 import LOGO2 from "./LOGO2.webp";
+import LOGO4 from "./LOGO4.webp";
 import close from "./close.svg";
 import drive from "./drive.png";
 import aeb from "./aeb.png"
@@ -128,6 +129,7 @@ export {
   close,
   logo,
   LOGO2,
+  LOGO4,
   drive,
   aeb,
   menu,

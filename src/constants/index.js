@@ -350,13 +350,13 @@ export const getAerospace = (language) =>{
     source_code_link: "https://drive.google.com/file/d/1uUYckbfvQAG6idyJsaYYNsaHRa_JJXnT/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ob4xb3x0T4&qrcode=1", // Link para a versão ao vivo
   },
-/*  {
+  {
     name: getTranslatedText(language, 'aerospace_title_10'),
     description: getTranslatedText(language, 'aerospace_description_10'),
     image: aero10,
-    source_code_link: "", // Link para o código
-    liveUrl: "", // Link para a versão ao vivo
-  },*/
+    source_code_link: "https://drive.google.com/file/d/19oJyY0mampeC-b4UkJkwWmyFZ-UKXjrG/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=hdrKjTWMS1&qrcode=1", // Link para a versão ao vivo
+  },
   {
     name: getTranslatedText(language, 'aerospace_title_7'),
     description: getTranslatedText(language, 'aerospace_description_7'),

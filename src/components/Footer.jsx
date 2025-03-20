@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { LOGO2 } from "../assets";
+import { LOGO4 } from "../assets";
 import Typewriter from "react-ts-typewriter";
 import { Link } from "react-router-dom";
 
@@ -16,11 +16,18 @@ const Footer = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={LOGO2} alt="logo" className="w-28 h-28 object-contain" />
+          <img src={LOGO4} alt="logo" className="w-28 h-28 object-contain" />
         </Link>
-        <p className="text-secondary text-[17px] leading-[30px] text-center select-none">
-          {new Date().getFullYear()} &copy; Created by Leonardo Lima. All rights reserved.
-        </p>
+        <div className="text-secondary text-[17px] leading-[30px] text-center select-none">
+          {/* Direitos Autorais em Português */}
+          <p>{new Date().getFullYear()} &copy; Criado por Leonardo Lima. Todos os direitos reservados.</p>
+          
+          {/* Direitos Autorais em Inglês Britânico */}
+          <p>{new Date().getFullYear()} &copy; Created by Leonardo Lima. All rights reserved.</p>
+
+          {/* Direitos Autorais em Russo */}
+          <p>{new Date().getFullYear()} &copy; Создано Леонардо Лимой. Все права защищены.</p>
+        </div>
       </div>
       <div className="w-full h-auto flex justify-center text-purple-500 font-bold self-start text-2xl">
         <Typewriter

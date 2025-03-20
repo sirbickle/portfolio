@@ -164,7 +164,7 @@ const translations = {
     <p><strong>"The Earth is the cradle of humanity, but one cannot live in the cradle forever,"</strong> said Konstantin Tsiolkovsky, a pioneer of astronautics.</p>
     <p>Like every child, I too dreamt of becoming an astronaut, fuelled by films, cartoons, and video games. However, just like many others, I eventually set that dream aside to pursue a different path, graduating in the field of IT. I worked as a support technician and project manager, and during this time, I realised the impact my work had on the lives of others. Yet, I understood that I wanted to direct my contributions to something that had always fascinated me: space.</p>
     <p>The current moment in space exploration has rekindled my curiosity. The advancements in manned missions, the growing presence of private companies, and the increasing investment by countries in the sector, coupled with the real possibility of a new space age, made me realise that I wanted to be part of this. That is why I decided to transition to Aerospace Engineering.</p>
-    <p>My goals are clear: I want to become an aerospace engineer and continue my studies, with a master's degree, postgraduate studies, and a PhD. I wish to work for a space agency and, at the end of my career, become a university professor to share the knowledge I have gained throughout my journey.</p>
+    <p>My goals are clear: I want to become an aerospace engineer and work as either an engineer or a project manager, a role I have already held and have experience in. I aim to continue my studies, with a master's degree, postgraduate studies, and a PhD. I wish to work for a space agency and, at the end of my career, become a university professor to share the knowledge I have gained throughout my journey.</p>
     <p>To start understanding how this area of engineering works, I began studying independently. The AEB (Brazilian Space Agency) has made some courses available in the field of Aerospace Sciences, which I am using to learn about basic concepts, space, motion, gravity and weight, propulsion, and nanosatellites. I also participated in the IASC (International Astronomical Search Collaboration) programme, a global project that involves students and enthusiasts in the search for asteroids and other space objects using telescope images. This work contributes to scientific research and monitoring of risks to Earth.</p>`,
 
     //aerospace
@@ -245,8 +245,14 @@ const translations = {
     aerospace_title_9: "Introduction to Aerospace Geopolitics",
     aerospace_description_9: `In this course module, I learned about:`, 
 
-    aerospace_title_10: "Project Management in the Aerospace Sector",
-    aerospace_description_10: `In this course module, I learned about:`, 
+    aerospace_title_10: "Project Management in the Aerospace Sector",  
+    aerospace_description_10: `In this course module, I learned about:  
+    <li>Introduction to Project Management in the Aerospace Sector;</li>  
+    <li>Scope, Time, and Cost Management;</li>  
+    <li>Quality and Risk Management;</li>  
+    <li>Procurement, Integration, and Communication Management;</li>  
+    <li>Stakeholder Management and Project Closure.</li>`,
+ 
 
     // reason 2
     reason_final_description: `
@@ -421,7 +427,7 @@ const translations = {
     <p><strong>"A Terra é o berço da humanidade, mas não se pode viver no berço para sempre"</strong>, disse Konstantin Tsiolkovsky, pioneiro da astronáutica.</p>
     <p>Como toda criança, eu também sonhei em ser astronauta, alimentado por filmes, desenhos e jogos de videogame. No entanto, assim como muitos, acabei deixando esse sonho de lado para seguir outro caminho, me formando na área de T.I. Trabalhei como suporte e gerente de projetos, e durante esse período, percebi o impacto que meu trabalho tinha na vida de outras pessoas. Porém, entendi que queria direcionar minhas contribuições para algo que sempre me fascinou: o espaço.</p>
     <p>O momento atual da exploração espacial reacendeu minha curiosidade. Os avanços em missões tripuladas, a crescente presença de empresas privadas e o aumento do investimento de países no setor, junto à possibilidade real de uma nova era espacial, me fizeram perceber que queria fazer parte disso. Por isso, decidi fazer a transição para a Engenharia Aeroespacial.</p>
-    <p>Meus objetivos são bem claros: quero me tornar engenheiro aeroespacial e continuar meus estudos, com mestrado, pós-graduação e doutorado. Desejo trabalhar em uma agência espacial e, ao final da minha carreira, me tornar professor universitário, para compartilhar o conhecimento adquirido ao longo da minha trajetória.</p>
+    <p>Meus objetivos são bem claros: Quero me tornar engenheiro aeroespacial e atuar como engenheiro ou gerente de projetos, função que já exerci e na qual tenho experiência, além de continuar meus estudos, com mestrado, pós-graduação e doutorado. Desejo trabalhar em uma agência espacial e, ao final da minha carreira, me tornar professor universitário, para compartilhar o conhecimento adquirido ao longo da minha trajetória.</p>
     <p>Para começar a entender como funciona esse lado da engenharia, comecei a estudar por conta própria. A AEB (Agência Espacial Brasileira) disponibilizou alguns cursos na área de Ciências Aeroespaciais, que estou utilizando para aprender sobre conceitos iniciais, espaço, movimento, gravidade e peso, propulsão e nanosatélites. Também participei do programa IASC (International Astronomical Search Collaboration), um projeto global que envolve estudantes e entusiastas na busca de asteroides e outros objetos espaciais, utilizando imagens de telescópios. Esse trabalho contribui para a pesquisa científica e o monitoramento de riscos à Terra.</p>`,
 
     //aerospace
@@ -503,7 +509,12 @@ const translations = {
     aerospace_description_9: `Neste módulo do curso, aprendi sobre:`,
 
     aerospace_title_10: "Gestão de Projetos no Setor Aeroespacial",
-    aerospace_description_10: ".",
+    aerospace_description_10: `Neste módulo do curso, aprendi sobre: 
+    <li>Introdução à Gestão de Projetos no Setor Aeroespacial;</li>
+    <li>Gerenciamento de Escopo, de Tempo e de Custos;</li>
+    <li>Gerenciamento da Qualidade e de Riscos;</li>
+    <li>Gerenciamento das Aquisições, da Integração e da Comunicação;</li>
+    <li>Gerenciamento das Partes Interessadas e do Encerramento.</li>`,
 
     // reason 2
     reason_final_description: `
@@ -679,7 +690,7 @@ const translations = {
     <p><strong>«Земля — колыбель человечества, но нельзя жить в колыбели всю жизнь»</strong>, сказал Константин Циолковский, пионер астронавтики.</p>
     <p>Как и все дети, я тоже мечтал стать астронавтом, вдохновлённый фильмами, мультсериалами и видеоиграми. Однако, как и многие другие, я в конечном итоге оставил эту мечту и пошёл по другому пути, получив образование в области информационных технологий. Я работал в качестве специалиста по поддержке и менеджера проектов, и в процессе работы понял, какое влияние моя деятельность оказывает на жизни других людей. Тем не менее, я осознал, что хочу направить свои усилия на то, что всегда меня увлекало: космос.</p>
     <p>Текущий момент в области космических исследований пробудил моё любопытство. Прогресс в пилотируемых миссиях, растущее присутствие частных компаний и увеличение инвестиций стран в эту отрасль, а также реальная возможность новой космической эры, заставили меня осознать, что я хочу быть частью этого процесса. Поэтому я решил перейти в область аэрокосмической инженерии.</p>
-    <p>Мои цели вполне ясны: я хочу стать инженером-аэрокосмистом и продолжить обучение, получив степень магистра, аспиранта и доктора наук. Я хочу работать в космическом агентстве и, в конце своей карьеры, стать университетским преподавателем, чтобы передавать знания, полученные на протяжении всей моей карьеры.</p>
+    <p>Мои цели вполне ясны: Я хочу стать аэрокосмическим инженером и работать либо инженером, либо руководителем проектов — должность, которую я уже занимал и в которой имею опыт, а также продолжить обучение, получив степень магистра, аспиранта и доктора наук. Я хочу работать в космическом агентстве и, в конце своей карьеры, стать университетским преподавателем, чтобы передавать знания, полученные на протяжении всей моей карьеры.</p>
     <p>Чтобы начать понимать, как работает эта сторона инженерии, я начал учиться самостоятельно. AEB (Бразильское космическое агентство) предложило несколько курсов в области аэрокосмических наук, которые я использую для изучения начальных понятий, пространства, движения, гравитации и веса, пропульсии и наносатэллитов. Я также участвовал в программе IASC (Международное астрономическое поисковое сотрудничество), мировом проекте, который включает студентов и энтузиастов в поисках астероидов и других космических объектов с использованием изображений телескопов. Эта работа вносит вклад в научные исследования и мониторинг рисков для Земли.</p>`,
 
     //aerospace
@@ -761,8 +772,14 @@ const translations = {
     aerospace_title_9: "Введение в аэрокосмическую геополитику",
     aerospace_description_9: `В этом модуле курса я узнал о:`, 
 
-    aerospace_title_10: "Управление проектами в аэрокосмическом секторе",
-    aerospace_description_10: `В этом модуле курса я узнал о:`,
+    aerospace_title_10: "Управление проектами в аэрокосмическом секторе",  
+    aerospace_description_10: `В этом модуле курса я изучил(а):  
+    <li>Введение в управление проектами в аэрокосмическом секторе;</li>  
+    <li>Управление содержанием, сроками и затратами;</li>  
+    <li>Управление качеством и рисками;</li>  
+    <li>Управление закупками, интеграцией и коммуникациями;</li>  
+    <li>Управление заинтересованными сторонами и завершение проекта.</li>`, 
+
 
     // reason 2
     reason_final_description: `

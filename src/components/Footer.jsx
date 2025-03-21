@@ -26,7 +26,7 @@ const Footer = () => {
           <p>{new Date().getFullYear()} &copy; Created by Leonardo Lima. All rights reserved.</p>
 
           {/* Direitos Autorais em Russo */}
-          <p>{new Date().getFullYear()} &copy; Создано Леонардо Лимой. Все права защищены.</p>
+          <p>{new Date().getFullYear()} &copy; Создано Леонардо Лима. Все права защищены.</p>
         </div>
       </div>
       <div className="w-full h-auto flex justify-center text-purple-500 font-bold self-start text-2xl">

@@ -294,13 +294,13 @@ export const getAchiementSport = (language) =>{
 
 export const getAerospace = (language) =>{
   return [
- /*{
+  {
     name: getTranslatedText(language, 'aerospace_title_9'),
     description: getTranslatedText(language, 'aerospace_description_9'),
     image: aero9,      
-    source_code_link: "", // Link para o código
-    liveUrl: "", // Link para a versão ao vivo
-  },*/
+    source_code_link: "https://drive.google.com/file/d/141TJmr9TsCEyrXqFfTt9ScHuIEvC6Z9Y/view?usp=sharing", // Link para o código
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ZU1tsSNzOQ&qrcode=1", // Link para a versão ao vivo
+  },
   {
     name: getTranslatedText(language, 'aerospace_title_4'),
     description: getTranslatedText(language, 'aerospace_description_4'),

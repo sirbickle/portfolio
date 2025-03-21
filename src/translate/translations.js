@@ -243,7 +243,10 @@ const translations = {
     <li>How to use the IMATEC software. Creation, characterisation, description, and analysis of a DAP using the IMATEC software. Analysis of the final maturity report.</li>`, 
 
     aerospace_title_9: "Introduction to Aerospace Geopolitics",
-    aerospace_description_9: `In this course module, I learned about:`, 
+    aerospace_description_9: `In this course module, I learned about:
+    <li>Aerospace Environment;</li> 
+    <li>What is Geopolitics?;</li> 
+    <li>Aerospace Geopolitics.</li>`, 
 
     aerospace_title_10: "Project Management in the Aerospace Sector",  
     aerospace_description_10: `In this course module, I learned about:  
@@ -506,7 +509,10 @@ const translations = {
     <li>Como usar o Software IMATEC. Criação, caracterização, descrição e análise de uma DAP via software IMATEC. Análise do relatório final de maturidade.</li>`,
 
     aerospace_title_9: "Introdução à Geopolítica Aeroespacial",
-    aerospace_description_9: `Neste módulo do curso, aprendi sobre:`,
+    aerospace_description_9: `Neste módulo do curso, aprendi sobre:
+    <li>Ambiente Aeroespacial;</li>
+    <li>O que é Geopolítica?;</li>
+    <li>Geopolítica Aeroespacial.</li>`,
 
     aerospace_title_10: "Gestão de Projetos no Setor Aeroespacial",
     aerospace_description_10: `Neste módulo do curso, aprendi sobre: 
@@ -770,7 +776,10 @@ const translations = {
     <li>Как использовать программное обеспечение IMATEC. Создание, характеристика, описание и анализ DAP с помощью программного обеспечения IMATEC. Анализ итогового отчёта по зрелости.</li>`, 
 
     aerospace_title_9: "Введение в аэрокосмическую геополитику",
-    aerospace_description_9: `В этом модуле курса я узнал о:`, 
+    aerospace_description_9: `В этом модуле курса я узнал о:
+    <li>Аэрокосмическая среда;</li> 
+    <li>Что такое геополитика?;</li> 
+    <li>Аэрокосмическая геополитика.</li>`, 
 
     aerospace_title_10: "Управление проектами в аэрокосмическом секторе",  
     aerospace_description_10: `В этом модуле курса я изучил(а):  

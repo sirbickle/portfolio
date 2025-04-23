@@ -10,6 +10,7 @@ import Exp_Sport from "./Exp_Sport";
 import AchievementSport from "./AchievementSport";
 import Reason from "./Reason";
 import Exp_Aerospace from "./Exp_Aerospace";
+import Exp_IASC from './Exp_IASC';
 import Reason_final from "./Reason_final";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
@@ -26,6 +27,7 @@ export {
   Exp_Sport,
   Reason,
   Exp_Aerospace,
+  Exp_IASC,
   Reason_final,
   CanvasLoader,
   EarthCanvas,

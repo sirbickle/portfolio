@@ -1,271 +1,5 @@
 // translations.js
 const translations = {
-  en: {
-
-    //navlinks
-    "navlinks_about": "About",
-    "navlinks_study": "Study",
-    "navlinks_sport": "Sport",
-    "navlinks_reason": "Reason why I want to study in Russia",
-    "navlinks_home": "Home",
-
-    //Hero
-    "hello": "Hello, I'm",
-    "description_hero": "And I will write for you...",
-    "name": "Leonardo",
-
-    //about
-    "intro": "Introduction",
-    "overview": "Overview",
-    "description": `
-    <p>Hi, I’m Leonardo Lima, I’m 25 years old, I live in Sorocaba, and I have experience as an IT Project Manager, where I have implemented SAP systems in companies such as Braskem, Claro, and Suzano. I was also an IT Support at Atacadão and I have a degree in Technology in Analysis and Systems Development.</p>
-    <p>Besides work, I have many interests that help keep my mind active: I am a fan of games, from classics like Warcraft 3 and Starcraft to World of Warcraft and Counter-Strike 2. I also enjoy board games and card games, and from time to time, I play a game of chess.</p>
-    <p>Music is another passion: I play bass and guitar, which helps me disconnect a bit from the digital world. For 3 years (2020-2023), I played in a band called Atrois, where we did a few shows and recorded and released, in 2022, our first EP titled Na Mão do Palhaço (In the Clown's Hands), which is available on digital platforms.</p>
-    <p>When I'm not involved in IT projects, playing, or programming, I like to practise sports, especially running and working out.</p>
-    <p>Finally, I'm curious and passionate about nature, travel, new cultures, and exploration.</p>
-    <p>I enjoy learning about science, such as cosmology, astronomy, physics, and related topics. I'm also always looking to learn new languages to connect better with the world.</p>`,
-
-    //service
-    "hobbies_tecnologia": "Information Technology",
-    "hobbies_jogos": "Games",
-    "hobbies_musica": "Music",
-    "hobbies_sport": "Sports",
-    "hobbies_viagem": "Travel",
-    "hobbies_ciencia": "Science",
-    "hobbies_espaco": "Outer Space",
-    "hobbies_idioma": "Languages",
-
-    //study
-    "study": "Study",
-    "journey_study": `
-    <p>My educational journey began in 2005 at Lea Edy Alonso Saliba Preschool, where I studied until 2006. In 2007, I entered the 1st grade (2nd year) at the same school and stayed there until 2010, when I completed the 4th grade (5th year).</p>
-    <p>In 2011, I started at a new school, Isabel Lopes Monteiro, where I stayed until 2014, preparing for secondary school. During this time, I joined the handball team, and we became vice-champions in the JES competition against Matheus Maylasky School. I also joined the basketball team in the following years. Although we didn’t achieve significant results, it was a fun and enriching experience.</p>
-    <p>During primary school, my interest in languages began to grow, which led me to explore options at CEL (Centre of Languages). There were several languages on offer, such as French, Italian, English, Japanese, and German. German caught my attention, both because of its pronunciation and because I wasn’t very familiar with the culture, so I decided to seize the opportunity.</p>
-    <p>Although I am currently focused on studying Russian, I still hold a great fondness for German. It was this experience that opened the doors to my interest in new cultures and languages.</p>
-    <p>Throughout the course, I had incredible moments, such as conversing with native speakers and even applying for the chance to travel to Germany through the Goethe-Institut. Unfortunately, the selection was done by lottery, and I wasn’t chosen.</p>
-    <p>After finishing my studies at Isabel Lopes Monteiro, I went on to study at Senador Luiz Nogueira Martins from 2015 to 2017, where I completed my secondary education.</p>
-    <p>In 2022, I enrolled at Sorocaba Engineering College (FACENS) to pursue a Higher National Diploma in Systems Analysis and Development, graduating in 2024.</p>`,
-
-    //exp_study
-    "experiences_title_study": "Experiences",
-    "experiences_description_study": "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
-
-    //studies
-    "studies_title_science": "Science Fair",
-    "studies_description_science": "In the last year of elementary school, we had some extremely interesting projects, and the most memorable one was the Science Fair. My theme was about hospital waste disposal and sanitation. On the table, we could see the disposal box, saline solution, cotton, and some syringes. The group was composed of Leonardo, Pamela, Roger, Guilherme, and me.",
-
-    "studies_title_german": "German Course Diploma",
-    "studies_description_german": "Completion diploma. The course started in the first semester of 2013 and ended in the second semester of 2016.",
-
-    "studies_title_project": "Project Factory",
-    "studies_description_project": "Presentation of the final project of the first semester of Project Factory, where the challenge was to develop something for the microcomputer, and we created a game on it, the famous 'Pac-Man'. Based on the original game, the objective is to score 999 points by both avoiding ghosts and collecting fruits.",
-
-    "studies_title_maratona1": "16th FACENS Programming Marathon",
-    "studies_description_maratona1": "16th FACENS Programming Marathon in 2022. The student teams spent several hours solving problems involving concepts of Computational Logic, Algorithms and Programming, Data Structures, among others. With great joy, the team I participated in, 'C Sustenido', achieved 7th place out of 32 teams, achieving this feat only in the second semester of the college.",
-
-    "studies_title_lgpt": "Presentation on 'Data Protection Law'",
-    "studies_description_lgpt": "Final presentation on 'Data Protection Law' for the subject 'Computer Architecture'.",
-
-    "studies_title_maratona2": "27th Regional Programming Marathon",
-    "studies_description_maratona2": "27th Regional Programming Marathon in 2022. With great joy, 'C Sustenido' achieved 5th place out of 15 teams, achieving this feat only in the second semester of college.",
-
-    "studies_title_maratona3": "17th FACENS Programming Marathon",
-    "studies_description_maratona3": "10th place out of 32 teams in the 17th FACENS Programming Marathon in 2023.",
-
-    "studies_title_diploma": "Technologist Diploma in Systems Analysis and Development",
-    "studies_description_diploma": "Diploma of completion of the Technologist course in Systems Analysis and Development.",
-
-    //achievements study
-    "achievements_study": "Achievements",
-    "journey_achievement_study": "What I’ve achieved during this time.",
-
-    //achievement study
-    "achievement_title_maratona1": "16th FACENS Programming Marathon",
-    "achievement_company_maratona1": "Sorocaba Engineering College",
-    "achievement_points_maratona1": "7th place out of 32 teams in the 16th FACENS Programming Marathon.",
-
-    "achievement_title_maratona2": "27th Regional Programming Marathon",
-    "achievement_company_maratona2": "Brazilian Programming Society",
-    "achievement_points_maratona2": "5th place out of 15 teams in the 27th Regional Programming Marathon.",
-
-    "achievement_title_maratona3": "17th FACENS Programming Marathon",
-    "achievement_company_maratona3": "Sorocaba Engineering College",
-    "achievement_points_maratona3": "10th place out of 32 teams in the 17th FACENS Programming Marathon.",
-
-    //sports
-    "sport": "Sport",
-    "journey_sport": `
-    <p>Without a doubt, Judo holds great significance in my life. I began practising at the age of 7 or 8 and stopped when I was around 14 or 15. Throughout my journey, I had the honour of participating in the Paulista Judo Federation, travelling to various towns and cities cross the state of São Paulo for competitions. I trained at the Bandeirantes Sorocaba gym and was a student of Sensei Antonio Rizzardo.</p>
-    <p>I have a considerable background in Judo, having participated in competitions since 2007, both in Sorocaba and in other cities through the Paulista Judo Federation. In total, I won 28 championships between 2007 and 2013. The most memorable were the Regional, where I became the champion, and the State, where I was the runner-up.</p>
-    <p>The main reason my mother enrolled me in Judo was because I was quite impulsive and needed to channel my energy in a constructive way. I tried other sports, such as swimming and football, but the only one that truly captivated me was Judo. However, due to the timing of my German course, I had to stop practising Judo and ended my activities at green belt, with just three belts remaining to achieve black belt.</p>
-    <p>Nevertheless, Judo was not the only sport I practised. I was the runner-up in Handball during primary school at the JES (Student Games) competition. At present, I still practise sports such as running, having participated in several marathons, in addition to going to the gym.</p>`,
-
-    //exp_sport
-    "experiences_title": "Experiences",
-    "experiences_description": "Some moments I consider important in the sports I practice or have practiced. To view them in detail, click on the 'Drive' icon to access the certificate.",
-
-    //sporties
-    "sporties_title_handebol": "Medal in the Student Games for Handball",
-    "sporties_description_handebol": "Runner-up medal in the JES.",
-
-    "sporties_title_bandeirantes": "Bandeirantes Sorocaba",
-    "sporties_description_bandeirantes": "We won first place in the number of medals.",
-
-    "sporties_title_carterinha": "Federation Card",
-    "sporties_description_carterinha": "The Federation Paulista de Judô cards.",
-
-    "sporties_title_faixa": "Belt Exam",
-    "sporties_description_faixa": "Belt exam for green belt.",
-
-    "sporties_title_medalha": "Medals",
-    "sporties_description_medalha": "A total of 28 medals won, including gold, silver, and bronze.",
-
-    "sporties_title_campeao": "Regional Champion",
-    "sporties_description_campeao": "Regional champion on August 10, 2013.",
-
-    "sporties_title_vice": "State Vice-Champion",
-    "sporties_description_vice": "State vice-champion on September 1, 2013.",
-
-    "sporties_title_maratona1": "First Marathon",
-    "sporties_description_maratona1": "First marathon.",
-
-    "sporties_title_maratona2": "8th Marathon Sorocaba Blue November",
-    "sporties_description_maratona2": "Participation medal in the 8th Sorocaba marathon Blue November.",
-
-    "sporties_title_maratona3": "Farma Ponte Marathon",
-    "sporties_description_maratona3": "Participation medal in the Farma Ponte Marathon.",
-
-    "sporties_title_maratona4": "Duathlon J.P Pereira",
-    "sporties_description_maratona4": "Participation medal in Duathlon J.P Pereira.",
-
-    sporties_title_maratona5: "9º 5k Niver Runner",
-    sporties_description_maratona5: "Participation medal in the 9th 5K Niver Runner.",
-
-    //achievements sports
-    "achievements_sport": "Achievements",
-    "journey_achievement_sport": "The achievements I'm most proud of.",
-
-    //achievement sport
-    "achievement_title_jes": "JES Runner-Up",
-    "achievement_company_jes": "Student Games",
-    "achievement_points_jes": "Runner-up in JES.",
-
-    "achievement_title_campeao": "Regional Champion",
-    "achievement_company_campeao": "Paulista Judo Federation",
-    "achievement_points_campeao": "Regional champion on August 10, 2013.",
-
-    "achievement_title_vice": "State Runner-Up",
-    "achievement_company_vice": "Paulista Judo Federation",
-    "achievement_points_vice": "State runner-up on September 1, 2013.",
-
-    //reason
-    reason_title: "Reason Why I Want to Study in Russia",
-    reason_description: `
-    <p><strong>"The Earth is the cradle of humanity, but one cannot live in the cradle forever,"</strong> said Konstantin Tsiolkovsky, a pioneer of astronautics.</p>
-    <p>Like every child, I too dreamt of becoming an astronaut, fuelled by films, cartoons, and video games. However, just like many others, I eventually set that dream aside to pursue a different path, graduating in the field of IT. I worked as a support technician and project manager, and during this time, I realised the impact my work had on the lives of others. Yet, I understood that I wanted to direct my contributions to something that had always fascinated me: space.</p>
-    <p>The current moment in space exploration has rekindled my curiosity. The advancements in manned missions, the growing presence of private companies, and the increasing investment by countries in the sector, coupled with the real possibility of a new space age, made me realise that I wanted to be part of this. That is why I decided to transition to Aerospace Engineering.</p>
-    <p>My goals are clear: I want to become an aerospace engineer and work as either an engineer or a project manager, a role I have already held and have experience in. I aim to continue my studies, with a master's degree, postgraduate studies, and a PhD. I wish to work for a space agency and, at the end of my career, become a university professor to share the knowledge I have gained throughout my journey.</p>
-    <p>To start understanding how this area of engineering works, I began studying independently. The AEB (Brazilian Space Agency) has made some courses available in the field of Aerospace Sciences, which I am using to learn about basic concepts, space, motion, gravity and weight, propulsion, and nanosatellites. I also participated in the IASC (International Astronomical Search Collaboration) programme, a global project that involves students and enthusiasts in the search for asteroids and other space objects using telescope images. This work contributes to scientific research and monitoring of risks to Earth.</p>`,
-
-    //aerospace
-    experiences_title_aerospace: "Certificates in Aerospace Science",
-    experiences_description_aerospace: "The certificates I obtained while studying the subject. To view them in detail, click on the 'Drive' icon to access the certificate or on the 'AEB' icon to access the QR Code content of the certificate.",
-
-    aerospace_title_1: "Introduction to Rocket Physics - Initial Concepts",  
-    aerospace_description_1: `In this course module, I learned about: 
-    <li>The importance of measurement;</li>
-    <li>Vector quantities;</li>
-    <li>Historical introduction;</li>
-    <li>The Brazilian space programme;</li>
-    <li>Space Science and Technology (S&T).</li>`, 
-
-    aerospace_title_2: "Introduction to Rocket Physics - Space, Movements, Gravity, and Weight",
-    aerospace_description_2: `In this course module, I learned about: 
-    <li>How to reach space;</li>
-    <li>The study of rocket movements;</li>
-    <li>The relationship between gravity and weight;</li> 
-    <li>The differences between entry and exit;</li>
-    <li>Climbing and descending / climbing and not descending.</li>`, 
-
-    aerospace_title_3: "Introduction to Space Propulsion I",
-    aerospace_description_3: `In this course module, I learned about: 
-    <li>Fundamental concepts;</li>
-    <li>Conservation of momentum and Tsiolkovsky's equation;</li>
-    <li>Principles of propulsion;</li>
-    <li>Chemical propulsion systems.</li>`, 
-
-    aerospace_title_4: "Introduction to Analogue Astronautics",
-    aerospace_description_4: `In this course module, I learned about: 
-    <li>Aerospace history;</li>
-    <li>New Space; Moon and Mars missions;</li>
-    <li>The aerospace system and the role of astronauts;</li>
-    <li>Aerospace careers and research;</li>
-    <li>Space sustainability;</li>
-    <li>Aerospace health and agriculture;</li>
-    <li>Aerospace education and innovation;</li>
-    <li>Analogue space stations;</li>
-    <li>The Habitat Mars space station.</li>`, 
-
-    aerospace_title_5: "A Journey through the Universe of Rockets: Theory and Practice",
-    aerospace_description_5: `In this course module, I learned about: 
-    <li>Introduction to Rockets;</li>
-    <li>History of Rockets;</li>
-    <li>The Space Race;</li>
-    <li>How Rockets work;</li>
-    <li>Launch Centres and Brazilian Rockets;</li>
-    <li>Building your own rocket.</li>`, 
-
-    aerospace_title_6: "Introduction to Nanosatellites",
-    aerospace_description_6: `In this course module, I learned about: 
-    <li>Defining mission requirements;</li>
-    <li>Structural design;</li>
-    <li>Thermal design;</li> 
-    <li>Launch;</li>
-    <li>Communications;</li>
-    <li>Data management and operation.</li>`, 
-
-    aerospace_title_7: "Space Law",
-    aerospace_description_7: `In this course module, I learned about: 
-    <li>Introduction to space law;</li> 
-    <li>Space treaties;</li> 
-    <li>Defining and delimiting outer space;</li> 
-    <li>COPUOS: history, functioning, and Brazil's participation;</li> 
-    <li>NewSpace: Congested, contested, and competitive;</li> 
-    <li>Space debris;</li>
-    <li>Space resources;</li>
-    <li>National regulations of AEB and PNAE.</li>`,
-
-    aerospace_title_8: "Introduction to Technology Readiness and its Metrics",
-    aerospace_description_8: `In this course module, I learned about:
-    <li>Introduction to technology and its associated concepts: technological and scientific research, engineering, technological risk, and technological requirements.</li>
-    <li>Evolution, description, and technological maturity. What characterises technological development, technological classifications. Technological maturity.</li>
-    <li>Analytical decomposition of technological products (DAP) and its maturity measure. DAP and IMATEC. Differences between integration and technological development projects.</li>
-    <li>How to use the IMATEC software. Creation, characterisation, description, and analysis of a DAP using the IMATEC software. Analysis of the final maturity report.</li>`, 
-
-    aerospace_title_9: "Introduction to Aerospace Geopolitics",
-    aerospace_description_9: `In this course module, I learned about:
-    <li>Aerospace Environment;</li> 
-    <li>What is Geopolitics?;</li> 
-    <li>Aerospace Geopolitics.</li>`, 
-
-    aerospace_title_10: "Project Management in the Aerospace Sector",  
-    aerospace_description_10: `In this course module, I learned about:  
-    <li>Introduction to Project Management in the Aerospace Sector;</li>  
-    <li>Scope, Time, and Cost Management;</li>  
-    <li>Quality and Risk Management;</li>  
-    <li>Procurement, Integration, and Communication Management;</li>  
-    <li>Stakeholder Management and Project Closure.</li>`,
- 
-
-    // reason 2
-    reason_final_description: `
-    <p>Russia has always attracted me due to its strong history in space exploration. The country was a pioneer with historic milestones such as the launch of the first satellite, Sputnik, and sending the first human into space, Yuri Gagarin. Its contributions continue with innovations in the development of rockets like the Soyuz, which are still used in space missions. Russia is a global leader in the development of aerospace technologies, with cutting-edge research infrastructure and advanced space programmes, such as the lunar exploration programme.</p>
-    <p>Moreover, the country has a long tradition of academic excellence, with renowned universities that stand out in fields like engineering and natural sciences. Collaboration with international students is a historical characteristic, and this, combined with the strong rankings of Russian universities in international rankings, makes the country an ideal place for my professional development.</p>
-    <p>The geographical and cultural diversity of Russia is also a major attraction. With stunning landscapes, such as the marble quarries of Karelia, the crystal-clear waters of Lake Baikal, and the volcanoes of Kamchatka, the country offers a rich natural experience. Its culture, with great literary classics by names like Pushkin, Tolstoy, and Dostoevsky, and classical music by Tchaikovsky and Rachmaninoff, complement the experience, making Russia a unique place to study and live.</p>
-    <p>I am aware that the transition to Aerospace Engineering will be challenging, but I am determined to dedicate all my effort to achieving this goal. I have full confidence that, with the knowledge I will acquire, I will be able to contribute significantly to the advancement of technology and science in the aerospace field, as well as share my learning with future generations.</p>
-    <p><strong>"Brazil is not far from Russia for a man with purpose."</strong></p>`,
-  },
-
   pt: {
 
     //navlink
@@ -431,12 +165,14 @@ const translations = {
     <p>Como toda criança, eu também sonhei em ser astronauta, alimentado por filmes, desenhos e jogos de videogame. No entanto, assim como muitos, acabei deixando esse sonho de lado para seguir outro caminho, me formando na área de T.I. Trabalhei como suporte e gerente de projetos, e durante esse período, percebi o impacto que meu trabalho tinha na vida de outras pessoas. Porém, entendi que queria direcionar minhas contribuições para algo que sempre me fascinou: o espaço.</p>
     <p>O momento atual da exploração espacial reacendeu minha curiosidade. Os avanços em missões tripuladas, a crescente presença de empresas privadas e o aumento do investimento de países no setor, junto à possibilidade real de uma nova era espacial, me fizeram perceber que queria fazer parte disso. Por isso, decidi fazer a transição para a Engenharia Aeroespacial.</p>
     <p>Meus objetivos são bem claros: Quero me tornar engenheiro aeroespacial e atuar como engenheiro ou gerente de projetos, função que já exerci e na qual tenho experiência, além de continuar meus estudos, com mestrado, pós-graduação e doutorado. Desejo trabalhar em uma agência espacial e, ao final da minha carreira, me tornar professor universitário, para compartilhar o conhecimento adquirido ao longo da minha trajetória.</p>
-    <p>Para começar a entender como funciona esse lado da engenharia, comecei a estudar por conta própria. A AEB (Agência Espacial Brasileira) disponibilizou alguns cursos na área de Ciências Aeroespaciais, que estou utilizando para aprender sobre conceitos iniciais, espaço, movimento, gravidade e peso, propulsão e nanosatélites. Também participei do programa IASC (International Astronomical Search Collaboration), um projeto global que envolve estudantes e entusiastas na busca de asteroides e outros objetos espaciais, utilizando imagens de telescópios. Esse trabalho contribui para a pesquisa científica e o monitoramento de riscos à Terra.</p>`,
+    <p>Para começar a entender como funciona esse lado da engenharia, comecei a estudar por conta própria.</p>`,
 
     //aerospace
     experiences_title_aerospace: "Certificados sobre Ciência Aeroespacial",
-    experiences_description_aerospace: "Os certificados que adquiri ao estudar sobre o tema. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado ou no ícone da 'AEB' para acessar o conteúdo do QR Code do certificado.",
-
+    experiences_description_aerospace: `
+    <p>A AEB (Agência Espacial Brasileira) e a UFSCar (Universidade Federal de São Carlos) disponibilizaram alguns cursos na área de Ciências Aeroespaciais, que utilizei para aprender sobre conceitos iniciais, espaço, movimento, gravidade e peso, propulsão, nanosatélites e astronomia observacional.</p>
+    <p><br> Abaixo estão os certificados que adquiri ao estudar sobre os temas. Para visualizá-los em detalhes, clique no ícone do 'Drive'; para acessar o QR Code do certificado, clique no ícone da 'AEB' ou da 'UFSCar'.</p>`,
+  
     aerospace_title_1: "Introdução à Física de Foguetes - Conceitos iniciais",  
     aerospace_description_1: `Neste módulo do curso, aprendi sobre: 
     <li>Importância de medir;</li>
@@ -522,6 +258,37 @@ const translations = {
     <li>Gerenciamento das Aquisições, da Integração e da Comunicação;</li>
     <li>Gerenciamento das Partes Interessadas e do Encerramento.</li>`,
 
+    aerospace_title_11: "Introdução à Astronomia Observacional",
+    aerospace_description_11: `Neste módulo do curso, aprendi sobre: 
+    <li>Civilizações antigas e sua visão do Cosmos.</li> 
+    <li>Coordenadas Astronômicas.</li>
+    <li>Fenômenos e Objetos Observáveis a Olho Nu</li>
+    <li>Instrumentos Astronômicos e Simuladores.</li>`,
+
+    //IASC
+    experiences_title_iasc: "Certificados do Programa de Caça-Asteroides (IASC e MCTI)",
+    experiences_description_iasc: `
+    <p> Este ano, tive a oportunidade de participar do programa IASC (International Astronomical Search Collaboration) e também da sua versão brasileira, o Caça Asteroides MCTI.</p>
+    <p>O IASC é um projeto internacional de ciência cidadã, coordenado pela NASA e pela Universidade Hardin-Simmons, dos Estados Unidos. Seu principal objetivo é envolver estudantes e entusiastas de todo o mundo na detecção de asteroides e objetos próximos da Terra, contribuindo para o avanço da pesquisa astronômica e o monitoramento de riscos espaciais.</p>
+    <p>Já no Brasil, o programa é promovido pelo Ministério da Ciência, Tecnologia e Inovação (MCTI), que organiza o Caça Asteroides MCTI em parceria com escolas, universidades e instituições de ensino. A iniciativa busca popularizar a ciência, incentivar o interesse pela astronomia e aproximar os jovens da pesquisa científica.</p>
+    <p>Durante as campanhas, os participantes analisam imagens reais de telescópios, como o Pan-STARRS, localizado no Havaí. A missão é identificar possíveis asteroides, seguindo critérios técnicos e científicos.</p>
+    <p>Com muita dedicação e trabalho em equipe, tivemos a honra de identificar um asteroide preliminar, o que nos deixou imensamente felizes por contribuir com a ciência global.</p>
+    <p><br>Abaixo estão os certificados do programa IASC e MCTI. Para vê-los em detalhes, clique no ícone do 'Drive'; para acessar o QR Code do certificado, clique no ícone da 'IASC' ou do 'MCTI'.</p>`, 
+
+    iasc_title_1: "International Astronomical Search Collaboration (Mar–Abr 2025)",
+    iasc_description_1:`<p>Durante nossa participação na campanha do IASC entre os meses de março e abril de 2025, identificamos dois objetos astronômicos que foram reportados como potenciais asteroides: </p>
+    <p><strong>Asteroide RCA0001</p></strong>
+    <p>Descoberto no dia 23 de março de 2025, com base em três observações distintas feitas a partir do observatório F51. Os dados astrométricos são os seguintes:</p>
+    <li>RCA0001  C2025 03 23.541455  14 10 16.429  -11 06 59.82    21.6 G   F51 </li>
+    <li>RCA0001  C2025 03 23.552524  14 10 16.170  -11 06 57.50    21.8 G   F51 </li>
+    <li>RCA0001  C2025 03 23.563600  14 10 15.828  -11 06 55.85    21.8 G   F51 </li>
+    <p><strong>Asteroide RCA0009</p></strong>
+    <p>Detectado no dia 30 de março de 2025, também a partir de registros do observatório F51. As coordenadas registradas são:</p>
+    <li>RCA0009  C2025 03 30.415523  13 15 56.817  +02 56 42.47    21.6 G   F51  </li>
+    <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51  </li>
+    <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51  </li>
+    <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51  </li>`,
+
     // reason 2
     reason_final_description: `
     <p>A Rússia sempre me atraiu pela sua forte história na exploração espacial. O país foi pioneiro com marcos históricos como o lançamento do primeiro satélite, o Sputnik, e o envio do primeiro ser humano ao espaço, Yuri Gagarin. Sua contribuição continua com inovações no desenvolvimento de foguetes como o Soyuz, ainda utilizados em missões espaciais. A Rússia é um líder global no desenvolvimento de tecnologias aeroespaciais, com infraestrutura de pesquisa de ponta e programas espaciais avançados, como o programa de exploração da Lua.</p>
@@ -530,7 +297,305 @@ const translations = {
     <p>Estou ciente de que a transição para a Engenharia Aeroespacial será desafiadora, mas estou determinado a dedicar todo o meu esforço para alcançar esse objetivo. Tenho plena confiança de que, com o conhecimento que adquirirei, poderei contribuir de maneira significativa para o avanço da tecnologia e da ciência no campo aeroespacial, além de compartilhar meu aprendizado com futuras gerações.</p>
     <p><strong>"O Brasil não está longe da Rússia para um homem com propósito."</strong></p>`,
   },
+ 
+  en: {
 
+    //navlinks
+    "navlinks_about": "About",
+    "navlinks_study": "Study",
+    "navlinks_sport": "Sport",
+    "navlinks_reason": "Reason why I want to study in Russia",
+    "navlinks_home": "Home",
+
+    //Hero
+    "hello": "Hello, I'm",
+    "description_hero": "And I will write for you...",
+    "name": "Leonardo",
+
+    //about
+    "intro": "Introduction",
+    "overview": "Overview",
+    "description": `
+    <p>Hi, I’m Leonardo Lima, I’m 25 years old, I live in Sorocaba, and I have experience as an IT Project Manager, where I have implemented SAP systems in companies such as Braskem, Claro, and Suzano. I was also an IT Support at Atacadão and I have a degree in Technology in Analysis and Systems Development.</p>
+    <p>Besides work, I have many interests that help keep my mind active: I am a fan of games, from classics like Warcraft 3 and Starcraft to World of Warcraft and Counter-Strike 2. I also enjoy board games and card games, and from time to time, I play a game of chess.</p>
+    <p>Music is another passion: I play bass and guitar, which helps me disconnect a bit from the digital world. For 3 years (2020-2023), I played in a band called Atrois, where we did a few shows and recorded and released, in 2022, our first EP titled Na Mão do Palhaço (In the Clown's Hands), which is available on digital platforms.</p>
+    <p>When I'm not involved in IT projects, playing, or programming, I like to practise sports, especially running and working out.</p>
+    <p>Finally, I'm curious and passionate about nature, travel, new cultures, and exploration.</p>
+    <p>I enjoy learning about science, such as cosmology, astronomy, physics, and related topics. I'm also always looking to learn new languages to connect better with the world.</p>`,
+
+    //service
+    "hobbies_tecnologia": "Information Technology",
+    "hobbies_jogos": "Games",
+    "hobbies_musica": "Music",
+    "hobbies_sport": "Sports",
+    "hobbies_viagem": "Travel",
+    "hobbies_ciencia": "Science",
+    "hobbies_espaco": "Outer Space",
+    "hobbies_idioma": "Languages",
+
+    //study
+    "study": "Study",
+    "journey_study": `
+    <p>My educational journey began in 2005 at Lea Edy Alonso Saliba Preschool, where I studied until 2006. In 2007, I entered the 1st grade (2nd year) at the same school and stayed there until 2010, when I completed the 4th grade (5th year).</p>
+    <p>In 2011, I started at a new school, Isabel Lopes Monteiro, where I stayed until 2014, preparing for secondary school. During this time, I joined the handball team, and we became vice-champions in the JES competition against Matheus Maylasky School. I also joined the basketball team in the following years. Although we didn’t achieve significant results, it was a fun and enriching experience.</p>
+    <p>During primary school, my interest in languages began to grow, which led me to explore options at CEL (Centre of Languages). There were several languages on offer, such as French, Italian, English, Japanese, and German. German caught my attention, both because of its pronunciation and because I wasn’t very familiar with the culture, so I decided to seize the opportunity.</p>
+    <p>Although I am currently focused on studying Russian, I still hold a great fondness for German. It was this experience that opened the doors to my interest in new cultures and languages.</p>
+    <p>Throughout the course, I had incredible moments, such as conversing with native speakers and even applying for the chance to travel to Germany through the Goethe-Institut. Unfortunately, the selection was done by lottery, and I wasn’t chosen.</p>
+    <p>After finishing my studies at Isabel Lopes Monteiro, I went on to study at Senador Luiz Nogueira Martins from 2015 to 2017, where I completed my secondary education.</p>
+    <p>In 2022, I enrolled at Sorocaba Engineering College (FACENS) to pursue a Higher National Diploma in Systems Analysis and Development, graduating in 2024.</p>`,
+
+    //exp_study
+    "experiences_title_study": "Experiences",
+    "experiences_description_study": "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
+
+    //studies
+    "studies_title_science": "Science Fair",
+    "studies_description_science": "In the last year of elementary school, we had some extremely interesting projects, and the most memorable one was the Science Fair. My theme was about hospital waste disposal and sanitation. On the table, we could see the disposal box, saline solution, cotton, and some syringes. The group was composed of Leonardo, Pamela, Roger, Guilherme, and me.",
+
+    "studies_title_german": "German Course Diploma",
+    "studies_description_german": "Completion diploma. The course started in the first semester of 2013 and ended in the second semester of 2016.",
+
+    "studies_title_project": "Project Factory",
+    "studies_description_project": "Presentation of the final project of the first semester of Project Factory, where the challenge was to develop something for the microcomputer, and we created a game on it, the famous 'Pac-Man'. Based on the original game, the objective is to score 999 points by both avoiding ghosts and collecting fruits.",
+
+    "studies_title_maratona1": "16th FACENS Programming Marathon",
+    "studies_description_maratona1": "16th FACENS Programming Marathon in 2022. The student teams spent several hours solving problems involving concepts of Computational Logic, Algorithms and Programming, Data Structures, among others. With great joy, the team I participated in, 'C Sustenido', achieved 7th place out of 32 teams, achieving this feat only in the second semester of the college.",
+
+    "studies_title_lgpt": "Presentation on 'Data Protection Law'",
+    "studies_description_lgpt": "Final presentation on 'Data Protection Law' for the subject 'Computer Architecture'.",
+
+    "studies_title_maratona2": "27th Regional Programming Marathon",
+    "studies_description_maratona2": "27th Regional Programming Marathon in 2022. With great joy, 'C Sustenido' achieved 5th place out of 15 teams, achieving this feat only in the second semester of college.",
+
+    "studies_title_maratona3": "17th FACENS Programming Marathon",
+    "studies_description_maratona3": "10th place out of 32 teams in the 17th FACENS Programming Marathon in 2023.",
+
+    "studies_title_diploma": "Technologist Diploma in Systems Analysis and Development",
+    "studies_description_diploma": "Diploma of completion of the Technologist course in Systems Analysis and Development.",
+
+    //achievements study
+    "achievements_study": "Achievements",
+    "journey_achievement_study": "What I’ve achieved during this time.",
+
+    //achievement study
+    "achievement_title_maratona1": "16th FACENS Programming Marathon",
+    "achievement_company_maratona1": "Sorocaba Engineering College",
+    "achievement_points_maratona1": "7th place out of 32 teams in the 16th FACENS Programming Marathon.",
+
+    "achievement_title_maratona2": "27th Regional Programming Marathon",
+    "achievement_company_maratona2": "Brazilian Programming Society",
+    "achievement_points_maratona2": "5th place out of 15 teams in the 27th Regional Programming Marathon.",
+
+    "achievement_title_maratona3": "17th FACENS Programming Marathon",
+    "achievement_company_maratona3": "Sorocaba Engineering College",
+    "achievement_points_maratona3": "10th place out of 32 teams in the 17th FACENS Programming Marathon.",
+
+    //sports
+    "sport": "Sport",
+    "journey_sport": `
+    <p>Without a doubt, Judo holds great significance in my life. I began practising at the age of 7 or 8 and stopped when I was around 14 or 15. Throughout my journey, I had the honour of participating in the Paulista Judo Federation, travelling to various towns and cities cross the state of São Paulo for competitions. I trained at the Bandeirantes Sorocaba gym and was a student of Sensei Antonio Rizzardo.</p>
+    <p>I have a considerable background in Judo, having participated in competitions since 2007, both in Sorocaba and in other cities through the Paulista Judo Federation. In total, I won 28 championships between 2007 and 2013. The most memorable were the Regional, where I became the champion, and the State, where I was the runner-up.</p>
+    <p>The main reason my mother enrolled me in Judo was because I was quite impulsive and needed to channel my energy in a constructive way. I tried other sports, such as swimming and football, but the only one that truly captivated me was Judo. However, due to the timing of my German course, I had to stop practising Judo and ended my activities at green belt, with just three belts remaining to achieve black belt.</p>
+    <p>Nevertheless, Judo was not the only sport I practised. I was the runner-up in Handball during primary school at the JES (Student Games) competition. At present, I still practise sports such as running, having participated in several marathons, in addition to going to the gym.</p>`,
+
+    //exp_sport
+    "experiences_title": "Experiences",
+    "experiences_description": "Some moments I consider important in the sports I practice or have practiced. To view them in detail, click on the 'Drive' icon to access the certificate.",
+
+    //sporties
+    "sporties_title_handebol": "Medal in the Student Games for Handball",
+    "sporties_description_handebol": "Runner-up medal in the JES.",
+
+    "sporties_title_bandeirantes": "Bandeirantes Sorocaba",
+    "sporties_description_bandeirantes": "We won first place in the number of medals.",
+
+    "sporties_title_carterinha": "Federation Card",
+    "sporties_description_carterinha": "The Federation Paulista de Judô cards.",
+
+    "sporties_title_faixa": "Belt Exam",
+    "sporties_description_faixa": "Belt exam for green belt.",
+
+    "sporties_title_medalha": "Medals",
+    "sporties_description_medalha": "A total of 28 medals won, including gold, silver, and bronze.",
+
+    "sporties_title_campeao": "Regional Champion",
+    "sporties_description_campeao": "Regional champion on August 10, 2013.",
+
+    "sporties_title_vice": "State Vice-Champion",
+    "sporties_description_vice": "State vice-champion on September 1, 2013.",
+
+    "sporties_title_maratona1": "First Marathon",
+    "sporties_description_maratona1": "First marathon.",
+
+    "sporties_title_maratona2": "8th Marathon Sorocaba Blue November",
+    "sporties_description_maratona2": "Participation medal in the 8th Sorocaba marathon Blue November.",
+
+    "sporties_title_maratona3": "Farma Ponte Marathon",
+    "sporties_description_maratona3": "Participation medal in the Farma Ponte Marathon.",
+
+    "sporties_title_maratona4": "Duathlon J.P Pereira",
+    "sporties_description_maratona4": "Participation medal in Duathlon J.P Pereira.",
+
+    sporties_title_maratona5: "9º 5k Niver Runner",
+    sporties_description_maratona5: "Participation medal in the 9th 5K Niver Runner.",
+
+    //achievements sports
+    "achievements_sport": "Achievements",
+    "journey_achievement_sport": "The achievements I'm most proud of.",
+
+    //achievement sport
+    "achievement_title_jes": "JES Runner-Up",
+    "achievement_company_jes": "Student Games",
+    "achievement_points_jes": "Runner-up in JES.",
+
+    "achievement_title_campeao": "Regional Champion",
+    "achievement_company_campeao": "Paulista Judo Federation",
+    "achievement_points_campeao": "Regional champion on August 10, 2013.",
+
+    "achievement_title_vice": "State Runner-Up",
+    "achievement_company_vice": "Paulista Judo Federation",
+    "achievement_points_vice": "State runner-up on September 1, 2013.",
+
+    //reason
+    reason_title: "Reason Why I Want to Study in Russia",
+    reason_description: `
+    <p><strong>"The Earth is the cradle of humanity, but one cannot live in the cradle forever,"</strong> said Konstantin Tsiolkovsky, a pioneer of astronautics.</p>
+    <p>Like every child, I too dreamt of becoming an astronaut, fuelled by films, cartoons, and video games. However, just like many others, I eventually set that dream aside to pursue a different path, graduating in the field of IT. I worked as a support technician and project manager, and during this time, I realised the impact my work had on the lives of others. Yet, I understood that I wanted to direct my contributions to something that had always fascinated me: space.</p>
+    <p>The current moment in space exploration has rekindled my curiosity. The advancements in manned missions, the growing presence of private companies, and the increasing investment by countries in the sector, coupled with the real possibility of a new space age, made me realise that I wanted to be part of this. That is why I decided to transition to Aerospace Engineering.</p>
+    <p>My goals are clear: I want to become an aerospace engineer and work as either an engineer or a project manager, a role I have already held and have experience in. I aim to continue my studies, with a master's degree, postgraduate studies, and a PhD. I wish to work for a space agency and, at the end of my career, become a university professor to share the knowledge I have gained throughout my journey.</p>
+    <p>To start understanding how this area of engineering works, I began studying independently.`,
+
+    //aerospace
+    experiences_title_aerospace: "Certificates in Aerospace Science",
+    experiences_description_aerospace: `<p>The AEB (Brazilian Space Agency) and UFSCar (Federal University of São Carlos) made available a series of courses in the field of Aerospace Sciences, which I used to learn about basic concepts, space, motion, gravity and weight, propulsion, nanosatellites, and observational astronomy.</p>
+    <p><br>Below are the certificates I obtained from studying these topics. To view them in detail, click on the 'Drive' icon; to access the certificate QR Code, click on the 'AEB' or 'UFSCar' icon.</p>`,
+
+    aerospace_title_1: "Introduction to Rocket Physics - Initial Concepts",  
+    aerospace_description_1: `In this course module, I learned about: 
+    <li>The importance of measurement;</li>
+    <li>Vector quantities;</li>
+    <li>Historical introduction;</li>
+    <li>The Brazilian space programme;</li>
+    <li>Space Science and Technology (S&T).</li>`, 
+
+    aerospace_title_2: "Introduction to Rocket Physics - Space, Movements, Gravity, and Weight",
+    aerospace_description_2: `In this course module, I learned about: 
+    <li>How to reach space;</li>
+    <li>The study of rocket movements;</li>
+    <li>The relationship between gravity and weight;</li> 
+    <li>The differences between entry and exit;</li>
+    <li>Climbing and descending / climbing and not descending.</li>`, 
+
+    aerospace_title_3: "Introduction to Space Propulsion I",
+    aerospace_description_3: `In this course module, I learned about: 
+    <li>Fundamental concepts;</li>
+    <li>Conservation of momentum and Tsiolkovsky's equation;</li>
+    <li>Principles of propulsion;</li>
+    <li>Chemical propulsion systems.</li>`, 
+
+    aerospace_title_4: "Introduction to Analogue Astronautics",
+    aerospace_description_4: `In this course module, I learned about: 
+    <li>Aerospace history;</li>
+    <li>New Space; Moon and Mars missions;</li>
+    <li>The aerospace system and the role of astronauts;</li>
+    <li>Aerospace careers and research;</li>
+    <li>Space sustainability;</li>
+    <li>Aerospace health and agriculture;</li>
+    <li>Aerospace education and innovation;</li>
+    <li>Analogue space stations;</li>
+    <li>The Habitat Mars space station.</li>`, 
+
+    aerospace_title_5: "A Journey through the Universe of Rockets: Theory and Practice",
+    aerospace_description_5: `In this course module, I learned about: 
+    <li>Introduction to Rockets;</li>
+    <li>History of Rockets;</li>
+    <li>The Space Race;</li>
+    <li>How Rockets work;</li>
+    <li>Launch Centres and Brazilian Rockets;</li>
+    <li>Building your own rocket.</li>`, 
+
+    aerospace_title_6: "Introduction to Nanosatellites",
+    aerospace_description_6: `In this course module, I learned about: 
+    <li>Defining mission requirements;</li>
+    <li>Structural design;</li>
+    <li>Thermal design;</li> 
+    <li>Launch;</li>
+    <li>Communications;</li>
+    <li>Data management and operation.</li>`, 
+
+    aerospace_title_7: "Space Law",
+    aerospace_description_7: `In this course module, I learned about: 
+    <li>Introduction to space law;</li> 
+    <li>Space treaties;</li> 
+    <li>Defining and delimiting outer space;</li> 
+    <li>COPUOS: history, functioning, and Brazil's participation;</li> 
+    <li>NewSpace: Congested, contested, and competitive;</li> 
+    <li>Space debris;</li>
+    <li>Space resources;</li>
+    <li>National regulations of AEB and PNAE.</li>`,
+
+    aerospace_title_8: "Introduction to Technology Readiness and its Metrics",
+    aerospace_description_8: `In this course module, I learned about:
+    <li>Introduction to technology and its associated concepts: technological and scientific research, engineering, technological risk, and technological requirements.</li>
+    <li>Evolution, description, and technological maturity. What characterises technological development, technological classifications. Technological maturity.</li>
+    <li>Analytical decomposition of technological products (DAP) and its maturity measure. DAP and IMATEC. Differences between integration and technological development projects.</li>
+    <li>How to use the IMATEC software. Creation, characterisation, description, and analysis of a DAP using the IMATEC software. Analysis of the final maturity report.</li>`, 
+
+    aerospace_title_9: "Introduction to Aerospace Geopolitics",
+    aerospace_description_9: `In this course module, I learned about:
+    <li>Aerospace Environment;</li> 
+    <li>What is Geopolitics?;</li> 
+    <li>Aerospace Geopolitics.</li>`, 
+
+    aerospace_title_10: "Project Management in the Aerospace Sector",  
+    aerospace_description_10: `In this course module, I learned about:  
+    <li>Introduction to Project Management in the Aerospace Sector;</li>  
+    <li>Scope, Time, and Cost Management;</li>  
+    <li>Quality and Risk Management;</li>  
+    <li>Procurement, Integration, and Communication Management;</li>  
+    <li>Stakeholder Management and Project Closure.</li>`,
+
+    aerospace_title_11: "Introduction to Observational Astronomy",
+    aerospace_description_11: `In this course module, I learnt about:
+    <li>Ancient civilisations and their view of the Cosmos.</li> 
+    <li>Astronomical Coordinates.</li>
+    <li>Naked-eye Observable Phenomena and Objects.</li>
+    <li>Astronomical Instruments and Simulators.</li>`,
+
+    //iasc
+    experiences_title_iasc: "Certificates from the Asteroid Hunting Programme (IASC and MCTI)",
+    experiences_description_iasc: `
+    <p>This year, I had the opportunity to participate in the IASC (International Astronomical Search Collaboration) programme, as well as its Brazilian version, the Caça Asteroides MCTI (Asteroid Hunt).</p>
+    <p>The IASC is an international citizen science project, coordinated by NASA and Hardin-Simmons University in the United States. Its main objective is to engage students and enthusiasts from all over the world in the detection of asteroids and near-Earth objects, contributing to the advancement of astronomical research and the monitoring of space risks.</p>
+    <p>In Brazil, the programme is promoted by the Ministry of Science, Technology, and Innovation (MCTI), which organises the Caça Asteroides MCTI (Asteroid Hunt) in partnership with schools, universities, and educational institutions. The initiative aims to popularise science, encourage interest in astronomy, and bring young people closer to scientific research.</p>
+    <p>During the campaigns, participants analyse real images from telescopes such as Pan-STARRS, located in Hawaii. The mission is to identify potential asteroids, following technical and scientific criteria.</p>
+    <p>With great dedication and teamwork, we had the honour of identifying a preliminary asteroid, which made us extremely proud to contribute to global science.</p>
+    <p><br>Below are the certificates from the IASC and MCTI programmes. To view them in detail, click on the 'Drive' icon; to access the certificate QR Code, click on the 'IASC' or 'MCTI' icon.</p>`,
+ 
+    iasc_title_1: "International Astronomical Search Collaboration (Mar–Apr 2025)",
+    iasc_description_1: `<p>During our participation in the IASC campaign between March and April 2025, we identified two astronomical objects that were reported as potential asteroids:</p>
+    <p><strong>Asteroid RCA0001</strong></p>
+    <p>Discovered on 23 March 2025, based on three distinct observations made from the F51 observatory. The astrometric data are as follows:</p>
+    <li>RCA0001  C2025 03 23.541455  14 10 16.429  -11 06 59.82    21.6 G   F51</li>
+    <li>RCA0001  C2025 03 23.552524  14 10 16.170  -11 06 57.50    21.8 G   F51</li>
+    <li>RCA0001  C2025 03 23.563600  14 10 15.828  -11 06 55.85    21.8 G   F51</li>
+    <p><strong>Asteroid RCA0009</strong></p>
+    <p>Detected on 30 March 2025, also based on records from the F51 observatory. The recorded coordinates are:</p>
+    <li>RCA0009  C2025 03 30.415523  13 15 56.817  +02 56 42.47    21.6 G   F51</li>
+    <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51</li>
+    <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51</li>
+    <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51</li>`,    
+
+    // reason 2
+    reason_final_description: `
+    <p>Russia has always attracted me due to its strong history in space exploration. The country was a pioneer with historic milestones such as the launch of the first satellite, Sputnik, and sending the first human into space, Yuri Gagarin. Its contributions continue with innovations in the development of rockets like the Soyuz, which are still used in space missions. Russia is a global leader in the development of aerospace technologies, with cutting-edge research infrastructure and advanced space programmes, such as the lunar exploration programme.</p>
+    <p>Moreover, the country has a long tradition of academic excellence, with renowned universities that stand out in fields like engineering and natural sciences. Collaboration with international students is a historical characteristic, and this, combined with the strong rankings of Russian universities in international rankings, makes the country an ideal place for my professional development.</p>
+    <p>The geographical and cultural diversity of Russia is also a major attraction. With stunning landscapes, such as the marble quarries of Karelia, the crystal-clear waters of Lake Baikal, and the volcanoes of Kamchatka, the country offers a rich natural experience. Its culture, with great literary classics by names like Pushkin, Tolstoy, and Dostoevsky, and classical music by Tchaikovsky and Rachmaninoff, complement the experience, making Russia a unique place to study and live.</p>
+    <p>I am aware that the transition to Aerospace Engineering will be challenging, but I am determined to dedicate all my effort to achieving this goal. I have full confidence that, with the knowledge I will acquire, I will be able to contribute significantly to the advancement of technology and science in the aerospace field, as well as share my learning with future generations.</p>
+    <p><strong>"Brazil is not far from Russia for a man with purpose."</strong></p>`,
+  },
+
+ 
   ru: {
 
     //hero
@@ -697,12 +762,13 @@ const translations = {
     <p>Как и все дети, я тоже мечтал стать астронавтом, вдохновлённый фильмами, мультсериалами и видеоиграми. Однако, как и многие другие, я в конечном итоге оставил эту мечту и пошёл по другому пути, получив образование в области информационных технологий. Я работал в качестве специалиста по поддержке и менеджера проектов, и в процессе работы понял, какое влияние моя деятельность оказывает на жизни других людей. Тем не менее, я осознал, что хочу направить свои усилия на то, что всегда меня увлекало: космос.</p>
     <p>Текущий момент в области космических исследований пробудил моё любопытство. Прогресс в пилотируемых миссиях, растущее присутствие частных компаний и увеличение инвестиций стран в эту отрасль, а также реальная возможность новой космической эры, заставили меня осознать, что я хочу быть частью этого процесса. Поэтому я решил перейти в область аэрокосмической инженерии.</p>
     <p>Мои цели вполне ясны: Я хочу стать аэрокосмическим инженером и работать либо инженером, либо руководителем проектов — должность, которую я уже занимал и в которой имею опыт, а также продолжить обучение, получив степень магистра, аспиранта и доктора наук. Я хочу работать в космическом агентстве и, в конце своей карьеры, стать университетским преподавателем, чтобы передавать знания, полученные на протяжении всей моей карьеры.</p>
-    <p>Чтобы начать понимать, как работает эта сторона инженерии, я начал учиться самостоятельно. AEB (Бразильское космическое агентство) предложило несколько курсов в области аэрокосмических наук, которые я использую для изучения начальных понятий, пространства, движения, гравитации и веса, пропульсии и нано-спутников. Я также участвовал в программе IASC (Международное астрономическое поисковое сотрудничество), мировом проекте, который включает студентов и энтузиастов в поисках астероидов и других космических объектов с использованием изображений телескопов. Эта работа вносит вклад в научные исследования и мониторинг рисков для Земли.</p>`,
+    <p>Чтобы начать понимать, как работает эта сторона инженерии, я начал учиться самостоятельно.</p>`,
 
     //aerospace
-
-    experiences_title_aerospace: "Сертификаты по аэрокосмической науке",
-    experiences_description_aerospace: "Сертификаты, которые я получил, изучая эту тему. Чтобы просмотреть их подробно, нажмите на значок «Drive», чтобы получить доступ к сертификату, или на значок «AEB», чтобы открыть содержимое QR-кода сертификата.",
+    experiences_title_aerospace: "Сертификаты по наукам о космосе",
+    experiences_description_aerospace: `
+    <p>AEB (Бразильское космическое агентство) и UFSCar (Федеральный университет Сан-Карлоса) предложили несколько курсов в области аэрокосмических наук, которые я использовал для изучения начальных концепций, космоса, движения, гравитации и веса, двигательной тяги, нано-сателлитов и наблюдательной астрономии.</p>
+    <p><br> Ниже приведены сертификаты, которые я получил, изучая эти темы. Для просмотра их в деталях, нажмите на иконку «Drive»; чтобы получить доступ к QR-коду сертификата, нажмите на иконку «AEB» или «UFSCar».</p>`,
 
     aerospace_title_1: "Введение в физику ракет – Начальные концепции",  
     aerospace_description_1: `В этом модуле курса я узнал: 
@@ -789,6 +855,36 @@ const translations = {
     <li>Управление закупками, интеграцией и коммуникациями;</li>  
     <li>Управление заинтересованными сторонами и завершение проекта.</li>`, 
 
+    aerospace_title_11: "Введение в наблюдательную астрономию",
+    aerospace_description_11: `В этом модуле курса я изучил:
+    <li>Древние цивилизации и их представление о Космосе.</li>
+    <li>Астрономические координаты.</li>
+    <li>Явления и объекты, видимые невооруженным глазом.</li>
+    <li>Астрономические инструменты и симуляторы.</li>`,
+
+    //iasc
+    experiences_title_iasc: "Сертификаты программы «Охота за астероидами» (IASC и MCTI)",
+    experiences_description_iasc: `
+    <p>В этом году я имел возможность участвовать в программе IASC (Международное сотрудничество по поиску астрономических объектов), а также в её бразильской версии — Caça Asteroides MCTI (Охота за Астероидами).</p>
+    <p>IASC — это международный проект гражданской науки, координируемый NASA и Университетом Хардин-Симмонс в США. Его основная цель — вовлечение студентов и энтузиастов со всего мира в обнаружение астероидов и объектов, близких к Земле, что способствует развитию астрономических исследований и мониторингу космических рисков.</p>
+    <p>В Бразилии программу продвигает Министерство науки, технологий и инноваций (MCTI), которое организует Caça Asteroides MCTI (Охота за Астероидами) в партнерстве с школами, университетами и образовательными учреждениями. Инициатива направлена на популяризацию науки, повышение интереса к астрономии и сближение молодежи с научными исследованиями.</p>
+    <p>В ходе кампаний участники анализируют реальные изображения с телескопов, таких как Pan-STARRS, расположенный на Гавайях. Миссия заключается в выявлении потенциальных астероидов, следуя техническим и научным критериям.</p>
+    <p>С большой преданностью и командной работой нам удалось идентифицировать предварительный астероид, что сделало нас чрезвычайно гордыми, что мы смогли внести свой вклад в глобальную науку.</p>
+    <p><br>Ниже приведены сертификаты от программ IASC и MCTI. Для подробного просмотра нажмите на иконку «Drive»; чтобы получить доступ к QR-коду сертификата, нажмите на иконку «IASC» или «MCTI».</p>`,
+
+    iasc_title_1: "Международное сотрудничество по астрономическим поискам (март–апрель 2025)",
+    iasc_description_1: `<p>В рамках нашего участия в кампании IASC в период с марта по апрель 2025 года мы идентифицировали два астрономических объекта, которые были зарегистрированы как потенциальные астероиды:</p>
+    <p><strong>Астероид RCA0001</strong></p>
+    <p>Обнаружен 23 марта 2025 года на основе трёх отдельных наблюдений, проведённых с обсерватории F51. Астрометрические данные следующие:</p>
+    <li>RCA0001  C2025 03 23.541455  14 10 16.429  -11 06 59.82    21.6 G   F51</li>
+    <li>RCA0001  C2025 03 23.552524  14 10 16.170  -11 06 57.50    21.8 G   F51</li>
+    <li>RCA0001  C2025 03 23.563600  14 10 15.828  -11 06 55.85    21.8 G   F51</li>
+    <p><strong>Астероид RCA0009</strong></p>
+    <p>Обнаружен 30 марта 2025 года, также по данным обсерватории F51. Зафиксированные координаты:</p>
+    <li>RCA0009  C2025 03 30.415523  13 15 56.817  +02 56 42.47    21.6 G   F51</li>
+    <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51</li>
+    <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51</li>
+    <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51</li>`,
 
     // reason 2
     reason_final_description: `

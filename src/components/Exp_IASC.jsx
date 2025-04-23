@@ -2,11 +2,11 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { getAerospace } from "../constants";
+import { getIASC } from "../constants";
 import { fadeIn } from "../utils/motion";
 import translations from "../translate/translations";
 
-const AerospaceCard = ({
+const IASC_Card = ({
   name,
   description,
   customDescription,
@@ -28,7 +28,7 @@ const AerospaceCard = ({
       <div className="relative w-full h-[230px]">
         <img
           src={image}
-          alt="aerospace_image"
+          alt="iasc_image"
           className="w-full h-full object-cover rounded-2xl"
         />
 
@@ -73,38 +73,38 @@ const AerospaceCard = ({
   );
 };
 
-const Exp_Aerospace = ({ language }) => {
+const Exp_IASC = ({ language }) => {
   const {
-    experiences_title_aerospace,
-    experiences_description_aerospace,
+    experiences_title_iasc,
+    experiences_description_iasc,
   } = translations[language] || translations.en;
-  const aerospaceItems = getAerospace(language);
+  const iascItems = getIASC(language);
 
   return (
     <>
       <h2
         className={`${styles.sectionHeadText} animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black`}
       >
-        {experiences_title_aerospace}
+        {experiences_title_iasc}
       </h2>
 
       <div
         variants={fadeIn("", "", 1, 1)}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         dangerouslySetInnerHTML={{
-          __html: experiences_description_aerospace,
+          __html: experiences_description_iasc,
         }}
       />
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {aerospaceItems.map((aerospace, index) => (
-          <AerospaceCard
-            key={`aerospace-${index}`}
+        {iascItems.map((iasc, index) => (
+          <IASC_Card
+            key={`iasc-${index}`}
             index={index}
-            {...aerospace}
-            customDescription={aerospace.customDescription}
-            driveIcon={aerospace.driveIcon}
-            liveIcon={aerospace.liveIcon}   
+            {...iasc}
+            customDescription={iasc.customDescription}
+            driveIcon={iasc.driveIcon}
+            liveIcon={iasc.liveIcon}
           />
         ))}
       </div>
@@ -112,4 +112,4 @@ const Exp_Aerospace = ({ language }) => {
   );
 };
 
-export default SectionWrapper(Exp_Aerospace);
+export default SectionWrapper(Exp_IASC);

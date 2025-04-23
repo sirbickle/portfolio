@@ -48,6 +48,13 @@ import {
   aero8,
   aero9,
   aero10,
+  aero11,
+  aeb,
+  drive,
+  ufscar,
+  iasc,
+  mcti,
+  isac1
 
 } from "../assets";
 
@@ -298,6 +305,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_9'),
     description: getTranslatedText(language, 'aerospace_description_9'),
     image: aero9,      
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/141TJmr9TsCEyrXqFfTt9ScHuIEvC6Z9Y/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ZU1tsSNzOQ&qrcode=1", // Link para a versão ao vivo
   },
@@ -305,13 +314,17 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_4'),
     description: getTranslatedText(language, 'aerospace_description_4'),
     image: aero4,      
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/18YbL6lOWIEcKg4CYRZfK2irP5QLbCU6i/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=sL9PPM462s&qrcode=1", // Link para a versão ao vivo
   },
   {
     name: getTranslatedText(language, 'aerospace_title_8'),
     description: getTranslatedText(language, 'aerospace_description_8'),
-    image: aero8,      
+    image: aero8,     
+    driveIcon: drive,
+    liveIcon: aeb, 
     source_code_link: "https://drive.google.com/file/d/1mQ7LTOhzzMqCzVNTgH7bdXVUZhX3VlIr/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=DGstkJXMiC&qrcode=1", // Link para a versão ao vivo
   },
@@ -319,6 +332,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_1'),
     description: getTranslatedText(language, 'aerospace_description_1'),
     image: aero1,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/1lqLKkYGCFOskHPzkwzFLLXCBYpX0VlS5/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ng4IY2G2Bi&qrcode=1", // Link para a versão ao vivo
   },
@@ -326,6 +341,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_2'),
     description: getTranslatedText(language, 'aerospace_description_2'),
     image: aero2,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/1MEP9qC9HFFNdpWCpS5NvkjMmqKuZLrEc/view?usp=sharing", // Link para o código
     liveUrl: "https://drive.google.com/file/d/1EJiHMsXZtipleRbW8QkIXJpBaRRYBQdR/view?usp=sharing", // Link para a versão ao vivo
   },
@@ -333,6 +350,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_5'),
     description: getTranslatedText(language, 'aerospace_description_5'),
     image: aero5,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/1V28P_ErEywL2n5IXdLguS9vqtVoiDtzc/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=d9qgTuQsRI&qrcode=1", // Link para a versão ao vivo
   },
@@ -340,6 +359,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_3'),
     description: getTranslatedText(language, 'aerospace_description_3'),
     image: aero3,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/1GNMiHEwNPqVVntfvIb0Iu9vbFp-68z78/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=Xj2XnT61go&qrcode=1", // Link para a versão ao vivo
   },
@@ -347,6 +368,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_6'),
     description: getTranslatedText(language, 'aerospace_description_6'),
     image: aero6,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/1uUYckbfvQAG6idyJsaYYNsaHRa_JJXnT/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=ob4xb3x0T4&qrcode=1", // Link para a versão ao vivo
   },
@@ -354,6 +377,8 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_10'),
     description: getTranslatedText(language, 'aerospace_description_10'),
     image: aero10,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/19oJyY0mampeC-b4UkJkwWmyFZ-UKXjrG/view?usp=sharing", // Link para o código
     liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=hdrKjTWMS1&qrcode=1", // Link para a versão ao vivo
   },
@@ -361,8 +386,32 @@ export const getAerospace = (language) =>{
     name: getTranslatedText(language, 'aerospace_title_7'),
     description: getTranslatedText(language, 'aerospace_description_7'),
     image: aero7,
+    driveIcon: drive,
+    liveIcon: aeb,
     source_code_link: "https://drive.google.com/file/d/18izocyCg-fFqPG-8bqlzR9yGq5cAc74j/view?usp=sharing", // Link para o código
-    liveUrl: " https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=eirlH1rLBH&qrcode=1", // Link para a versão ao vivo
+    liveUrl: "https://aebescolavirtual.aeb.gov.br/mod/customcert/verify_certificate.php?code=eirlH1rLBH&qrcode=1", // Link para a versão ao vivo
+  },
+  {
+    name: getTranslatedText(language, 'aerospace_title_11'),
+    description: getTranslatedText(language, 'aerospace_description_11'),
+    image: aero11,
+    driveIcon: drive,
+    liveIcon: ufscar,
+    source_code_link: "https://drive.google.com/file/d/1FzNiwt90dNrasaTQdqBUPQpBD2mUZRok/view?usp=sharing", // Link para o código
+    liveUrl: "https://cursos.poca.ufscar.br/mod/simplecertificate/verify.php?code=67f9b92a-c1c0-41b5-8d75-cb35ac1e1935", // Link para a versão ao vivo
   },
 ];
+};
+export const getIASC = (language) =>{
+  return [
+   {
+    name: getTranslatedText(language, 'iasc_title_1'),
+    description: getTranslatedText(language, 'iasc_description_1'),
+    image: isac1,
+    driveIcon: drive,
+    liveIcon: mcti,
+    source_code_link: "https://drive.google.com/file/d/1kAEZ4Tg6FZac9Plgd9VgvdbtrUbauE_p/view?usp=sharing", // Link para o código
+    liveUrl: "", // Link para a versão ao vivo
+  }, 
+  ]
 };

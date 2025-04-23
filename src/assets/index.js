@@ -50,6 +50,8 @@ import aero7 from "./aero7.jpg";
 import aero8 from "./aero8.jpg";
 import aero9 from "./aero9.jpg";
 import aero10 from "./aero10.jpg";
+import aero11 from "./aero11.jpg";
+import isac1 from "./isac1.jpg";
 
 // não deleta, n sei porque, ou sei, por partes
 import logo from "./logo3.png";
@@ -57,8 +59,11 @@ import LOGO2 from "./LOGO2.webp";
 import LOGO4 from "./LOGO4.webp";
 import close from "./close.svg";
 import drive from "./drive.png";
-import aeb from "./aeb.png"
+import aeb from "./aeb.png";
+import ufscar from "./ufscar.png";
 import menu from "./menu.svg";
+import iasc from "./iasc.png";
+import mcti  from "./mcti.png";
 
 //tradução
 
@@ -123,6 +128,8 @@ export {
   aero8,
   aero9,
   aero10,
+  aero11,
+  isac1,
   
   //não sei para que serve, mas não delete
   
@@ -132,7 +139,10 @@ export {
   LOGO4,
   drive,
   aeb,
+  ufscar,
   menu,
+  iasc,
+  mcti,
 
 //tradução
 brazil,

@@ -289,6 +289,9 @@ const translations = {
     <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51  </li>
     <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51  </li>`,
 
+    isac_title_2:"International Astronomical Search Collaboration (Mar–Abr 2025), apoiada pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) do Brasil",
+    iasc_description_2:`<p> Participação na Campanha Internacional de Busca Astronômica (IASC) – Mar/Abr 2025, com apoio do MCTI.</p>`,
+
     // reason 2
     reason_final_description: `
     <p>A Rússia sempre me atraiu pela sua forte história na exploração espacial. O país foi pioneiro com marcos históricos como o lançamento do primeiro satélite, o Sputnik, e o envio do primeiro ser humano ao espaço, Yuri Gagarin. Sua contribuição continua com inovações no desenvolvimento de foguetes como o Soyuz, ainda utilizados em missões espaciais. A Rússia é um líder global no desenvolvimento de tecnologias aeroespaciais, com infraestrutura de pesquisa de ponta e programas espaciais avançados, como o programa de exploração da Lua.</p>
@@ -585,6 +588,9 @@ const translations = {
     <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51</li>
     <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51</li>
     <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51</li>`,    
+
+    isac_title_2: "International Astronomical Search Collaboration (Mar–Apr 2025), supported by the Brazilian Ministry of Science, Technology and Innovation (MCTI)",
+    iasc_description_2: `<p>Participation in the International Astronomical Search Campaign (IASC) – Mar/Apr 2025, supported by the MCTI.</p>`,
 
     // reason 2
     reason_final_description: `
@@ -885,6 +891,9 @@ const translations = {
     <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51</li>
     <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51</li>
     <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51</li>`,
+
+    isac_title_2: "Международное сотрудничество по астрономическим поискам (март–апрель 2025), при поддержке Министерства науки, технологий и инноваций Бразилии (MCTI)",
+    iasc_description_2: `<p>Участие в Международной кампании по астрономическим поискам (IASC) — март/апрель 2025, при поддержке MCTI.</p>`,
 
     // reason 2
     reason_final_description: `

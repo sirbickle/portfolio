@@ -54,7 +54,8 @@ import {
   ufscar,
   iasc,
   mcti,
-  isac1
+  isac1,
+  isac2,
 
 } from "../assets";
 
@@ -408,6 +409,15 @@ export const getIASC = (language) =>{
     name: getTranslatedText(language, 'iasc_title_1'),
     description: getTranslatedText(language, 'iasc_description_1'),
     image: isac1,
+    driveIcon: drive,
+    liveIcon: mcti,
+    source_code_link: "https://drive.google.com/file/d/1kAEZ4Tg6FZac9Plgd9VgvdbtrUbauE_p/view?usp=sharing", // Link para o código
+    liveUrl: "", // Link para a versão ao vivo
+  }, 
+  {
+    name: getTranslatedText(language, 'isac_title_2'),
+    description: getTranslatedText(language, 'iasc_description_2'),
+    image: isac2,
     driveIcon: drive,
     liveIcon: mcti,
     source_code_link: "https://drive.google.com/file/d/1kAEZ4Tg6FZac9Plgd9VgvdbtrUbauE_p/view?usp=sharing", // Link para o código

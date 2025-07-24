@@ -21,6 +21,7 @@ import {
   Exp_Sport,
   Exp_Aerospace,
   Exp_IASC,
+  Exp_IAAC,
   Reason_final,
   
 } from "./components";
@@ -101,6 +102,7 @@ const App = () => {
           <Reason language={language} />
           <Exp_Aerospace language={language} />
           <Exp_IASC language={language} />
+          <Exp_IAAC language={language} />
           <Reason_final language={language} />  
         </div>
         <Footer />

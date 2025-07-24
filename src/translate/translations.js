@@ -44,6 +44,7 @@ const translations = {
     <p>Apesar de atualmente estar focado no estudo do russo, ainda tenho um grande carinho pelo alemão. Foi essa experiência que abriu as portas para meu interesse por novas culturas e idiomas.</p> 
     <p>Durante o curso, tive momentos incríveis, como conversar com falantes nativos e até concorrer a uma oportunidade de viajar para a Alemanha pelo Goethe-Institut. Infelizmente, a seleção era feita por sorteio, e não consegui a vaga.</p>  
     <p>Após concluir meus estudos na Isabel Lopes Monteiro, cursei o Ensino Médio na escola Senador Luiz Nogueira Martins, de 2015 a 2017.</p>  
+    <p>Em 2020, com muito orgulho, fui aprovado para estudar na Vladimir State University named after Alexander and Nikolay Stoletovs (VLSU), com uma bolsa de estudos para o curso de Sistemas de Informação. Devido à pandemia de COVID-19, realizei o curso preparatório de forma online. Após concluir o preparatório com excelente desempenho — obtendo nota 5 em quatro disciplinas (língua russa, estudos científicos, informática e matemática) e nota 4 em uma disciplina (física). Após iniciar o primeiro semestre do curso, precisei interromper os estudos por motivos pessoais, e, por isso, não cheguei a me mudar para a Rússia.</p>
     <p>Em 2022, entrei na Faculdade de Engenharia de Sorocaba (FACENS) para cursar Tecnólogo em Análise e Desenvolvimento de Sistemas, formando-me em 2024.</p>`,
 
     //exp_study
@@ -74,6 +75,9 @@ const translations = {
 
     studies_title_diploma: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas",
     studies_description_diploma: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.",
+    
+    studies_title_preparatorio: "Diploma de conclusão do curso preparatório",
+    studies_description_preparatorio: "Diploma de conclusão do curso preparatório.",
 
     //achievements_study:
     achievements_study: "Conquistas",
@@ -273,7 +277,7 @@ const translations = {
     <p>Já no Brasil, o programa é promovido pelo Ministério da Ciência, Tecnologia e Inovação (MCTI), que organiza o Caça Asteroides MCTI em parceria com escolas, universidades e instituições de ensino. A iniciativa busca popularizar a ciência, incentivar o interesse pela astronomia e aproximar os jovens da pesquisa científica.</p>
     <p>Durante as campanhas, os participantes analisam imagens reais de telescópios, como o Pan-STARRS, localizado no Havaí. A missão é identificar possíveis asteroides, seguindo critérios técnicos e científicos.</p>
     <p>Com muita dedicação e trabalho em equipe, tivemos a honra de identificar um asteroide preliminar, o que nos deixou imensamente felizes por contribuir com a ciência global.</p>
-    <p><br>Abaixo estão os certificados do programa IASC e MCTI. Para vê-los em detalhes, clique no ícone do 'Drive'; para acessar o QR Code do certificado, clique no ícone da 'IASC' ou do 'MCTI'.</p>`, 
+    <p><br>Abaixo estão os certificados do programa IASC e MCTI. Para vê-los em detalhes, clique no ícone do 'Drive'.</p>`, 
 
     iasc_title_1: "International Astronomical Search Collaboration (Mar–Abr 2025)",
     iasc_description_1:`<p>Durante nossa participação na campanha do IASC entre os meses de março e abril de 2025, identificamos dois objetos astronômicos que foram reportados como potenciais asteroides: </p>
@@ -292,7 +296,21 @@ const translations = {
     isac_title_2:"International Astronomical Search Collaboration (Mar–Abr 2025), apoiada pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) do Brasil",
     iasc_description_2:`<p> Participação na Campanha Internacional de Busca Astronômica (IASC) – Mar/Abr 2025, com apoio do MCTI.</p>`,
 
-    // reason 2
+    //IAAC
+    experiences_title_iaac:"Certificado do Programa da IAAC – Competição Internacional de Astronomia e Astrofísica",
+    experiences_description_iaac: `
+    <p>Este ano, também tive a honra de participar da IAAC (Competição Internacional de Astronomia e Astrofísica), uma das maiores competições internacionais voltadas para estudantes com interesse em astronomia e astrofísica.</p>
+    <p>A IAAC é uma iniciativa educacional que busca despertar o interesse pela ciência por meio de desafios teóricos e analíticos em astronomia. Estudantes de todo o mundo são convidados a resolver problemas que envolvem raciocínio lógico, física, matemática e conceitos astronômicos.</p>
+    <p>Mesmo não tendo avançado para a próxima etapa, tive um ótimo desempenho na fase qualificatória, obtendo 15 de 25 pontos — apenas dois a menos do que o necessário para a classificação (17 pontos).</p>
+    <p><br>Abaixo está o certificado do IAAC e o Feedback do meu desempenho. Para vê-los em detalhes, clique no ícone do 'Drive'; para verificar a autenticidade do documento, clique no logo do IAAC e use o codigo "QR-2025-FDAF6DFAFE1".</p>`,
+    
+    iaac_title_1:"Certificado de Participação",
+    iaac_description_1: `Certificado de Participação IAAC 2025.`,
+
+    iaac_title_2:"Relatório de Feedback",
+    iaac_description_2:`Nota atingida 15/25.`,
+
+    //reason 2
     reason_final_description: `
     <p>A Rússia sempre me atraiu pela sua forte história na exploração espacial. O país foi pioneiro com marcos históricos como o lançamento do primeiro satélite, o Sputnik, e o envio do primeiro ser humano ao espaço, Yuri Gagarin. Sua contribuição continua com inovações no desenvolvimento de foguetes como o Soyuz, ainda utilizados em missões espaciais. A Rússia é um líder global no desenvolvimento de tecnologias aeroespaciais, com infraestrutura de pesquisa de ponta e programas espaciais avançados, como o programa de exploração da Lua.</p>
     <p>Além disso, o país tem uma longa tradição de excelência acadêmica, com universidades renomadas que se destacam em áreas como engenharia e ciências naturais. A colaboração com estudantes internacionais é uma característica histórica, e isso, somado às boas colocações das universidades russas em rankings internacionais, torna o país um lugar ideal para o meu desenvolvimento profissional.</p>
@@ -304,21 +322,21 @@ const translations = {
   en: {
 
     //navlinks
-    "navlinks_about": "About",
-    "navlinks_study": "Study",
-    "navlinks_sport": "Sport",
-    "navlinks_reason": "Reason why I want to study in Russia",
-    "navlinks_home": "Home",
+    navlinks_about: "About",
+    navlinks_study: "Study",
+    navlinks_sport: "Sport",
+    navlinks_reason: "Reason why I want to study in Russia",
+    navlinks_home: "Home",
 
     //Hero
-    "hello": "Hello, I'm",
-    "description_hero": "And I will write for you...",
-    "name": "Leonardo",
+    hello: "Hello, I'm",
+    description_hero: "And I will write for you...",
+    name: "Leonardo",
 
     //about
-    "intro": "Introduction",
-    "overview": "Overview",
-    "description": `
+    intro: "Introduction",
+    overview: "Overview",
+    description: `
     <p>Hi, I'm Leonardo Lima, I'm 25 years old, I live in Sorocaba, and I have a degree in Systems Analysis and Development. I have experience as an IT Project Manager, with a focus on SAP system implementation. I have also worked in IT Support.</p>
     <p>Besides work, I have many interests that help keep my mind active: I am a fan of games, from classics like Warcraft 3 and Starcraft to World of Warcraft and Counter-Strike 2. I also enjoy board games and card games, and from time to time, I play a game of chess.</p>
     <p>Music is another passion: I play bass and guitar, which helps me disconnect a bit from the digital world. For 3 years (2020-2023), I played in a band called Atrois, where we did a few shows and recorded and released, in 2022, our first EP titled Na Mão do Palhaço (In the Clown's Hands), which is available on digital platforms.</p>
@@ -327,137 +345,142 @@ const translations = {
     <p>I enjoy learning about science, such as cosmology, astronomy, physics, and related topics. I'm also always looking to learn new languages to connect better with the world.</p>`,
 
     //service
-    "hobbies_tecnologia": "Information Technology",
-    "hobbies_jogos": "Games",
-    "hobbies_musica": "Music",
-    "hobbies_sport": "Sports",
-    "hobbies_viagem": "Travel",
-    "hobbies_ciencia": "Science",
-    "hobbies_espaco": "Outer Space",
-    "hobbies_idioma": "Languages",
+    hobbies_tecnologia: "Information Technology",
+    hobbies_jogos: "Games",
+    hobbies_musica: "Music",
+    hobbies_sport: "Sports",
+    hobbies_viagem: "Travel",
+    hobbies_ciencia: "Science",
+    hobbies_espaco: "Outer Space",
+    hobbies_idioma: "Languages",
 
     //study
-    "study": "Study",
-    "journey_study": `
+    study: "Study",
+    journey_study: `
     <p>My educational journey began in 2005 at Lea Edy Alonso Saliba Preschool, where I studied until 2006. In 2007, I entered the 1st grade (2nd year) at the same school and stayed there until 2010, when I completed the 4th grade (5th year).</p>
     <p>In 2011, I started at a new school, Isabel Lopes Monteiro, where I stayed until 2014, preparing for secondary school. During this time, I joined the handball team, and we became vice-champions in the JES competition against Matheus Maylasky School. I also joined the basketball team in the following years. Although we didn’t achieve significant results, it was a fun and enriching experience.</p>
     <p>During primary school, my interest in languages began to grow, which led me to explore options at CEL (Centre of Languages). There were several languages on offer, such as French, Italian, English, Japanese, and German. German caught my attention, both because of its pronunciation and because I wasn’t very familiar with the culture, so I decided to seize the opportunity.</p>
     <p>Although I am currently focused on studying Russian, I still hold a great fondness for German. It was this experience that opened the doors to my interest in new cultures and languages.</p>
     <p>Throughout the course, I had incredible moments, such as conversing with native speakers and even applying for the chance to travel to Germany through the Goethe-Institut. Unfortunately, the selection was done by lottery, and I wasn’t chosen.</p>
     <p>After finishing my studies at Isabel Lopes Monteiro, I went on to study at Senador Luiz Nogueira Martins from 2015 to 2017, where I completed my secondary education.</p>
+    <p>In 2020, with great pride, I was accepted to study at Vladimir State University named after Alexander and Nikolay Stoletovs (VLSU), with a scholarship for the Information Systems programme. Due to the COVID-19 pandemic, I completed the preparatory course online. I finished the course with excellent results — achieving grade 5 in four subjects (Russian language, scientific studies, computer science, and mathematics) and grade 4 in one subject (physics). After starting the first semester of the programme, I had to interrupt my studies due to personal reasons and, therefore, did not end up moving to Russia.</p>
     <p>In 2022, I enrolled at Sorocaba Engineering College (FACENS) to pursue a Higher National Diploma in Systems Analysis and Development, graduating in 2024.</p>`,
 
     //exp_study
-    "experiences_title_study": "Experiences",
-    "experiences_description_study": "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
+    experiences_title_study: "Experiences",
+    experiences_description_study: "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
 
     //studies
-    "studies_title_science": "Science Fair",
-    "studies_description_science": "In the last year of elementary school, we had some extremely interesting projects, and the most memorable one was the Science Fair. My theme was about hospital waste disposal and sanitation. On the table, we could see the disposal box, saline solution, cotton, and some syringes. The group was composed of Leonardo, Pamela, Roger, Guilherme, and me.",
+    studies_title_science: "Science Fair",
+    studies_description_science: "In the last year of elementary school, we had some extremely interesting projects, and the most memorable one was the Science Fair. My theme was about hospital waste disposal and sanitation. On the table, we could see the disposal box, saline solution, cotton, and some syringes. The group was composed of Leonardo, Pamela, Roger, Guilherme, and me.",
 
-    "studies_title_german": "German Course Diploma",
-    "studies_description_german": "Completion diploma. The course started in the first semester of 2013 and ended in the second semester of 2016.",
+    studies_title_german: "German Course Diploma",
+    studies_description_german: "Completion diploma. The course started in the first semester of 2013 and ended in the second semester of 2016.",
 
-    "studies_title_project": "Project Factory",
-    "studies_description_project": "Presentation of the final project of the first semester of Project Factory, where the challenge was to develop something for the microcomputer, and we created a game on it, the famous 'Pac-Man'. Based on the original game, the objective is to score 999 points by both avoiding ghosts and collecting fruits.",
+    studies_title_project: "Project Factory",
+    studies_description_project: "Presentation of the final project of the first semester of Project Factory, where the challenge was to develop something for the microcomputer, and we created a game on it, the famous 'Pac-Man'. Based on the original game, the objective is to score 999 points by both avoiding ghosts and collecting fruits.",
 
-    "studies_title_maratona1": "16th FACENS Programming Marathon",
-    "studies_description_maratona1": "16th FACENS Programming Marathon in 2022. The student teams spent several hours solving problems involving concepts of Computational Logic, Algorithms and Programming, Data Structures, among others. With great joy, the team I participated in, 'C Sustenido', achieved 7th place out of 32 teams, achieving this feat only in the second semester of the college.",
+    studies_title_maratona1: "16th FACENS Programming Marathon",
+    studies_description_maratona1: "16th FACENS Programming Marathon in 2022. The student teams spent several hours solving problems involving concepts of Computational Logic, Algorithms and Programming, Data Structures, among others. With great joy, the team I participated in, 'C Sustenido', achieved 7th place out of 32 teams, achieving this feat only in the second semester of the college.",
 
-    "studies_title_lgpt": "Presentation on 'Data Protection Law'",
-    "studies_description_lgpt": "Final presentation on 'Data Protection Law' for the subject 'Computer Architecture'.",
+    studies_title_lgpt: "Presentation on 'Data Protection Law'",
+    studies_description_lgpt: "Final presentation on 'Data Protection Law' for the subject 'Computer Architecture'.",
 
-    "studies_title_maratona2": "27th Regional Programming Marathon",
-    "studies_description_maratona2": "27th Regional Programming Marathon in 2022. With great joy, 'C Sustenido' achieved 5th place out of 15 teams, achieving this feat only in the second semester of college.",
+    studies_title_maratona2: "27th Regional Programming Marathon",
+    studies_description_maratona2: "27th Regional Programming Marathon in 2022. With great joy, 'C Sustenido' achieved 5th place out of 15 teams, achieving this feat only in the second semester of college.",
 
-    "studies_title_maratona3": "17th FACENS Programming Marathon",
-    "studies_description_maratona3": "10th place out of 32 teams in the 17th FACENS Programming Marathon in 2023.",
+    studies_title_maratona3: "17th FACENS Programming Marathon",
+    studies_description_maratona3: "10th place out of 32 teams in the 17th FACENS Programming Marathon in 2023.",
 
-    "studies_title_diploma": "Technologist Diploma in Systems Analysis and Development",
-    "studies_description_diploma": "Diploma of completion of the Technologist course in Systems Analysis and Development.",
+    studies_title_diploma: "Technologist Diploma in Systems Analysis and Development",
+    studies_description_diploma: "Diploma of completion of the Technologist course in Systems Analysis and Development.",
+
+    studies_title_preparatorio: "Preparatory Course Completion Diploma",
+    studies_description_preparatorio: "Diploma for completing the preparatory course.",
 
     //achievements study
-    "achievements_study": "Achievements",
-    "journey_achievement_study": "What I’ve achieved during this time.",
+    achievements_study: "Achievements",
+    journey_achievement_study: "What I’ve achieved during this time.",
 
     //achievement study
-    "achievement_title_maratona1": "16th FACENS Programming Marathon",
-    "achievement_company_maratona1": "Sorocaba Engineering College",
-    "achievement_points_maratona1": "7th place out of 32 teams in the 16th FACENS Programming Marathon.",
+    achievement_title_maratona1: "16th FACENS Programming Marathon",
+    achievement_company_maratona1: "Sorocaba Engineering College",
+    achievement_points_maratona1: "7th place out of 32 teams in the 16th FACENS Programming Marathon.",
 
-    "achievement_title_maratona2": "27th Regional Programming Marathon",
-    "achievement_company_maratona2": "Brazilian Programming Society",
-    "achievement_points_maratona2": "5th place out of 15 teams in the 27th Regional Programming Marathon.",
+    achievement_title_maratona2: "27th Regional Programming Marathon",
+    achievement_company_maratona2: "Brazilian Programming Society",
+    achievement_points_maratona2: "5th place out of 15 teams in the 27th Regional Programming Marathon.",
 
-    "achievement_title_maratona3": "17th FACENS Programming Marathon",
-    "achievement_company_maratona3": "Sorocaba Engineering College",
-    "achievement_points_maratona3": "10th place out of 32 teams in the 17th FACENS Programming Marathon.",
+    achievement_title_maratona3: "17th FACENS Programming Marathon",
+    achievement_company_maratona3: "Sorocaba Engineering College",
+    achievement_points_maratona3: "10th place out of 32 teams in the 17th FACENS Programming Marathon.",
 
-    //sports
-    "sport": "Sport",
-    "journey_sport": `
+//sports
+    sport: "Sport",
+    journey_sport: `
     <p>Without a doubt, Judo holds great significance in my life. I began practising at the age of 7 or 8 and stopped when I was around 14 or 15. Throughout my journey, I had the honour of participating in the Paulista Judo Federation, travelling to various towns and cities cross the state of São Paulo for competitions. I trained at the Bandeirantes Sorocaba gym and was a student of Sensei Antonio Rizzardo.</p>
     <p>I have a considerable background in Judo, having participated in competitions since 2007, both in Sorocaba and in other cities through the Paulista Judo Federation. In total, I won 28 championships between 2007 and 2013. The most memorable were the Regional, where I became the champion, and the State, where I was the runner-up.</p>
     <p>The main reason my mother enrolled me in Judo was because I was quite impulsive and needed to channel my energy in a constructive way. I tried other sports, such as swimming and football, but the only one that truly captivated me was Judo. However, due to the timing of my German course, I had to stop practising Judo and ended my activities at green belt, with just three belts remaining to achieve black belt.</p>
     <p>Nevertheless, Judo was not the only sport I practised. I was the runner-up in Handball during primary school at the JES (Student Games) competition. At present, I still practise sports such as running, having participated in several marathons, in addition to going to the gym.</p>`,
 
     //exp_sport
-    "experiences_title": "Experiences",
-    "experiences_description": "Some moments I consider important in the sports I practice or have practiced. To view them in detail, click on the 'Drive' icon to access the certificate.",
+    experiences_title: "Experiences",
+    experiences_description: "Some moments I consider important in the sports I practice or have practiced. To view them in detail, click on the 'Drive' icon to access the certificate.",
 
     //sporties
-    "sporties_title_handebol": "Medal in the Student Games for Handball",
-    "sporties_description_handebol": "Runner-up medal in the JES.",
+    sporties_title_handebol: "Medal in the Student Games for Handball",
+    sporties_description_handebol: "Runner-up medal in the JES.",
 
-    "sporties_title_bandeirantes": "Bandeirantes Sorocaba",
-    "sporties_description_bandeirantes": "We won first place in the number of medals.",
+    sporties_title_bandeirantes: "Bandeirantes Sorocaba",
+    sporties_description_bandeirantes: "We won first place in the number of medals.",
 
-    "sporties_title_carterinha": "Federation Card",
-    "sporties_description_carterinha": "The Federation Paulista de Judô cards.",
+    sporties_title_carterinha: "Federation Card",
+    sporties_description_carterinha: "The Federation Paulista de Judô cards.",
 
-    "sporties_title_faixa": "Belt Exam",
-    "sporties_description_faixa": "Belt exam for green belt.",
+    sporties_title_faixa: "Belt Exam",
+    sporties_description_faixa: "Belt exam for green belt.",
 
-    "sporties_title_medalha": "Medals",
-    "sporties_description_medalha": "A total of 28 medals won, including gold, silver, and bronze.",
+    sporties_title_medalha: "Medals",
+    sporties_description_medalha: "A total of 28 medals won, including gold, silver, and bronze.",
 
-    "sporties_title_campeao": "Regional Champion",
-    "sporties_description_campeao": "Regional champion on August 10, 2013.",
+    sporties_title_campeao: "Regional Champion",
+    sporties_description_campeao: "Regional champion on August 10, 2013.",
 
-    "sporties_title_vice": "State Vice-Champion",
-    "sporties_description_vice": "State vice-champion on September 1, 2013.",
+    sporties_title_vice: "State Vice-Champion",
+    sporties_description_vice: "State vice-champion on September 1, 2013.",
 
-    "sporties_title_maratona1": "First Marathon",
-    "sporties_description_maratona1": "First marathon.",
+    sporties_title_maratona1: "First Marathon",
+    sporties_description_maratona1: "First marathon.",
 
-    "sporties_title_maratona2": "8th Marathon Sorocaba Blue November",
-    "sporties_description_maratona2": "Participation medal in the 8th Sorocaba marathon Blue November.",
+    sporties_title_maratona2: "8th Marathon Sorocaba Blue November",
+    sporties_description_maratona2: "Participation medal in the 8th Sorocaba marathon Blue November.",
 
-    "sporties_title_maratona3": "Farma Ponte Marathon",
-    "sporties_description_maratona3": "Participation medal in the Farma Ponte Marathon.",
+    sporties_title_maratona3: "Farma Ponte Marathon",
+    sporties_description_maratona3: "Participation medal in the Farma Ponte Marathon.",
 
-    "sporties_title_maratona4": "Duathlon J.P Pereira",
-    "sporties_description_maratona4": "Participation medal in Duathlon J.P Pereira.",
+    sporties_title_maratona4: "Duathlon J.P Pereira",
+    sporties_description_maratona4: "Participation medal in Duathlon J.P Pereira.",
+
 
     sporties_title_maratona5: "9º 5k Niver Runner",
     sporties_description_maratona5: "Participation medal in the 9th 5K Niver Runner.",
 
     //achievements sports
-    "achievements_sport": "Achievements",
-    "journey_achievement_sport": "The achievements I'm most proud of.",
+    achievements_sport: "Achievements",
+    journey_achievement_sport: "The achievements I'm most proud of.",
 
     //achievement sport
-    "achievement_title_jes": "JES Runner-Up",
-    "achievement_company_jes": "Student Games",
-    "achievement_points_jes": "Runner-up in JES.",
+    achievement_title_jes: "JES Runner-Up",
+    achievement_company_je: "Student Games",
+    achievement_points_jes: "Runner-up in JES.",
 
-    "achievement_title_campeao": "Regional Champion",
-    "achievement_company_campeao": "Paulista Judo Federation",
-    "achievement_points_campeao": "Regional champion on August 10, 2013.",
+    achievement_title_campeao: "Regional Champion",
+    achievement_company_campeao: "Paulista Judo Federation",
+    achievement_points_campeao: "Regional champion on August 10, 2013.",
 
-    "achievement_title_vice": "State Runner-Up",
-    "achievement_company_vice": "Paulista Judo Federation",
-    "achievement_points_vice": "State runner-up on September 1, 2013.",
+    achievement_title_vice: "State Runner-Up",
+    achievement_company_vice: "Paulista Judo Federation",
+    achievement_points_vice: "State runner-up on September 1, 2013.",
 
     //reason
     reason_title: "Reason Why I Want to Study in Russia",
@@ -573,7 +596,7 @@ const translations = {
     <p>In Brazil, the programme is promoted by the Ministry of Science, Technology, and Innovation (MCTI), which organises the Caça Asteroides MCTI (Asteroid Hunt) in partnership with schools, universities, and educational institutions. The initiative aims to popularise science, encourage interest in astronomy, and bring young people closer to scientific research.</p>
     <p>During the campaigns, participants analyse real images from telescopes such as Pan-STARRS, located in Hawaii. The mission is to identify potential asteroids, following technical and scientific criteria.</p>
     <p>With great dedication and teamwork, we had the honour of identifying a preliminary asteroid, which made us extremely proud to contribute to global science.</p>
-    <p><br>Below are the certificates from the IASC and MCTI programmes. To view them in detail, click on the 'Drive' icon; to access the certificate QR Code, click on the 'IASC' or 'MCTI' icon.</p>`,
+    <p><br>Below are the certificates from the IASC and MCTI programmes. To view them in detail, click on the 'Drive' icon.</p>`,
  
     iasc_title_1: "International Astronomical Search Collaboration (Mar–Apr 2025)",
     iasc_description_1: `<p>During our participation in the IASC campaign between March and April 2025, we identified two astronomical objects that were reported as potential asteroids:</p>
@@ -592,6 +615,20 @@ const translations = {
     isac_title_2: "International Astronomical Search Collaboration (Mar–Apr 2025), supported by the Brazilian Ministry of Science, Technology and Innovation (MCTI)",
     iasc_description_2: `<p>Participation in the International Astronomical Search Campaign (IASC) – Mar/Apr 2025, supported by the MCTI.</p>`,
 
+    //IAAC
+    experiences_title_iaac: "IAAC Programme Certificate – International Astronomy and Astrophysics Competition",
+    experiences_description_iaac: `
+    <p>This year, I also had the honour of taking part in the IAAC (International Astronomy and Astrophysics Competition), one of the largest international competitions aimed at students with an interest in astronomy and astrophysics.</p>
+    <p>The IAAC is an educational initiative that seeks to spark interest in science through theoretical and analytical challenges in astronomy. Students from around the world are invited to solve problems involving logical reasoning, physics, mathematics, and astronomical concepts.</p>
+    <p>Although I did not advance to the next stage, I performed well in the qualification round, scoring 15 out of 25 points — just two short of the required 17 points for advancement.</p>
+    <p><br>Below is the IAAC certificate and my performance feedback report. To view them in detail, click on the 'Drive' icon; to verify the authenticity of the document, click on the IAAC logo and use the code "QR-2025-FDAF6DFAFE1".</p>`,
+
+    iaac_title_1: "Certificate of Participation",
+    iaac_description_1: `IAAC 2025 Certificate of Participation.`,
+
+    iaac_title_2: "Feedback Report",
+    iaac_description_2: `Score achieved: 15/25.`,
+
     // reason 2
     reason_final_description: `
     <p>Russia has always attracted me due to its strong history in space exploration. The country was a pioneer with historic milestones such as the launch of the first satellite, Sputnik, and sending the first human into space, Yuri Gagarin. Its contributions continue with innovations in the development of rockets like the Soyuz, which are still used in space missions. Russia is a global leader in the development of aerospace technologies, with cutting-edge research infrastructure and advanced space programmes, such as the lunar exploration programme.</p>
@@ -600,7 +637,6 @@ const translations = {
     <p>I am aware that this career transition will be challenging, but I am determined to dedicate all my effort to achieve this goal. I have full confidence that, with the knowledge I will acquire, I will be able to contribute significantly to the advancement of technology and science in the space sector, as well as share my learning with future generations.</p>
     <p><strong>"Brazil is not far from Russia for a man with purpose."</strong></p>`,
   },
-
  
   ru: {
 
@@ -646,6 +682,7 @@ const translations = {
     <p>Хотя я больше не изучаю немецкий (поскольку заинтересовался русским), у меня всё ещё остаются тёплые воспоминания об этом языке. Он открыл для меня новые культуры и возможность изучать новые языки.</p>
     <p>В ходе обучения я получил потрясающий опыт, общаясь с носителями языка, а также была возможность посетить страну через программу Goethe, хотя я не смог поехать, так как это было основано на лотерее.</p>
     <p>После окончания учёбы в Isabel Lopes Monteiro я продолжил обучение в Senador Luiz Nogueira Martins с 2015 по 2017 год и закончил среднюю школу.</p>
+    <p>В 2020 году с большой гордостью я был принят для учёбы в Владимирский государственный университет имени Александра и Николая Столетовых (VLSU) на программу по информационным системам с получением стипендии. В связи с пандемией COVID-19 я прошёл подготовительный курс в онлайн-формате. Я успешно завершил курс, получив оценки 5 по четырём предметам (русский язык, научные исследования, информатика и математика) и оценку 4 по одному предмету (физика). После начала первого семестра программы я вынужден был прервать обучение по личным причинам и, соответственно, так и не переехал в Россию.</p>
     <p>В 2022 году я поступил в факультет инженерии города Сорокаба на программу «Технолог по анализу и разработке систем» и окончил обучение в 2024 году.</p>`,
 
     //exp_study
@@ -676,6 +713,9 @@ const translations = {
 
     studies_title_diploma: "Диплом об окончании курса «Технолог в Области Анализа и Разработки Систем»",
     studies_description_diploma: "Диплом о завершении курса «Технолог в области анализа и разработки систем».",
+
+    studies_title_preparatorio: "Диплом о завершении подготовительного курса",
+    studies_description_preparatorio: "Диплом о завершении подготовительного курса.",
 
     //achiement study:
     achievements_study: "Достижения",
@@ -876,7 +916,7 @@ const translations = {
     <p>В Бразилии программу продвигает Министерство науки, технологий и инноваций (MCTI), которое организует Caça Asteroides MCTI (Охота за Астероидами) в партнерстве с школами, университетами и образовательными учреждениями. Инициатива направлена на популяризацию науки, повышение интереса к астрономии и сближение молодежи с научными исследованиями.</p>
     <p>В ходе кампаний участники анализируют реальные изображения с телескопов, таких как Pan-STARRS, расположенный на Гавайях. Миссия заключается в выявлении потенциальных астероидов, следуя техническим и научным критериям.</p>
     <p>С большой преданностью и командной работой нам удалось идентифицировать предварительный астероид, что сделало нас чрезвычайно гордыми, что мы смогли внести свой вклад в глобальную науку.</p>
-    <p><br>Ниже приведены сертификаты от программ IASC и MCTI. Для подробного просмотра нажмите на иконку «Drive»; чтобы получить доступ к QR-коду сертификата, нажмите на иконку «IASC» или «MCTI».</p>`,
+    <p><br>Ниже приведены сертификаты от программ IASC и MCTI. Для подробного просмотра нажмите на иконку «Drive».</p>`,
 
     iasc_title_1: "Международное сотрудничество по астрономическим поискам (март–апрель 2025)",
     iasc_description_1: `<p>В рамках нашего участия в кампании IASC в период с марта по апрель 2025 года мы идентифицировали два астрономических объекта, которые были зарегистрированы как потенциальные астероиды:</p>
@@ -894,6 +934,20 @@ const translations = {
 
     isac_title_2: "Международное сотрудничество по астрономическим поискам (март–апрель 2025), при поддержке Министерства науки, технологий и инноваций Бразилии (MCTI)",
     iasc_description_2: `<p>Участие в Международной кампании по астрономическим поискам (IASC) — март/апрель 2025, при поддержке MCTI.</p>`,
+
+    //IAAC
+    experiences_title_iaac: "Сертификат программы IAAC – Международный конкурс по астрономии и астрофизике",
+    experiences_description_iaac: `
+    <p>В этом году мне также выпала честь принять участие в IAAC (Международный конкурс по астрономии и астрофизике), одном из крупнейших международных соревнований для студентов, интересующихся астрономией и астрофизикой.</p>
+    <p>IAAC — это образовательная инициатива, направленная на пробуждение интереса к науке через теоретические и аналитические задачи по астрономии. Студентам со всего мира предлагается решать задачи, включающие логическое мышление, физику, математику и астрономические концепции.</p>
+    <p>Хотя я и не прошёл в следующий этап, я показал хороший результат на отборочном этапе, набрав 15 из 25 баллов — всего на два меньше необходимого проходного балла (17).</p>
+    <p><br>Ниже вы найдёте сертификат IAAC и отчёт с обратной связью о моём выступлении. Чтобы просмотреть их подробнее, нажмите на значок «Drive»; чтобы проверить подлинность документа, нажмите на логотип IAAC и используйте код «QR-2025-FDAF6DFAFE1».</p>`,
+
+    iaac_title_1: "Сертификат участника",
+    iaac_description_1: `Сертификат участника IAAC 2025.`,
+
+    iaac_title_2: "Отчёт с обратной связью",
+    iaac_description_2: `Полученный балл: 15/25.`,
 
     // reason 2
     reason_final_description: `

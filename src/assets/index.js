@@ -21,6 +21,7 @@ import feira from "./feira.jpg";
 import medel from "./medel.png";
 import alemao from "./alemao.png";
 import code1 from "./code1.png";
+import vladimir from "./vladimir.jpg";
 
 //sports
 import judo from "./judo.jpg";
@@ -65,6 +66,9 @@ import ufscar from "./ufscar.png";
 import menu from "./menu.svg";
 import iasc from "./iasc.png";
 import mcti  from "./mcti.png";
+import iaac from "./iaac.jpg";
+import feedback from "./feedback.jpg";
+import iaaclogo from "./iaaclogo.png";
 
 //tradução
 
@@ -100,6 +104,7 @@ export {
   medel,
   alemao,
   code1,
+  vladimir,
 
   // foto para o "sports"
   judo, 
@@ -145,6 +150,9 @@ export {
   menu,
   iasc,
   mcti,
+  iaac,
+  feedback,
+  iaaclogo,
 
 //tradução
 brazil,

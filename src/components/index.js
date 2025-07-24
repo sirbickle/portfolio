@@ -11,6 +11,7 @@ import AchievementSport from "./AchievementSport";
 import Reason from "./Reason";
 import Exp_Aerospace from "./Exp_Aerospace";
 import Exp_IASC from './Exp_IASC';
+import Exp_IAAC from './Exp_IAAC';
 import Reason_final from "./Reason_final";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
@@ -28,6 +29,7 @@ export {
   Reason,
   Exp_Aerospace,
   Exp_IASC,
+  Exp_IAAC,
   Reason_final,
   CanvasLoader,
   EarthCanvas,

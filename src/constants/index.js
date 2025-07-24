@@ -20,6 +20,7 @@ import {
   diploma,
   alemao,
   code1,
+  vladimir,
 
   //sports
   bandeirantes,
@@ -56,6 +57,9 @@ import {
   mcti,
   isac1,
   isac2,
+  iaac,
+  feedback,
+  iaaclogo,
 
 } from "../assets";
 
@@ -197,7 +201,12 @@ export const getStudies = (language) => {
     image: diploma,
     source_code_link: "https://drive.google.com/file/d/1V828ueblaQr7EXUAcgBeL5xBE8HKVUJR/view?usp=sharing",
   },
-  
+   {
+    name: getTranslatedText(language, 'studies_title_preparatorio'),
+    description: getTranslatedText(language, 'studies_description_preparatorio'),
+    image: vladimir,
+    source_code_link: "https://drive.google.com/file/d/1udN3MUHFcy2JvHjB68fhqGyMxTb67AIh/view?usp=sharing",
+  },
 ];
 };
 
@@ -422,6 +431,28 @@ export const getIASC = (language) =>{
     liveIcon: mcti,
     source_code_link: "https://drive.google.com/file/d/1kAEZ4Tg6FZac9Plgd9VgvdbtrUbauE_p/view?usp=sharing", // Link para o código
     liveUrl: "", // Link para a versão ao vivo
+  }, 
+  ]
+};
+export const getIAAC = (language) =>{
+  return [
+   {
+    name: getTranslatedText(language, 'iaac_title_1'),
+    description: getTranslatedText(language, 'iaac_description_1'),
+    image: iaac,
+    driveIcon: drive,
+    liveIcon: iaaclogo,
+    source_code_link: "https://drive.google.com/file/d/1mni7XaCXPiImb7kjqR1YOZ9g8akxuIhj/view?usp=sharing", // Link para o código
+    liveUrl: "https://iaac.space/en/verify", // Link para a versão ao vivo
+   },
+   {
+    name: getTranslatedText(language, 'iaac_title_2'),
+    description: getTranslatedText(language, 'iaac_description_2'),
+    image: feedback,
+    driveIcon: drive,
+    liveIcon: iaaclogo,
+    source_code_link: "https://drive.google.com/file/d/1KmwGdybEXliSSKQV_PYwM3T2wYAnIR1W/view?usp=sharing", // Link para o código
+    liveUrl: "https://iaac.space/en/verify", // Link para a versão ao vivo
   }, 
   ]
 };

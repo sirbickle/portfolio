@@ -20,7 +20,6 @@ import {
   diploma,
   alemao,
   code1,
-  vladimir,
 
   //sports
   bandeirantes,
@@ -200,12 +199,6 @@ export const getStudies = (language) => {
     description: getTranslatedText(language, 'studies_description_diploma'),
     image: diploma,
     source_code_link: "https://drive.google.com/file/d/1V828ueblaQr7EXUAcgBeL5xBE8HKVUJR/view?usp=sharing",
-  },
-   {
-    name: getTranslatedText(language, 'studies_title_preparatorio'),
-    description: getTranslatedText(language, 'studies_description_preparatorio'),
-    image: vladimir,
-    source_code_link: "https://drive.google.com/file/d/1udN3MUHFcy2JvHjB68fhqGyMxTb67AIh/view?usp=sharing",
   },
 ];
 };

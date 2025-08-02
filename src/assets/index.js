@@ -21,7 +21,6 @@ import feira from "./feira.jpg";
 import medel from "./medel.png";
 import alemao from "./alemao.png";
 import code1 from "./code1.png";
-import vladimir from "./vladimir.jpg";
 
 //sports
 import judo from "./judo.jpg";
@@ -104,7 +103,6 @@ export {
   medel,
   alemao,
   code1,
-  vladimir,
 
   // foto para o "sports"
   judo, 

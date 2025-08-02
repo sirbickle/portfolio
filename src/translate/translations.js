@@ -43,7 +43,6 @@ const translations = {
     <p>Durante o Ensino Fundamental, meu interesse por idiomas começou a crescer, o que me levou a buscar opções no CEL (Centro de Línguas). Havia várias opções disponíveis, como francês, italiano, inglês, japonês e alemão. O alemão me chamou atenção, tanto pela pronúncia quanto pelo fato de eu não conhecer muito sobre a cultura, então decidi aproveitar a oportunidade.</p>  
     <p>Apesar de atualmente estar focado no estudo do russo, ainda tenho um grande carinho pelo alemão. Foi essa experiência que abriu as portas para meu interesse por novas culturas e idiomas.</p> 
     <p>Após concluir meus estudos na Isabel Lopes Monteiro, cursei o Ensino Médio na escola Senador Luiz Nogueira Martins, de 2015 a 2017.</p>  
-    <p>Em 2020, com muito orgulho, fui aprovado para estudar na Vladimir State University named after Alexander and Nikolay Stoletovs (VLSU), com uma bolsa de estudos para o curso de Sistemas de Informação. Devido à pandemia de COVID-19, realizei o curso preparatório de forma online. Após concluir o preparatório com excelente desempenho — obtendo nota 5 em quatro disciplinas (língua russa, estudos científicos, informática e matemática) e nota 4 em uma disciplina (física). Após iniciar o primeiro semestre do curso, precisei interromper os estudos por motivos pessoais, e, por isso, não cheguei a me mudar para a Rússia.</p>
     <p>Em 2022, entrei na Faculdade de Engenharia de Sorocaba (FACENS) para cursar Tecnólogo em Análise e Desenvolvimento de Sistemas, formando-me em 2024.</p>`,
 
     //exp_study
@@ -74,9 +73,6 @@ const translations = {
 
     studies_title_diploma: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas",
     studies_description_diploma: "Diploma de conclusão do curso de Tecnólogo em Análise e Desenvolvimento de Sistemas.",
-    
-    studies_title_preparatorio: "Diploma de conclusão do curso preparatório",
-    studies_description_preparatorio: "Diploma de conclusão do curso preparatório.",
 
     //achievements_study:
     achievements_study: "Conquistas",
@@ -361,7 +357,6 @@ const translations = {
     <p>During primary school, my interest in languages began to grow, which led me to explore options at CEL (Centre of Languages). There were several languages on offer, such as French, Italian, English, Japanese, and German. German caught my attention, both because of its pronunciation and because I wasn’t very familiar with the culture, so I decided to seize the opportunity.</p>
     <p>Although I am currently focused on studying Russian, I still hold a great fondness for German. It was this experience that opened the doors to my interest in new cultures and languages.</p>
     <p>After finishing my studies at Isabel Lopes Monteiro, I went on to study at Senador Luiz Nogueira Martins from 2015 to 2017, where I completed my secondary education.</p>
-    <p>In 2020, with great pride, I was accepted to study at Vladimir State University named after Alexander and Nikolay Stoletovs (VLSU), with a scholarship for the Information Systems programme. Due to the COVID-19 pandemic, I completed the preparatory course online. I finished the course with excellent results — achieving grade 5 in four subjects (Russian language, scientific studies, computer science, and mathematics) and grade 4 in one subject (physics). After starting the first semester of the programme, I had to interrupt my studies due to personal reasons and, therefore, did not end up moving to Russia.</p>
     <p>In 2022, I enrolled at Sorocaba Engineering College (FACENS) to pursue a Higher National Diploma in Systems Analysis and Development, graduating in 2024.</p>`,
 
     //exp_study
@@ -392,9 +387,6 @@ const translations = {
 
     studies_title_diploma: "Technologist Diploma in Systems Analysis and Development",
     studies_description_diploma: "Diploma of completion of the Technologist course in Systems Analysis and Development.",
-
-    studies_title_preparatorio: "Preparatory Course Completion Diploma",
-    studies_description_preparatorio: "Diploma for completing the preparatory course.",
 
     //achievements study
     achievements_study: "Achievements",
@@ -679,7 +671,6 @@ const translations = {
     <p>Во время начальной школы я начал интересоваться изучением нового языка, поэтому я изучил предложения в CEL (Центре Языков). Там предлагались различные языки: французский, итальянский, английский, японский и немецкий, и немецкий привлёк моё внимание, как своим произношением, так и тем, что я мало знал о культуре, поэтому я решил, что это будет отличная возможность.</p>
     <p>Хотя я больше не изучаю немецкий (поскольку заинтересовался русским), у меня всё ещё остаются тёплые воспоминания об этом языке. Он открыл для меня новые культуры и возможность изучать новые языки.</p>
     <p>После окончания учёбы в Isabel Lopes Monteiro я продолжил обучение в Senador Luiz Nogueira Martins с 2015 по 2017 год и закончил среднюю школу.</p>
-    <p>В 2020 году с большой гордостью я был принят для учёбы в Владимирский государственный университет имени Александра и Николая Столетовых (VLSU) на программу по информационным системам с получением стипендии. В связи с пандемией COVID-19 я прошёл подготовительный курс в онлайн-формате. Я успешно завершил курс, получив оценки 5 по четырём предметам (русский язык, научные исследования, информатика и математика) и оценку 4 по одному предмету (физика). После начала первого семестра программы я вынужден был прервать обучение по личным причинам и, соответственно, так и не переехал в Россию.</p>
     <p>В 2022 году я поступил в факультет инженерии города Сорокаба на программу «Технолог по анализу и разработке систем» и окончил обучение в 2024 году.</p>`,
 
     //exp_study
@@ -710,9 +701,6 @@ const translations = {
 
     studies_title_diploma: "Диплом об окончании курса «Технолог в Области Анализа и Разработки Систем»",
     studies_description_diploma: "Диплом о завершении курса «Технолог в области анализа и разработки систем».",
-
-    studies_title_preparatorio: "Диплом о завершении подготовительного курса",
-    studies_description_preparatorio: "Диплом о завершении подготовительного курса.",
 
     //achiement study:
     achievements_study: "Достижения",

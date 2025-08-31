@@ -100,7 +100,6 @@ const App = () => {
         </div>
         <div className="relative z-0">
           <Reason language={language} />
-          <Exp_Aerospace language={language} />
           <Exp_IASC language={language} />
           <Exp_IAAC language={language} />
           <Reason_final language={language} />  

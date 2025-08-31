@@ -160,11 +160,12 @@ const translations = {
     //reason
     reason_title: "Motivo Pelo Qual Quero Estudar Na Rússia",
     reason_description: `
-    <p><strong>"A Terra é o berço da humanidade, mas não se pode viver no berço para sempre"</strong>, disse Konstantin Tsiolkovsky, pioneiro da astronáutica.</p>
-    <p>Como toda criança, eu também sonhei em ser astronauta, alimentado por filmes, desenhos e jogos de videogame. No entanto, assim como muitos, acabei deixando esse sonho de lado para seguir outro caminho, me formando na área de T.I. Trabalhei como suporte e gerente de projetos, e durante esse período, percebi o impacto que meu trabalho tinha na vida de outras pessoas. Porém, entendi que queria direcionar minhas contribuições para algo que sempre me fascinou: o espaço.</p>
-    <p>O momento atual da exploração espacial reacendeu minha curiosidade. Os avanços em missões tripuladas, a crescente presença de empresas privadas e o aumento do investimento de países no setor, junto à possibilidade real de uma nova era espacial, me fizeram perceber que quero fazer parte disso.</p>
-    <p>Meus objetivos são bem claros: quero atuar em projetos espaciais como engenheiro, pesquisador ou gerente de projetos — função que já exerci e na qual tenho experiência. Também pretendo continuar meus estudos com mestrado, pós-graduação e doutorado. Desejo trabalhar em uma agência espacial ou em empresas que contribuam para o avanço do setor e, ao final da minha carreira, me tornar professor universitário para compartilhar o conhecimento adquirido ao longo da minha trajetória.</p>
-    <p>Para começar a entender como funciona esse campo, comecei a estudar por conta própria.</p>`,
+    <p><strong>"A Terra é o berço da humanidade, mas não se pode viver no berço para sempre."</strong>, disse Konstantin Tsiolkovsky, pioneiro da astronáutica.</p>
+    <p>Desde cedo, tive interesse por ciência, alimentado por jogos, filmes e programas de televisão, como Caçadores de Mitos. Minha formação inicial foi em Tecnologia em Análise e Desenvolvimento de Sistemas, área em que atuei como suporte e gerente de projetos. Nesse período, percebi como meu trabalho impactava a empresa, seja conduzindo projetos ou solucionando problemas na área de informática.</p>
+    <p>O ponto de virada ocorreu quando ingressei como aluno especial em disciplinas de mestrado, em Teoria da Computação e Aspectos Formais da Computação. Essa modalidade permite cursar disciplinas de pós-graduação sem estar formalmente matriculado, possibilitando aprofundar conhecimentos e familiarizar-se com o ambiente acadêmico. Durante esse período, percebi que meu interesse ia além do impacto em empresas: queria contribuir para descobertas científicas como pesquisador e atuar na universidade como docente, ensinando e formando novos estudantes.</p>
+    <p>Meus objetivos são bem claros: consistem em avançar nos estudos por meio do bacharelado em Matemática e Física Aplicadas. Essa formação permitirá aprofundar meus conhecimentos em modelagem matemática e métodos físicos aplicados, possibilitando contribuições em áreas como computação, energia e tecnologia nuclear e aeroespacial. Pretendo, em seguida, seguir para mestrado, doutorado e pós-doutorado, desenvolvendo pesquisa acadêmica na área. A longo prazo, meu objetivo é atuar na docência em nível superior, compartilhando os resultados de minha trajetória científica e contribuindo para a formação de novos estudantes.</p>
+    <p> Em 2025 tive o prazer de participar de dois programas de ciência: o IASC/MCTI e o IAAC.</p>
+    `,
 
     //aerospace
     experiences_title_aerospace: "Certificados sobre Ciência Aeroespacial",
@@ -267,7 +268,6 @@ const translations = {
     //IASC
     experiences_title_iasc: "Certificados do Programa de Caça-Asteroides (IASC e MCTI)",
     experiences_description_iasc: `
-    <p> Este ano, tive a oportunidade de participar do programa IASC (International Astronomical Search Collaboration) e também da sua versão brasileira, o Caça Asteroides MCTI.</p>
     <p>O IASC é um projeto internacional de ciência cidadã, coordenado pela NASA e pela Universidade Hardin-Simmons, dos Estados Unidos. Seu principal objetivo é envolver estudantes e entusiastas de todo o mundo na detecção de asteroides e objetos próximos da Terra, contribuindo para o avanço da pesquisa astronômica e o monitoramento de riscos espaciais.</p>
     <p>Já no Brasil, o programa é promovido pelo Ministério da Ciência, Tecnologia e Inovação (MCTI), que organiza o Caça Asteroides MCTI em parceria com escolas, universidades e instituições de ensino. A iniciativa busca popularizar a ciência, incentivar o interesse pela astronomia e aproximar os jovens da pesquisa científica.</p>
     <p>Durante as campanhas, os participantes analisam imagens reais de telescópios, como o Pan-STARRS, localizado no Havaí. A missão é identificar possíveis asteroides, seguindo critérios técnicos e científicos.</p>
@@ -294,7 +294,6 @@ const translations = {
     //IAAC
     experiences_title_iaac:"Certificado do Programa da IAAC – Competição Internacional de Astronomia e Astrofísica",
     experiences_description_iaac: `
-    <p>Este ano, também tive a honra de participar da IAAC (Competição Internacional de Astronomia e Astrofísica), uma das maiores competições internacionais voltadas para estudantes com interesse em astronomia e astrofísica.</p>
     <p>A IAAC é uma iniciativa educacional que busca despertar o interesse pela ciência por meio de desafios teóricos e analíticos em astronomia. Estudantes de todo o mundo são convidados a resolver problemas que envolvem raciocínio lógico, física, matemática e conceitos astronômicos.</p>
     <p>Mesmo não tendo avançado para a próxima etapa, tive um ótimo desempenho na fase qualificatória, obtendo 15 de 25 pontos — apenas dois a menos do que o necessário para a classificação (17 pontos).</p>
     <p><br>Abaixo está o certificado do IAAC e o Feedback do meu desempenho. Para vê-los em detalhes, clique no ícone do 'Drive'; para verificar a autenticidade do documento, clique no logo do IAAC e use o codigo "QR-2025-FDAF6DFAFE1".</p>`,
@@ -307,10 +306,11 @@ const translations = {
 
     //reason 2
     reason_final_description: `
-    <p>A Rússia sempre me atraiu pela sua forte história na exploração espacial. O país foi pioneiro com marcos históricos como o lançamento do primeiro satélite, o Sputnik, e o envio do primeiro ser humano ao espaço, Yuri Gagarin. Sua contribuição continua com inovações no desenvolvimento de foguetes como o Soyuz, ainda utilizados em missões espaciais. A Rússia é um líder global no desenvolvimento de tecnologias aeroespaciais, com infraestrutura de pesquisa de ponta e programas espaciais avançados, como o programa de exploração da Lua.</p>
+    <p>A Rússia sempre me atraiu por sua sólida tradição científica. No campo da química, Dmitri Mendeleev destacou-se ao organizar a Tabela Periódica. Na física, Pável Tcherenkov, Ígor Tamm e Iliá Frank receberam o Prêmio Nobel em 1958 pela descoberta da radiação de Tcherenkov, também conhecida como efeito Tcherenkov. Lev Landau é lembrado por suas contribuições à teoria da matéria condensada, especialmente ao estudo do hélio líquido. Além disso, a Rússia teve papel pioneiro na exploração espacial, com marcos históricos como o lançamento do primeiro satélite, Sputnik, e o envio do primeiro ser humano ao espaço, Yuri Gagarin.</p>
+    <p>Atualmente, o país é um líder global em desenvolvimento tecnológico, contando com infraestrutura de pesquisa de ponta e programas avançados em computação quântica, aceleradores de partículas, tecnologia e energia nuclear, além de exploração espacial.</p>
     <p>Além disso, o país tem uma longa tradição de excelência acadêmica, com universidades renomadas que se destacam em áreas como engenharia e ciências naturais. A colaboração com estudantes internacionais é uma característica histórica, e isso, somado às boas colocações das universidades russas em rankings internacionais, torna o país um lugar ideal para o meu desenvolvimento profissional.</p>
     <p>A diversidade geográfica e cultural da Rússia também é uma grande atração. Com paisagens incríveis, como as pedreiras de mármore da Carélia, as águas cristalinas do Lago Baikal e os vulcões de Kamchatka, o país oferece uma rica experiência natural. Sua cultura, com grandes clássicos literários de nomes como Pushkin, Tolstoi e Dostoiévski, e a música clássica de Tchaikovsky e Rachmaninov, complementam a experiência, tornando a Rússia um local único para estudar e viver.</p>
-    <p>Estou ciente de que essa transição de carreira será desafiadora, mas estou determinado a dedicar todo o meu esforço para alcançar esse objetivo. Tenho plena confiança de que, com o conhecimento que adquirirei, poderei contribuir de maneira significativa para o avanço da tecnologia e da ciência no setor espacial, além de compartilhar meu aprendizado com futuras gerações.</p>
+    <p>Estou ciente de que essa transição de carreira será desafiadora, mas estou determinado a dedicar todo o meu esforço para alcançar esse objetivo. Tenho plena confiança de que, com o conhecimento que adquirirei, poderei contribuir significativamente para o avanço de pesquisas científicas, além de compartilhar meu aprendizado com futuras gerações.</p>
     <p><strong>"O Brasil não está longe da Rússia para um homem com propósito."</strong></p>`,
   },
  
@@ -475,11 +475,12 @@ const translations = {
     //reason
     reason_title: "Reason Why I Want to Study in Russia",
     reason_description: `
-    <p><strong>"The Earth is the cradle of humanity, but one cannot live in the cradle forever,"</strong> said Konstantin Tsiolkovsky, a pioneer of astronautics.</p>
-    <p>Like every child, I also dreamed of becoming an astronaut, inspired by films, cartoons, and video games. However, like many others, I eventually set this dream aside to pursue another path, graduating in IT. I worked in support and project management, and during this time, I realised the impact my work had on other people’s lives. Yet, I understood that I wanted to direct my contributions towards something that has always fascinated me: space.</p>
-    <p>The current moment in space exploration has reignited my curiosity. Advances in manned missions, the growing presence of private companies, and increased investment by countries in the sector, alongside the real possibility of a new space era, made me realise that I want to be part of it.</p>
-    <p>My goals are very clear: I want to work on space projects as an engineer, researcher, or project manager — a role I have already performed and in which I have experience. I also intend to continue my studies with a master’s degree, postgraduate courses, and a doctorate. I wish to work in a space agency or companies that contribute to the advancement of the sector and, at the end of my career, become a university professor to share the knowledge I have gained throughout my journey.</p>
-    <p>To begin understanding how this field works, I have started studying independently.</p>`,
+    <p><strong>"Earth is the cradle of humanity, but one cannot live in the cradle forever."</strong>, said Konstantin Tsiolkovsky, a pioneer of astronautics.</p>
+    <p>From an early age, I was drawn to science, fuelled by games, films, and television programmes such as <em>MythBusters</em>. My initial academic background was in Technology in Systems Analysis and Development, an area in which I worked in support and project management. During this period, I realised how my work impacted the company, whether by leading projects or solving problems in the field of information technology.</p>
+    <p>The turning point came when I enrolled as a special student in master’s-level courses in Theory of Computation and Formal Aspects of Computing. This type of enrolment allows students to attend postgraduate courses without being formally admitted to a programme, making it possible to deepen one’s knowledge and become familiar with the academic environment. During this time, I realised that my interest went beyond the corporate impact: I wished to contribute to scientific discoveries as a researcher and to work at the university as a lecturer, teaching and guiding new students.</p>
+    <p>My goals are quite clear: to advance my studies through a Bachelor’s degree in Mathematics and Applied Physics. This academic training will allow me to deepen my knowledge in mathematical modelling and applied physical methods, enabling contributions to fields such as computing, energy, and nuclear and aerospace technology. I intend, subsequently, to pursue a master’s degree, a doctorate, and postdoctoral research, further developing my academic work in the field. In the long term, my objective is to work in higher education, sharing the results of my scientific journey and contributing to the education of new students.</p>
+    <p>In 2025, I had the pleasure of taking part in two science programmes: IASC/MCTI and IAAC.</p>
+    `,
 
     //aerospace
     experiences_title_aerospace: "Certificates in Aerospace Science",
@@ -581,7 +582,6 @@ const translations = {
     //iasc
     experiences_title_iasc: "Certificates from the Asteroid Hunting Programme (IASC and MCTI)",
     experiences_description_iasc: `
-    <p>This year, I had the opportunity to participate in the IASC (International Astronomical Search Collaboration) programme, as well as its Brazilian version, the Caça Asteroides MCTI (Asteroid Hunt).</p>
     <p>The IASC is an international citizen science project, coordinated by NASA and Hardin-Simmons University in the United States. Its main objective is to engage students and enthusiasts from all over the world in the detection of asteroids and near-Earth objects, contributing to the advancement of astronomical research and the monitoring of space risks.</p>
     <p>In Brazil, the programme is promoted by the Ministry of Science, Technology, and Innovation (MCTI), which organises the Caça Asteroides MCTI (Asteroid Hunt) in partnership with schools, universities, and educational institutions. The initiative aims to popularise science, encourage interest in astronomy, and bring young people closer to scientific research.</p>
     <p>During the campaigns, participants analyse real images from telescopes such as Pan-STARRS, located in Hawaii. The mission is to identify potential asteroids, following technical and scientific criteria.</p>
@@ -608,7 +608,6 @@ const translations = {
     //IAAC
     experiences_title_iaac: "IAAC Programme Certificate – International Astronomy and Astrophysics Competition",
     experiences_description_iaac: `
-    <p>This year, I also had the honour of taking part in the IAAC (International Astronomy and Astrophysics Competition), one of the largest international competitions aimed at students with an interest in astronomy and astrophysics.</p>
     <p>The IAAC is an educational initiative that seeks to spark interest in science through theoretical and analytical challenges in astronomy. Students from around the world are invited to solve problems involving logical reasoning, physics, mathematics, and astronomical concepts.</p>
     <p>Although I did not advance to the next stage, I performed well in the qualification round, scoring 15 out of 25 points — just two short of the required 17 points for advancement.</p>
     <p><br>Below is the IAAC certificate and my performance feedback report. To view them in detail, click on the 'Drive' icon; to verify the authenticity of the document, click on the IAAC logo and use the code "QR-2025-FDAF6DFAFE1".</p>`,
@@ -621,10 +620,11 @@ const translations = {
 
     // reason 2
     reason_final_description: `
-    <p>Russia has always attracted me due to its strong history in space exploration. The country was a pioneer with historic milestones such as the launch of the first satellite, Sputnik, and sending the first human into space, Yuri Gagarin. Its contributions continue with innovations in the development of rockets like the Soyuz, which are still used in space missions. Russia is a global leader in the development of aerospace technologies, with cutting-edge research infrastructure and advanced space programmes, such as the lunar exploration programme.</p>
-    <p>Moreover, the country has a long tradition of academic excellence, with renowned universities that stand out in fields like engineering and natural sciences. Collaboration with international students is a historical characteristic, and this, combined with the strong rankings of Russian universities in international rankings, makes the country an ideal place for my professional development.</p>
+    <p>Russia has always attracted me due to its strong scientific tradition. In the field of chemistry, Dmitri Mendeleev stood out by organising the Periodic Table. In physics, Pavel Cherenkov, Igor Tamm, and Ilya Frank were awarded the Nobel Prize in 1958 for the discovery of Cherenkov radiation, also known as the Cherenkov effect. Lev Landau is remembered for his contributions to condensed matter theory, particularly in the study of liquid helium. Furthermore, Russia played a pioneering role in space exploration, with historic milestones such as the launch of the first satellite, Sputnik, and the sending of the first human into space, Yuri Gagarin.</p>
+    <p>Today, the country is a global leader in technological development, boasting cutting-edge research infrastructure and advanced programmes in quantum computing, particle accelerators, nuclear technology and energy, as well as space exploration.</p>
+    <p>Moreover, the country has a long-standing tradition of academic excellence, with renowned universities that excel in fields such as engineering and the natural sciences. Collaboration with international students is a historic feature, and this, combined with the strong positions of Russian universities in international rankings, makes the country an ideal place for my professional development.</p>
     <p>The geographical and cultural diversity of Russia is also a major attraction. With stunning landscapes, such as the marble quarries of Karelia, the crystal-clear waters of Lake Baikal, and the volcanoes of Kamchatka, the country offers a rich natural experience. Its culture, with great literary classics by names like Pushkin, Tolstoy, and Dostoevsky, and classical music by Tchaikovsky and Rachmaninoff, complement the experience, making Russia a unique place to study and live.</p>
-    <p>I am aware that this career transition will be challenging, but I am determined to dedicate all my effort to achieve this goal. I have full confidence that, with the knowledge I will acquire, I will be able to contribute significantly to the advancement of technology and science in the space sector, as well as share my learning with future generations.</p>
+    <p>I am aware that this career transition will be challenging, but I am determined to dedicate all my efforts to achieving this goal. I am fully confident that, with the knowledge I will acquire, I will be able to contribute significantly to the advancement of scientific research, as well as share my learning with future generations.</p>
     <p><strong>"Brazil is not far from Russia for a man with purpose."</strong></p>`,
   },
  
@@ -789,11 +789,11 @@ const translations = {
     //reason
     reason_title: "Причина, Почему Я Хочу Учиться В России",
     reason_description: `
-    <p><strong>«Земля — колыбель человечества, но нельзя жить в колыбели всю жизнь»</strong>, сказал Константин Циолковский, пионер астронавтики.</p>
-    <p>Как и все дети, я тоже мечтал стать астронавтом, вдохновлённый фильмами, мультсериалами и видеоиграми. Однако, как и многие другие, я в конечном итоге оставил эту мечту и пошёл по другому пути, получив образование в области информационных технологий. Я работал в качестве специалиста по поддержке и менеджера проектов, и в процессе работы понял, какое влияние моя деятельность оказывает на жизни других людей. Тем не менее, я осознал, что хочу направить свои усилия на то, что всегда меня увлекало: космос.</p>
-    <p>Текущий момент в области космических исследований пробудил моё любопытство. Прогресс в пилотируемых миссиях, растущее присутствие частных компаний и увеличение инвестиций стран в эту отрасль, а также реальная возможность новой космической эры, заставили меня осознать, что я хочу быть частью этого.</p>
-    <p>Мои цели вполне ясны: Я хочу работать над космическими проектами в качестве инженера, исследователя или руководителя проектов — это должность, которую я уже занимал и в которой имею опыт. Также я намерен продолжить обучение, получив степень магистра, пройти дополнительные курсы повышения квалификации и защитить докторскую диссертацию. Я хочу работать в космическом агентстве или в компаниях, способствующих развитию отрасли, а в конце своей карьеры стать университетским преподавателем, чтобы передавать знания, приобретённые за время моей работы.</p>
-    <p>Чтобы начать понимать, как работает эта область, я начал учиться самостоятельно.</p>`,
+    <p><strong>«Земля — колыбель человечества, но нельзя жить в колыбели всю жизнь.»</strong>, сказал Константин Циолковский, пионер астронавтики.</p>
+    <p>С раннего возраста я интересовался наукой, подпитываемый играми, фильмами и телепередачами, такими как «Разрушители легенд». Моё первоначальное образование было в области технологий анализа и разработки систем, где я работал в поддержке и в качестве менеджера проектов. В этот период я понял, как моя работа влияет на компанию — будь то ведение проектов или решение проблем в области информатики.</p>
+    <p>Переломный момент наступил, когда я стал слушателем отдельных дисциплин магистратуры по Теории вычислений и Формальным аспектам вычислений. Этот формат позволяет посещать курсы аспирантуры без официальной регистрации, углублять знания и знакомиться с академической средой. В этот период я понял, что мой интерес выходит за рамки влияния на компании: я хотел бы вносить вклад в научные открытия как исследователь и работать в университете преподавателем, обучая и формируя новых студентов.</p>
+    <p>Мои цели ясны: я хочу продвигаться в учёбе через получение степени бакалавра по прикладной математике и физике. Это образование позволит углубить мои знания в математическом моделировании и применении физических методов, открывая возможности для работы в таких областях, как вычислительная техника, энергетика, ядерные технологии и аэрокосмическая отрасль. Затем я планирую продолжить обучение в магистратуре, докторантуре и постдокторских исследованиях, развивая академические исследования в этой области. В долгосрочной перспективе моя цель — преподавание в высших учебных заведениях, делясь результатами своего научного пути и способствуя подготовке новых студентов.</p>
+    <p>В 2025 году я имел удовольствие участвовать в двух научных программах: IASC/MCTI и IAAC.</p>`,
 
     //aerospace
     experiences_title_aerospace: "Сертификаты по наукам о космосе",
@@ -896,7 +896,6 @@ const translations = {
     //iasc
     experiences_title_iasc: "Сертификаты программы «Охота за астероидами» (IASC и MCTI)",
     experiences_description_iasc: `
-    <p>В этом году я имел возможность участвовать в программе IASC (Международное сотрудничество по поиску астрономических объектов), а также в её бразильской версии — Caça Asteroides MCTI (Охота за Астероидами).</p>
     <p>IASC — это международный проект гражданской науки, координируемый NASA и Университетом Хардин-Симмонс в США. Его основная цель — вовлечение студентов и энтузиастов со всего мира в обнаружение астероидов и объектов, близких к Земле, что способствует развитию астрономических исследований и мониторингу космических рисков.</p>
     <p>В Бразилии программу продвигает Министерство науки, технологий и инноваций (MCTI), которое организует Caça Asteroides MCTI (Охота за Астероидами) в партнерстве с школами, университетами и образовательными учреждениями. Инициатива направлена на популяризацию науки, повышение интереса к астрономии и сближение молодежи с научными исследованиями.</p>
     <p>В ходе кампаний участники анализируют реальные изображения с телескопов, таких как Pan-STARRS, расположенный на Гавайях. Миссия заключается в выявлении потенциальных астероидов, следуя техническим и научным критериям.</p>
@@ -923,7 +922,6 @@ const translations = {
     //IAAC
     experiences_title_iaac: "Сертификат программы IAAC – Международный конкурс по астрономии и астрофизике",
     experiences_description_iaac: `
-    <p>В этом году мне также выпала честь принять участие в IAAC (Международный конкурс по астрономии и астрофизике), одном из крупнейших международных соревнований для студентов, интересующихся астрономией и астрофизикой.</p>
     <p>IAAC — это образовательная инициатива, направленная на пробуждение интереса к науке через теоретические и аналитические задачи по астрономии. Студентам со всего мира предлагается решать задачи, включающие логическое мышление, физику, математику и астрономические концепции.</p>
     <p>Хотя я и не прошёл в следующий этап, я показал хороший результат на отборочном этапе, набрав 15 из 25 баллов — всего на два меньше необходимого проходного балла (17).</p>
     <p><br>Ниже вы найдёте сертификат IAAC и отчёт с обратной связью о моём выступлении. Чтобы просмотреть их подробнее, нажмите на значок «Drive»; чтобы проверить подлинность документа, нажмите на логотип IAAC и используйте код «QR-2025-FDAF6DFAFE1».</p>`,
@@ -936,11 +934,13 @@ const translations = {
 
     // reason 2
     reason_final_description: `
-    <p>Россия всегда привлекала меня своей богатой историей в области космических исследований. Страна стала пионером с такими историческими достижениями, как запуск первого спутника, Спутника, и отправка первого человека в космос, Юрия Гагарина. Её вклад продолжается с инновациями в разработке ракет, таких как Союз, которые до сих пор используются в космических миссиях. Россия является мировым лидером в области разработки аэрокосмических технологий, с передовой исследовательской инфраструктурой и развитыми космическими программами, такими как программа исследования Луны.</p>
-    <p>Кроме того, страна имеет долгую традицию академического превосходства, с известными университетами, которые выделяются в таких областях, как инженерия и естественные науки. Сотрудничество с международными студентами является исторической особенностью, и это, в сочетании с высокими позициями российских университетов в международных рейтингах, делает страну идеальным местом для моего профессионального развития.</p>
+    <p>Россия всегда привлекала меня своей прочной научной традицией. В области химии Дмитрий Менделеев выделялся созданием Периодической таблицы. В физике Павел Черенков, Игорь Тамм и Илья Франк получили Нобелевскую премию в 1958 году за открытие черенковского излучения, также известного как эффект Черенкова. Лев Ландау запомнился своим вкладом в теорию конденсированного вещества, особенно в изучении жидкого гелия. Кроме того, Россия сыграла пионерскую роль в освоении космоса, с историческими вехами, такими как запуск первого спутника «Спутник» и полёт первого человека в космос — Юрия Гагарина.</p>
+    <p>В настоящее время страна является мировым лидером в области технологического развития, располагая передовой исследовательской инфраструктурой и продвинутыми программами в квантовых вычислениях, ускорителях частиц, ядерной технологии и энергетике, а также в космических исследованиях.</p>
+    <p>Кроме того, страна имеет долгую традицию академического совершенства, с известными университетами, которые выделяются в таких областях, как инженерия и естественные науки. Сотрудничество с иностранными студентами является исторической особенностью, и это, в сочетании с хорошими позициями российских университетов в международных рейтингах, делает страну идеальным местом для моего профессионального развития.</p>
     <p>Географическое и культурное разнообразие России также является важным фактором. С потрясающими пейзажами, такими как мраморные карьеры Карелии, кристально чистые воды озера Байкал и вулканы Камчатки, страна предлагает богатый природный опыт. Её культура, с великими литературными классиками, такими как Пушкин, Толстой и Достоевский, а также классической музыкой Чайковского и Рахманинова, дополняет этот опыт, превращая Россию в уникальное место для учебы и жизни.</p>
-    <p>Я осознаю, что этот переход в карьерe будет непростым, но я решительно настроен приложить все усилия для достижения этой цели. Я полностью уверен, что благодаря знаниям, которые я приобрету, смогу внести значительный вклад в развитие технологий и науки в космической отрасли, а также поделиться своими знаниями с будущими поколениями.</p>
-    <p><strong>«Бразилия не так далеко от России для человека с целью.»</strong></p>`,
+    <p>Я осознаю, что этот переход в другую карьеру будет непростым, но я полон решимости приложить все усилия для достижения этой цели. Я полностью уверен, что, благодаря знаниям, которые я приобрету, смогу внести значительный вклад в развитие научных исследований, а также делиться своими знаниями с будущими поколениями.</p>
+    <p><strong>«Бразилия не так далеко от России для человека с целью.»</strong></p>
+    `,
   },
 };
 

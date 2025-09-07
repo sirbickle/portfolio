@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { LOGO4 } from "../assets";
 import Typewriter from "react-ts-typewriter";
 import { Link } from "react-router-dom";

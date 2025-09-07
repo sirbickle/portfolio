@@ -47,7 +47,7 @@ const translations = {
 
     //exp_study
     experiences_title_study: "Experiências",
-    experiences_description_study: "Aqui estão algumas atividades e experiências que tive durante minha trajetória acadêmica na escola e na faculdade. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado.",
+    experiences_description_study: "Aqui estão algumas atividades e experiências que tive durante minha trajetória acadêmica. Para ver os certificados ou as imagens, clique no card. Os cards que possuem um ícone do Drive no canto superior direito, clique nele para visualizar o PDF no Drive.",
 
     //studies
     studies_title_science: "Feira de Ciências",
@@ -101,7 +101,7 @@ const translations = {
 
     //exp_sport
     experiences_title: "Experiências",
-    experiences_description: "Alguns momentos que considero importantes nos esportes que pratico ou pratiquei. Para vê-los em detalhes, clique no ícone do 'Drive' para acessar o certificado.",
+    experiences_description: "Alguns momentos que considero importantes nos esportes que pratico ou pratiquei. Para ver os certificados ou as imagens, clique no card.",
 
     //sporties
     sporties_title_handebol: "Medalha dos Jogos Estudantis no Handebol",
@@ -272,7 +272,7 @@ const translations = {
     <p>Já no Brasil, o programa é promovido pelo Ministério da Ciência, Tecnologia e Inovação (MCTI), que organiza o Caça-Asteroides MCTI em parceria com escolas, universidades e instituições de ensino. A iniciativa busca popularizar a ciência, incentivar o interesse pela astronomia e aproximar os jovens da pesquisa científica.</p>
     <p>Durante as campanhas, os participantes analisam imagens reais de telescópios, como o Pan-STARRS, localizado no Havaí. A missão é identificar possíveis asteroides, seguindo critérios técnicos e científicos.</p>
     <p>Com muita dedicação e trabalho em equipe, tivemos a honra de identificar um asteroide preliminar, o que nos deixou imensamente felizes por contribuir com a ciência global.</p>
-    <p><br>Abaixo estão os certificados do programa IASC e MCTI. Para vê-los em detalhes, clique no ícone do 'Drive'.</p>`, 
+    <p><br>Abaixo estão os certificados do programa IASC e MCTI. Para ver os certificados, clique no card. Os cards que possuem um ícone do Drive no canto superior direito, clique nele para visualizar o PDF no Drive.</p>`, 
 
     iasc_title_1: "International Astronomical Search Collaboration (Mar–Abr 2025)",
     iasc_description_1:`<p>Durante nossa participação na campanha do IASC entre os meses de março e abril de 2025, identificamos dois objetos astronômicos que foram reportados como potenciais asteroides: </p>
@@ -296,7 +296,7 @@ const translations = {
     experiences_description_iaac: `
     <p>A IAAC é uma iniciativa educacional que busca despertar o interesse pela ciência por meio de desafios teóricos e analíticos em astronomia. Estudantes de todo o mundo são convidados a resolver problemas que envolvem raciocínio lógico, física, matemática e conceitos astronômicos.</p>
     <p>Mesmo não tendo avançado para a próxima etapa, tive um ótimo desempenho na fase qualificatória, obtendo 15 de 25 pontos — apenas dois a menos do que o necessário para a classificação (17 pontos).</p>
-    <p><br>Abaixo está o certificado do IAAC e o Feedback do meu desempenho. Para vê-los em detalhes, clique no ícone do 'Drive'; para verificar a autenticidade do documento, clique no logo do IAAC e use o codigo "QR-2025-FDAF6DFAFE1".</p>`,
+    <p><br>Abaixo está o certificado do IAAC e o Feedback do meu desempenho. Para ver os certificados, clique no card. Os cards que possuem os ícones do Drive e do IAAC no canto superior direito servem para visualizar o PDF no Drive e verificar a autenticidade do documento utilizando o código 'QR-2025-FDAF6DFAFE1'.</p>`,
     
     iaac_title_1:"Certificado de Participação",
     iaac_description_1: `Certificado de Participação IAAC 2025.`,
@@ -361,7 +361,7 @@ const translations = {
 
     //exp_study
     experiences_title_study: "Experiences",
-    experiences_description_study: "Here are some activities and experiences I had during my academic journey in school and university. To view them in detail, click on the 'Drive' icon to access the certificate.",
+    experiences_description_study: "Here are some activities and experiences I had during my academic journey in school and university. To view the certificates or images, click on the card. For cards that have a Drive icon in the upper right corner, click on it to view the PDF in Drive.",
 
     //studies
     studies_title_science: "Science Fair",
@@ -415,7 +415,7 @@ const translations = {
 
     //exp_sport
     experiences_title: "Experiences",
-    experiences_description: "Some moments I consider important in the sports I practice or have practiced. To view them in detail, click on the 'Drive' icon to access the certificate.",
+    experiences_description: "Some moments I consider important in the sports I practice or have practiced. To view the certificates or images, click on the card.",
 
     //sporties
     sporties_title_handebol: "Medal in the Student Games for Handball",
@@ -586,7 +586,7 @@ const translations = {
     <p>In Brazil, the programme is promoted by the Ministry of Science, Technology, and Innovation (MCTI), which organises the Caça-Asteroides MCTI (Asteroid-Hunt) in partnership with schools, universities, and educational institutions. The initiative aims to popularise science, encourage interest in astronomy, and bring young people closer to scientific research.</p>
     <p>During the campaigns, participants analyse real images from telescopes such as Pan-STARRS, located in Hawaii. The mission is to identify potential asteroids, following technical and scientific criteria.</p>
     <p>With great dedication and teamwork, we had the honour of identifying a preliminary asteroid, which made us extremely proud to contribute to global science.</p>
-    <p><br>Below are the certificates from the IASC and MCTI programmes. To view them in detail, click on the 'Drive' icon.</p>`,
+    <p><br>Below are the certificates from the IASC and MCTI programmes. To view the certificates, click on the card. Cards with a Drive icon in the top right corner allow you to open the PDF in Drive.</p>`,
  
     iasc_title_1: "International Astronomical Search Collaboration (Mar–Apr 2025)",
     iasc_description_1: `<p>During our participation in the IASC campaign between March and April 2025, we identified two astronomical objects that were reported as potential asteroids:</p>
@@ -610,7 +610,7 @@ const translations = {
     experiences_description_iaac: `
     <p>The IAAC is an educational initiative that seeks to spark interest in science through theoretical and analytical challenges in astronomy. Students from around the world are invited to solve problems involving logical reasoning, physics, mathematics, and astronomical concepts.</p>
     <p>Although I did not advance to the next stage, I performed well in the qualification round, scoring 15 out of 25 points — just two short of the required 17 points for advancement.</p>
-    <p><br>Below is the IAAC certificate and my performance feedback report. To view them in detail, click on the 'Drive' icon; to verify the authenticity of the document, click on the IAAC logo and use the code "QR-2025-FDAF6DFAFE1".</p>`,
+    <p><br>Below is the IAAC certificate and my performance feedback report. To view the certificates, click on the card. Cards with the Drive and IAAC icons in the top right corner allow you to open the PDF in Drive and verify the authenticity of the document using the code 'QR-2025-FDAF6DFAFE1'.</p>`,
 
     iaac_title_1: "Certificate of Participation",
     iaac_description_1: `IAAC 2025 Certificate of Participation.`,
@@ -675,7 +675,7 @@ const translations = {
 
     //exp_study
     experiences_title_study: "Опыт",
-    experiences_description_study: "Вот некоторые из мероприятий и опыта, который я получил в процессе обучения в школе и университете. Чтобы просмотреть их подробно, нажмите на значок «Drive».",
+    experiences_description_study: "Вот некоторые из мероприятий и опыта, который я получил в процессе обучения в школе и университете. Чтобы просмотреть сертификаты или изображения, нажмите на карточку. Карточки с иконкой Drive в правом верхнем углу позволяют открыть PDF в Drive.",
 
     //stidies
     studies_title_science: "Научная Ярмарка",
@@ -729,7 +729,7 @@ const translations = {
 
     //exp_sport
     experiences_title: "Опыт",
-    experiences_description: "Некоторые моменты, которые я считаю важными в видах спорта, которые я практиковал и практикую. Чтобы просмотреть их подробно, нажмите на значок «Drive».",
+    experiences_description: "Некоторые моменты, которые я считаю важными в видах спорта, которые я практиковал и практикую. Чтобы просмотреть сертификаты или изображения, нажмите на карточку.",
 
     //sporties
     sporties_title_handebol: "Медаль на Студенческих Играх по Гандболу",
@@ -900,7 +900,7 @@ const translations = {
     <p>В Бразилии программу продвигает Министерство науки, технологий и инноваций (MCTI), которое организует Caça-Asteroides MCTI (Охота за Астероидами) в партнерстве с школами, университетами и образовательными учреждениями. Инициатива направлена на популяризацию науки, повышение интереса к астрономии и сближение молодежи с научными исследованиями.</p>
     <p>В ходе кампаний участники анализируют реальные изображения с телескопов, таких как Pan-STARRS, расположенный на Гавайях. Миссия заключается в выявлении потенциальных астероидов, следуя техническим и научным критериям.</p>
     <p>С большой преданностью и командной работой нам удалось идентифицировать предварительный астероид, что сделало нас чрезвычайно гордыми, что мы смогли внести свой вклад в глобальную науку.</p>
-    <p><br>Ниже приведены сертификаты от программ IASC и MCTI. Для подробного просмотра нажмите на иконку «Drive».</p>`,
+    <p><br>Ниже приведены сертификаты от программ IASC и MCTI. Чтобы просмотреть сертификаты, нажмите на карточку. Карточки с иконкой Drive в правом верхнем углу позволяют открыть PDF в Drive.</p>`,
 
     iasc_title_1: "Международное сотрудничество по астрономическим поискам (март–апрель 2025)",
     iasc_description_1: `<p>В рамках нашего участия в кампании IASC в период с марта по апрель 2025 года мы идентифицировали два астрономических объекта, которые были зарегистрированы как потенциальные астероиды:</p>
@@ -924,7 +924,7 @@ const translations = {
     experiences_description_iaac: `
     <p>IAAC — это образовательная инициатива, направленная на пробуждение интереса к науке через теоретические и аналитические задачи по астрономии. Студентам со всего мира предлагается решать задачи, включающие логическое мышление, физику, математику и астрономические концепции.</p>
     <p>Хотя я и не прошёл в следующий этап, я показал хороший результат на отборочном этапе, набрав 15 из 25 баллов — всего на два меньше необходимого проходного балла (17).</p>
-    <p><br>Ниже вы найдёте сертификат IAAC и отчёт с обратной связью о моём выступлении. Чтобы просмотреть их подробнее, нажмите на значок «Drive»; чтобы проверить подлинность документа, нажмите на логотип IAAC и используйте код «QR-2025-FDAF6DFAFE1».</p>`,
+    <p><br>Ниже вы найдёте сертификат IAAC и отчёт с обратной связью о моём выступлении. Карточки с иконками Drive и IAAC в правом верхнем углу позволяют открыть PDF в Drive и проверить подлинность документа с помощью кода «QR-2025-FDAF6DFAFE1».</p>`,
 
     iaac_title_1: "Сертификат участника",
     iaac_description_1: `Сертификат участника IAAC 2025.`,

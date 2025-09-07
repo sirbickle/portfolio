@@ -1,5 +1,3 @@
-import React from "react";
-import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn } from "../utils/motion";
 import { MoonCanvas } from "./canvas";

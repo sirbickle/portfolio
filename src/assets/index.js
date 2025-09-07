@@ -20,7 +20,9 @@ import diploma from "./diploma.jpg";
 import feira from "./feira.jpg";
 import medel from "./medel.png";
 import alemao from "./alemao.png";
+import alemaopdf from "./alemaopdf.pdf";
 import code1 from "./code1.png";
+import diplomapdf from "./diplomapdf.PDF";
 
 //sports
 import judo from "./judo.jpg";
@@ -38,6 +40,7 @@ import jes from "./jes.jpg";
 import first from "./first.png";
 import second from "./second.png";
 import krun from "./krun.jpg";
+import primeirolugarpopup from "./primeirolugarpopup.jpg";
 
 //reason
 import aero1 from "./aero1.jpg";
@@ -51,8 +54,8 @@ import aero8 from "./aero8.jpg";
 import aero9 from "./aero9.jpg";
 import aero10 from "./aero10.jpg";
 import aero11 from "./aero11.jpg";
-import isac1 from "./isac1.jpg";
-import isac2 from "./isac2.jpg";
+import iasc1 from "./iasc1.jpg";
+import iasc2 from "./iasc2.jpg";
 
 // não deleta, n sei porque, ou sei, por partes
 import logo from "./logo3.png";
@@ -66,8 +69,11 @@ import menu from "./menu.svg";
 import iasc from "./iasc.png";
 import mcti  from "./mcti.png";
 import iaac from "./iaac.jpg";
+import iaacpdf from "./iaacpdf.pdf";
 import feedback from "./feedback.jpg";
+import feedbackpdf from "./feedbackpdf.pdf";
 import iaaclogo from "./iaaclogo.png";
+import popup from "./popup.png";
 
 //tradução
 
@@ -77,7 +83,6 @@ import russia from "./russia.png";
 import brazil1 from "./brazil1.png";
 import russia1 from "./russia1.png";
 import usa1 from "./usa1.png";
-
 
 export {
   //coisas que gosto "about"
@@ -102,7 +107,9 @@ export {
   diploma,  
   medel,
   alemao,
+  alemaopdf,
   code1,
+  diplomapdf,
 
   // foto para o "sports"
   judo, 
@@ -120,6 +127,7 @@ export {
   first,  
   second,
   krun,
+  primeirolugarpopup,
 
   //reason
   aero1,
@@ -133,8 +141,8 @@ export {
   aero9,
   aero10,
   aero11,
-  isac1,
-  isac2,
+  iasc1,
+  iasc2,
   
   //não sei para que serve, mas não delete
   
@@ -149,8 +157,11 @@ export {
   iasc,
   mcti,
   iaac,
+  iaacpdf,
   feedback,
+  feedbackpdf,
   iaaclogo,
+  popup,
 
 //tradução
 brazil,

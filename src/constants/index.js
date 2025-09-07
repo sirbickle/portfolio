@@ -19,7 +19,9 @@ import {
   maratonaultima,
   diploma,
   alemao,
+  alemaopdf,
   code1,
+  diplomapdf,
 
   //sports
   bandeirantes,
@@ -36,6 +38,7 @@ import {
   first,
   second,
   krun,
+  primeirolugarpopup,
 
   //reason
   aero1,
@@ -52,13 +55,16 @@ import {
   aeb,
   drive,
   ufscar,
-  iasc,
+  iasc1,
   mcti,
-  isac1,
-  isac2,
+  iasc2,
   iaac,
+  iaacpdf,
+  
   feedback,
+  feedbackpdf,
   iaaclogo,
+  popup,
 
 } from "../assets";
 
@@ -162,42 +168,50 @@ export const getStudies = (language) => {
     name: getTranslatedText(language, 'studies_title_science'),
     description: getTranslatedText(language, 'studies_description_science'),
     image: feira,
+    popfile: feira,
   },
   {
     name: getTranslatedText(language, 'studies_title_german'),
     description: getTranslatedText(language, 'studies_description_german'),
     image: alemao,
+    popfile: alemaopdf,
     source_code_link: "https://drive.google.com/file/d/1Z_yZXWZqqvqs3Sb6uA7Iu84T21tcSyiv/view?usp=sharing", // Link para o código
   },
   {
     name: getTranslatedText(language, 'studies_title_project'),
     description: getTranslatedText(language, 'studies_description_project'),
     image: fabrica,
+    popfile: fabrica,
   },
   {
     name: getTranslatedText(language, 'studies_title_maratona1'),
     description: getTranslatedText(language, 'studies_description_maratona1'),
     image: maratona,
+    popfile: maratona,
   },
   {
     name: getTranslatedText(language, 'studies_title_lgpt'),
     description: getTranslatedText(language, 'studies_description_lgpt'),
     image: lgpt,
+    popfile: lgpt,
   },
   {
     name: getTranslatedText(language, 'studies_title_maratona2'),
     description: getTranslatedText(language, 'studies_description_maratona2'),
     image: maratonaregional,
+    popfile: maratonaregional,
   },
   {
     name: getTranslatedText(language, 'studies_title_maratona3'),
     description: getTranslatedText(language, 'studies_description_maratona3'),
     image: maratonaultima,
+    popfile: maratonaultima,
   },
   {
     name: getTranslatedText(language, 'studies_title_diploma'),
     description: getTranslatedText(language, 'studies_description_diploma'),
     image: diploma,
+    popfile: diploma,
     source_code_link: "https://drive.google.com/file/d/1V828ueblaQr7EXUAcgBeL5xBE8HKVUJR/view?usp=sharing",
   },
 ];
@@ -209,63 +223,75 @@ export const getSporties = (language) => {
     name: getTranslatedText(language, 'sporties_title_handebol'),
     description: getTranslatedText(language, 'sporties_description_handebol'),
     image: jes,
+    popfile: jes,
   },
   {
     name: getTranslatedText(language, 'sporties_title_bandeirantes'),
     description:getTranslatedText(language, 'sporties_description_bandeirantes'),
     image: bandeirantes,
+    popfile: bandeirantes,
   },
   {
     name: getTranslatedText(language, 'sporties_title_carterinha'),
     description: getTranslatedText(language, 'sporties_description_carterinha'),
     image: carterinha,
+    popfile: carterinha,
   },
   {
     name: getTranslatedText(language, 'sporties_title_faixa'),
     description: getTranslatedText(language, 'sporties_description_faixa'),
     image: faixa,
+    popfile: faixa,
   },
   {
     name: getTranslatedText(language, 'sporties_title_medalha'),
     description: getTranslatedText(language, 'sporties_description_medalha'),
     image: medalha,
+    popfile: medalha,
   },
   {
     name: getTranslatedText(language, 'sporties_title_campeao'),
     description: getTranslatedText(language, 'sporties_description_campeao'),
     image: primeirolugarjudo,
-    source_code_link: "https://drive.google.com/file/d/1utO0IFEfUHc6dwI_-hcxpO5BJGK-rKvI/view?usp=sharing",
+    popfile:  primeirolugarpopup,
+    //source_code_link: "https://drive.google.com/file/d/1utO0IFEfUHc6dwI_-hcxpO5BJGK-rKvI/view?usp=sharing",
   },
   {
     name: getTranslatedText(language, 'sporties_title_vice'),
     description: getTranslatedText(language, 'sporties_description_vice'),
     image: segundolugar,
-    source_code_link: "https://drive.google.com/file/d/1psDH3Ppoby-565W-QHHyR3wwbhuaXfV7/view?usp=sharing",
+    popfile: segundolugar,
+    //source_code_link: "https://drive.google.com/file/d/1psDH3Ppoby-565W-QHHyR3wwbhuaXfV7/view?usp=sharing",
   },
   {
     name: getTranslatedText(language, 'sporties_title_maratona1'),
     description: getTranslatedText(language, 'sporties_description_maratona1'),
     image: corridaprimeiro,
+    popfile: corridaprimeiro,
   },
   {
     name: getTranslatedText(language, 'sporties_title_maratona2'),
     description: getTranslatedText(language, 'sporties_description_maratona2'),
     image: primeiracorrida,
+    popfile: primeiracorrida,
   },
   {
     name: getTranslatedText(language, 'sporties_title_maratona3'),
     description: getTranslatedText(language, 'sporties_description_maratona3'),
     image: farmaponte,
+    popfile: farmaponte,
   },
   {
     name: getTranslatedText(language, 'sporties_title_maratona4'),
     description: getTranslatedText(language, 'sporties_description_maratona4'),
     image: jppereira,
+    popfile: jppereira,
   },
   {
     name: getTranslatedText(language, 'sporties_title_maratona5'),
     description: getTranslatedText(language, 'sporties_description_maratona5'),
     image: krun,
+    popfile: krun,
   },
 
 ];
@@ -410,7 +436,8 @@ export const getIASC = (language) =>{
    {
     name: getTranslatedText(language, 'iasc_title_1'),
     description: getTranslatedText(language, 'iasc_description_1'),
-    image: isac1,
+    image: iasc1,
+    popfile: iasc1,
     driveIcon: drive,
     liveIcon: mcti,
     source_code_link: "https://drive.google.com/file/d/1kAEZ4Tg6FZac9Plgd9VgvdbtrUbauE_p/view?usp=sharing", // Link para o código
@@ -419,7 +446,8 @@ export const getIASC = (language) =>{
   {
     name: getTranslatedText(language, 'isac_title_2'),
     description: getTranslatedText(language, 'iasc_description_2'),
-    image: isac2,
+    image: iasc2,
+    popfile: iasc2,
     driveIcon: drive,
     liveIcon: mcti,
     source_code_link: "https://drive.google.com/file/d/1kAEZ4Tg6FZac9Plgd9VgvdbtrUbauE_p/view?usp=sharing", // Link para o código
@@ -433,6 +461,7 @@ export const getIAAC = (language) =>{
     name: getTranslatedText(language, 'iaac_title_1'),
     description: getTranslatedText(language, 'iaac_description_1'),
     image: iaac,
+    popfile: iaacpdf,
     driveIcon: drive,
     liveIcon: iaaclogo,
     source_code_link: "https://drive.google.com/file/d/1mni7XaCXPiImb7kjqR1YOZ9g8akxuIhj/view?usp=sharing", // Link para o código
@@ -442,6 +471,7 @@ export const getIAAC = (language) =>{
     name: getTranslatedText(language, 'iaac_title_2'),
     description: getTranslatedText(language, 'iaac_description_2'),
     image: feedback,
+    popfile: feedbackpdf,
     driveIcon: drive,
     liveIcon: iaaclogo,
     source_code_link: "https://drive.google.com/file/d/1KmwGdybEXliSSKQV_PYwM3T2wYAnIR1W/view?usp=sharing", // Link para o código

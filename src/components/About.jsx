@@ -1,4 +1,3 @@
-import React from "react";
 import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { getHobbies } from "../constants";

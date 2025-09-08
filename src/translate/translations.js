@@ -275,18 +275,7 @@ const translations = {
     <p><br>Abaixo estão os certificados do programa IASC e MCTI. Para ver os certificados, clique no card. Os cards que possuem um ícone do Drive no canto superior direito, clique nele para visualizar o PDF no Drive.</p>`, 
 
     iasc_title_1: "International Astronomical Search Collaboration (Mar–Abr 2025)",
-    iasc_description_1:`<p>Durante nossa participação na campanha do IASC entre os meses de março e abril de 2025, identificamos dois objetos astronômicos que foram reportados como potenciais asteroides: </p>
-    <p><strong>Asteroide RCA0001</p></strong>
-    <p>Descoberto no dia 23 de março de 2025, com base em três observações distintas feitas a partir do observatório F51. Os dados astrométricos são os seguintes:</p>
-    <li>RCA0001  C2025 03 23.541455  14 10 16.429  -11 06 59.82    21.6 G   F51 </li>
-    <li>RCA0001  C2025 03 23.552524  14 10 16.170  -11 06 57.50    21.8 G   F51 </li>
-    <li>RCA0001  C2025 03 23.563600  14 10 15.828  -11 06 55.85    21.8 G   F51 </li>
-    <p><strong>Asteroide RCA0009</p></strong>
-    <p>Detectado no dia 30 de março de 2025, também a partir de registros do observatório F51. As coordenadas registradas são:</p>
-    <li>RCA0009  C2025 03 30.415523  13 15 56.817  +02 56 42.47    21.6 G   F51  </li>
-    <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51  </li>
-    <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51  </li>
-    <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51  </li>`,
+    iasc_description_1:`<p>Durante nossa participação na campanha do IASC entre os meses de março e abril de 2025, identificamos dois objetos astronômicos que foram reportados como potenciais asteroides. </p>`,
 
     isac_title_2:"International Astronomical Search Collaboration (Mar–Abr 2025), apoiada pelo Ministério da Ciência, Tecnologia e Inovação (MCTI) do Brasil",
     iasc_description_2:`<p> Participação na Campanha Internacional de Busca Astronômica (IASC) – Mar/Abr 2025, com apoio do MCTI.</p>`,
@@ -296,7 +285,7 @@ const translations = {
     experiences_description_iaac: `
     <p>A IAAC é uma iniciativa educacional que busca despertar o interesse pela ciência por meio de desafios teóricos e analíticos em astronomia. Estudantes de todo o mundo são convidados a resolver problemas que envolvem raciocínio lógico, física, matemática e conceitos astronômicos.</p>
     <p>Mesmo não tendo avançado para a próxima etapa, tive um ótimo desempenho na fase qualificatória, obtendo 15 de 25 pontos — apenas dois a menos do que o necessário para a classificação (17 pontos).</p>
-    <p><br>Abaixo está o certificado do IAAC e o Feedback do meu desempenho. Para ver os certificados, clique no card. Os cards que possuem os ícones do Drive e do IAAC no canto superior direito servem para visualizar o PDF no Drive e verificar a autenticidade do documento utilizando o código 'QR-2025-FDAF6DFAFE1'.</p>`,
+    <p><br>Abaixo está o certificado do IAAC e o Feedback do meu desempenho. Para ver os certificados, clique no card. Os cards que possuem os ícones do Drive e do IAAC no canto superior direito servem para visualizar o PDF no Drive e verificar a autenticidade do documento utilizando o codigo que está no certificado como "Verify-Id".</p>`,
     
     iaac_title_1:"Certificado de Participação",
     iaac_description_1: `Certificado de Participação IAAC 2025.`,
@@ -596,18 +585,7 @@ const translations = {
     <p><br>Below are the certificates from the IASC and MCTI programmes. To view the certificates, click on the card. Cards with a Drive icon in the top right corner allow you to open the PDF in Drive.</p>`,
  
     iasc_title_1: "International Astronomical Search Collaboration (Mar–Apr 2025)",
-    iasc_description_1: `<p>During our participation in the IASC campaign between March and April 2025, we identified two astronomical objects that were reported as potential asteroids:</p>
-    <p><strong>Asteroid RCA0001</strong></p>
-    <p>Discovered on 23 March 2025, based on three distinct observations made from the F51 observatory. The astrometric data are as follows:</p>
-    <li>RCA0001  C2025 03 23.541455  14 10 16.429  -11 06 59.82    21.6 G   F51</li>
-    <li>RCA0001  C2025 03 23.552524  14 10 16.170  -11 06 57.50    21.8 G   F51</li>
-    <li>RCA0001  C2025 03 23.563600  14 10 15.828  -11 06 55.85    21.8 G   F51</li>
-    <p><strong>Asteroid RCA0009</strong></p>
-    <p>Detected on 30 March 2025, also based on records from the F51 observatory. The recorded coordinates are:</p>
-    <li>RCA0009  C2025 03 30.415523  13 15 56.817  +02 56 42.47    21.6 G   F51</li>
-    <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51</li>
-    <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51</li>
-    <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51</li>`,    
+    iasc_description_1: `<p>During our participation in the IASC campaign between March and April 2025, we identified two astronomical objects that were reported as potential asteroids.</p>`,    
 
     isac_title_2: "International Astronomical Search Collaboration (Mar–Apr 2025), supported by the Brazilian Ministry of Science, Technology and Innovation (MCTI)",
     iasc_description_2: `<p>Participation in the International Astronomical Search Campaign (IASC) – Mar/Apr 2025, supported by the MCTI.</p>`,
@@ -617,7 +595,7 @@ const translations = {
     experiences_description_iaac: `
     <p>The IAAC is an educational initiative that seeks to spark interest in science through theoretical and analytical challenges in astronomy. Students from around the world are invited to solve problems involving logical reasoning, physics, mathematics, and astronomical concepts.</p>
     <p>Although I did not advance to the next stage, I performed well in the qualification round, scoring 15 out of 25 points — just two short of the required 17 points for advancement.</p>
-    <p><br>Below is the IAAC certificate and my performance feedback report. To view the certificates, click on the card. Cards with the Drive and IAAC icons in the top right corner allow you to open the PDF in Drive and verify the authenticity of the document using the code 'QR-2025-FDAF6DFAFE1'.</p>`,
+    <p><br>Below is the IAAC certificate and my performance feedback report. To view the certificates, click on the card. Cards with the Drive and IAAC icons in the top right corner allow you to open the PDF in Drive and verify the authenticity of the document using the code shown on the certificate as 'Verify-Id'.</p>`,
 
     iaac_title_1: "Certificate of Participation",
     iaac_description_1: `IAAC 2025 Certificate of Participation.`,
@@ -917,18 +895,7 @@ const translations = {
     <p><br>Ниже приведены сертификаты от программ IASC и MCTI. Чтобы просмотреть сертификаты, нажмите на карточку. Карточки с иконкой Drive в правом верхнем углу позволяют открыть PDF в Drive.</p>`,
 
     iasc_title_1: "Международное сотрудничество по астрономическим поискам (март–апрель 2025)",
-    iasc_description_1: `<p>В рамках нашего участия в кампании IASC в период с марта по апрель 2025 года мы идентифицировали два астрономических объекта, которые были зарегистрированы как потенциальные астероиды:</p>
-    <p><strong>Астероид RCA0001</strong></p>
-    <p>Обнаружен 23 марта 2025 года на основе трёх отдельных наблюдений, проведённых с обсерватории F51. Астрометрические данные следующие:</p>
-    <li>RCA0001  C2025 03 23.541455  14 10 16.429  -11 06 59.82    21.6 G   F51</li>
-    <li>RCA0001  C2025 03 23.552524  14 10 16.170  -11 06 57.50    21.8 G   F51</li>
-    <li>RCA0001  C2025 03 23.563600  14 10 15.828  -11 06 55.85    21.8 G   F51</li>
-    <p><strong>Астероид RCA0009</strong></p>
-    <p>Обнаружен 30 марта 2025 года, также по данным обсерватории F51. Зафиксированные координаты:</p>
-    <li>RCA0009  C2025 03 30.415523  13 15 56.817  +02 56 42.47    21.6 G   F51</li>
-    <li>RCA0009  C2025 03 30.428274  13 15 55.987  +02 56 45.35    21.5 G   F51</li>
-    <li>RCA0009  C2025 03 30.441098  13 15 55.201  +02 56 48.80    21.6 G   F51</li>
-    <li>RCA0009  C2025 03 30.454000  13 15 54.456  +02 56 51.71    21.8 G   F51</li>`,
+    iasc_description_1: `<p>В рамках нашего участия в кампании IASC в период с марта по апрель 2025 года мы идентифицировали два астрономических объекта, которые были зарегистрированы как потенциальные астероиды.</p>`,
 
     isac_title_2: "Международное сотрудничество по астрономическим поискам (март–апрель 2025), при поддержке Министерства науки, технологий и инноваций Бразилии (MCTI)",
     iasc_description_2: `<p>Участие в Международной кампании по астрономическим поискам (IASC) — март/апрель 2025, при поддержке MCTI.</p>`,
@@ -938,7 +905,7 @@ const translations = {
     experiences_description_iaac: `
     <p>IAAC — это образовательная инициатива, направленная на пробуждение интереса к науке через теоретические и аналитические задачи по астрономии. Студентам со всего мира предлагается решать задачи, включающие логическое мышление, физику, математику и астрономические концепции.</p>
     <p>Хотя я и не прошёл в следующий этап, я показал хороший результат на отборочном этапе, набрав 15 из 25 баллов — всего на два меньше необходимого проходного балла (17).</p>
-    <p><br>Ниже вы найдёте сертификат IAAC и отчёт с обратной связью о моём выступлении. Карточки с иконками Drive и IAAC в правом верхнем углу позволяют открыть PDF в Drive и проверить подлинность документа с помощью кода «QR-2025-FDAF6DFAFE1».</p>`,
+    <p><br>Ниже вы найдёте сертификат IAAC и отчёт с обратной связью о моём выступлении. Карточки с иконками Drive и IAAC в правом верхнем углу позволяют открыть PDF в Drive и проверить подлинность документа с помощью кода, указанного в сертификате как «Verify-Id».</p>`,
 
     iaac_title_1: "Сертификат участника",
     iaac_description_1: `Сертификат участника IAAC 2025.`,
